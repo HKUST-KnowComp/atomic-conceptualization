@@ -1,0 +1,23 @@
+factor
+feature
+issue
+topic
+name
+aspect
+concept
+entity
+component
+reason
+characteristic
+theme
+category
+form
+alternative
+part
+type
+attribute
+class
+instance
+keyword
+suffix
+ambiguous reference

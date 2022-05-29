@@ -1,0 +1,9598 @@
+{
+  "abandon": [
+    "abandonment"
+  ],
+  "abase": [
+    "abasement"
+  ],
+  "abate": [
+    "abatement"
+  ],
+  "abbreviate": [
+    "abbreviation"
+  ],
+  "abdicate": [
+    "abdication"
+  ],
+  "abduct": [
+    "abduction"
+  ],
+  "abhor": [
+    "abhorrence"
+  ],
+  "abhorrent": [
+    "anathema"
+  ],
+  "abide": [
+    "observance"
+  ],
+  "abjure": [
+    "abjuration"
+  ],
+  "able": [
+    "ability"
+  ],
+  "abolish": [
+    "abolishment",
+    "abolition"
+  ],
+  "abominate": [
+    "abomination"
+  ],
+  "abort": [
+    "abortion"
+  ],
+  "abrade": [
+    "abrasion"
+  ],
+  "abrasive": [
+    "abrasive"
+  ],
+  "abridge": [
+    "abridgement"
+  ],
+  "abrogate": [
+    "abrogation"
+  ],
+  "abscess": [
+    "abscess"
+  ],
+  "absent": [
+    "absence"
+  ],
+  "absorb": [
+    "absorption"
+  ],
+  "abstain": [
+    "abstention"
+  ],
+  "abstract": [
+    "abstract",
+    "abstraction"
+  ],
+  "absurd": [
+    "absurdity"
+  ],
+  "abundant": [
+    "abundance"
+  ],
+  "abuse": [
+    "abuse"
+  ],
+  "abut": [
+    "abutment"
+  ],
+  "accelerate": [
+    "acceleration"
+  ],
+  "accent": [
+    "accent"
+  ],
+  "accentuate": [
+    "accentuation"
+  ],
+  "accept": [
+    "acceptance",
+    "acceptation"
+  ],
+  "access": [
+    "access"
+  ],
+  "accidental": [
+    "accident"
+  ],
+  "acclaim": [
+    "acclaim"
+  ],
+  "acclimate": [
+    "acclimation"
+  ],
+  "acclimatize": [
+    "acclimatization"
+  ],
+  "accommodate": [
+    "accommodation"
+  ],
+  "accompany": [
+    "accompaniment"
+  ],
+  "accomplish": [
+    "accomplishment"
+  ],
+  "accomplished": [
+    "accomplishment"
+  ],
+  "accord": [
+    "accord",
+    "accordance"
+  ],
+  "account": [
+    "account",
+    "accounting"
+  ],
+  "accredit": [
+    "accreditation"
+  ],
+  "accrete": [
+    "accretion"
+  ],
+  "accrue": [
+    "accrual"
+  ],
+  "accumulate": [
+    "accumulation"
+  ],
+  "accurate": [
+    "accuracy"
+  ],
+  "accuse": [
+    "accusation"
+  ],
+  "achieve": [
+    "achievement"
+  ],
+  "acknowledge": [
+    "acknowledgement",
+    "acknowledgment"
+  ],
+  "acquaint": [
+    "acquaintance"
+  ],
+  "acquiesce": [
+    "acquiescence"
+  ],
+  "acquire": [
+    "acquirement",
+    "acquisition"
+  ],
+  "acquit": [
+    "acquittal"
+  ],
+  "acrimonious": [
+    "acrimony"
+  ],
+  "act": [
+    "act",
+    "acting",
+    "action"
+  ],
+  "activate": [
+    "activation"
+  ],
+  "active": [
+    "activism",
+    "activity"
+  ],
+  "adapt": [
+    "adaptation",
+    "adapting"
+  ],
+  "add": [
+    "addition"
+  ],
+  "addict": [
+    "addiction"
+  ],
+  "address": [
+    "address"
+  ],
+  "adequate": [
+    "adequacy"
+  ],
+  "adhere": [
+    "adherence",
+    "adhesion"
+  ],
+  "adjoin": [
+    "junction"
+  ],
+  "adjourn": [
+    "adjournment"
+  ],
+  "adjudicate": [
+    "adjudication"
+  ],
+  "adjure": [
+    "adjuration"
+  ],
+  "adjust": [
+    "adjustment"
+  ],
+  "administer": [
+    "administration"
+  ],
+  "admire": [
+    "admiration"
+  ],
+  "admit": [
+    "admission",
+    "admittance"
+  ],
+  "admonish": [
+    "admonition"
+  ],
+  "adopt": [
+    "adoption"
+  ],
+  "adore": [
+    "adoration"
+  ],
+  "adorn": [
+    "adornment"
+  ],
+  "adulterate": [
+    "adulteration"
+  ],
+  "advance": [
+    "advance",
+    "advancement"
+  ],
+  "adversarial": [
+    "adversary"
+  ],
+  "advertise": [
+    "advertisement",
+    "advertising"
+  ],
+  "advertisement": [
+    "ad"
+  ],
+  "advice": [
+    "advisory"
+  ],
+  "advise": [
+    "advice"
+  ],
+  "advisory": [
+    "advisory"
+  ],
+  "advocate": [
+    "advocacy"
+  ],
+  "aerate": [
+    "aeration"
+  ],
+  "affect": [
+    "affect",
+    "affectation",
+    "affection",
+    "effect"
+  ],
+  "affectionate": [
+    "animosity",
+    "bigotry",
+    "friction"
+  ],
+  "affiliate": [
+    "affiliation"
+  ],
+  "affirm": [
+    "affirmation"
+  ],
+  "afflict": [
+    "affliction"
+  ],
+  "afforest": [
+    "afforestation"
+  ],
+  "affront": [
+    "effrontery"
+  ],
+  "age": [
+    "aging"
+  ],
+  "agglomerate": [
+    "agglomeration"
+  ],
+  "aggrandize": [
+    "aggrandizement"
+  ],
+  "aggravate": [
+    "aggravation"
+  ],
+  "aggregate": [
+    "aggregate",
+    "aggregation"
+  ],
+  "aggressive": [
+    "aggression",
+    "aggressiveness"
+  ],
+  "agile": [
+    "agility"
+  ],
+  "agitate": [
+    "agitation"
+  ],
+  "agree": [
+    "agreement"
+  ],
+  "agress": [
+    "aggression"
+  ],
+  "aid": [
+    "aid"
+  ],
+  "aim": [
+    "aim"
+  ],
+  "air": [
+    "air",
+    "airing"
+  ],
+  "alarm": [
+    "alarm"
+  ],
+  "alert": [
+    "alert"
+  ],
+  "alienate": [
+    "alienation"
+  ],
+  "align": [
+    "alignment"
+  ],
+  "alike": [
+    "likeness"
+  ],
+  "allege": [
+    "allegation"
+  ],
+  "allergic": [
+    "allergy"
+  ],
+  "alleviate": [
+    "alleviation"
+  ],
+  "allocate": [
+    "allocation"
+  ],
+  "allot": [
+    "allotment"
+  ],
+  "allow": [
+    "allowance"
+  ],
+  "allude": [
+    "allusion"
+  ],
+  "allure": [
+    "allure",
+    "allurement"
+  ],
+  "alluring": [
+    "allure"
+  ],
+  "ally": [
+    "alliance"
+  ],
+  "alone": [
+    "seclusion"
+  ],
+  "alter": [
+    "alteration"
+  ],
+  "alternate": [
+    "alternation"
+  ],
+  "alternative": [
+    "alternative"
+  ],
+  "amalgamate": [
+    "amalgamation"
+  ],
+  "amateurish": [
+    "amateurism"
+  ],
+  "amaze": [
+    "amazement"
+  ],
+  "ambiguous": [
+    "ambiguity"
+  ],
+  "ambitious": [
+    "ambition"
+  ],
+  "ambivalent": [
+    "ambivalence"
+  ],
+  "ameliorate": [
+    "amelioration"
+  ],
+  "amend": [
+    "amendment"
+  ],
+  "amortize": [
+    "amortization"
+  ],
+  "amount": [
+    "deal"
+  ],
+  "amplify": [
+    "amplification"
+  ],
+  "amputate": [
+    "amputation"
+  ],
+  "amuse": [
+    "amusement"
+  ],
+  "analyze": [
+    "analysis"
+  ],
+  "anchor": [
+    "anchor"
+  ],
+  "anger": [
+    "anger"
+  ],
+  "angry": [
+    "anger"
+  ],
+  "anguished": [
+    "anguish"
+  ],
+  "animadvert": [
+    "animadversion"
+  ],
+  "animate": [
+    "animation"
+  ],
+  "annex": [
+    "annexation"
+  ],
+  "annihilate": [
+    "annihilation"
+  ],
+  "annotate": [
+    "annotation"
+  ],
+  "announce": [
+    "announcement"
+  ],
+  "annoy": [
+    "annoyance"
+  ],
+  "annul": [
+    "annulment"
+  ],
+  "annunciate": [
+    "annunciation"
+  ],
+  "anoint": [
+    "anointment"
+  ],
+  "anonymous": [
+    "anonymity"
+  ],
+  "answer": [
+    "answer"
+  ],
+  "antagonize": [
+    "antagonism"
+  ],
+  "anticipate": [
+    "anticipation"
+  ],
+  "anxious": [
+    "anxiety"
+  ],
+  "apologize": [
+    "apology"
+  ],
+  "appeal": [
+    "appeal"
+  ],
+  "appear": [
+    "apparition",
+    "appearance"
+  ],
+  "appease": [
+    "appeasement"
+  ],
+  "applaud": [
+    "applause"
+  ],
+  "apply": [
+    "appliance",
+    "application"
+  ],
+  "appoint": [
+    "appointment"
+  ],
+  "apportion": [
+    "apportionment"
+  ],
+  "appraise": [
+    "appraisal"
+  ],
+  "appreciate": [
+    "appreciation"
+  ],
+  "apprehend": [
+    "apprehension"
+  ],
+  "approach": [
+    "approach"
+  ],
+  "appropriate": [
+    "appropriateness",
+    "appropriation",
+    "place"
+  ],
+  "approve": [
+    "approbation",
+    "approval",
+    "approving"
+  ],
+  "approximate": [
+    "approximation"
+  ],
+  "arbitrate": [
+    "arbitration"
+  ],
+  "argue": [
+    "argument"
+  ],
+  "arraign": [
+    "arraignment"
+  ],
+  "arrange": [
+    "arrangement1",
+    "arrangement2"
+  ],
+  "arrest": [
+    "arrest"
+  ],
+  "arrive": [
+    "arrival"
+  ],
+  "arrogant": [
+    "arrogance"
+  ],
+  "articulate": [
+    "articulation"
+  ],
+  "artistic": [
+    "artistry"
+  ],
+  "ascend": [
+    "accession",
+    "ascendency",
+    "ascension",
+    "ascent"
+  ],
+  "ascribe": [
+    "ascription"
+  ],
+  "ask": [
+    "asking"
+  ],
+  "asperse": [
+    "aspersion"
+  ],
+  "asphyxiate": [
+    "asphyxiation"
+  ],
+  "aspirate": [
+    "aspiration2"
+  ],
+  "aspire": [
+    "aspiration1"
+  ],
+  "assassinate": [
+    "assassination"
+  ],
+  "assault": [
+    "assault"
+  ],
+  "assemble": [
+    "assemblage",
+    "assembly"
+  ],
+  "assent": [
+    "assent"
+  ],
+  "assert": [
+    "assertion"
+  ],
+  "assess": [
+    "assessment"
+  ],
+  "asseverate": [
+    "asseveration"
+  ],
+  "assign": [
+    "assignation",
+    "assignment"
+  ],
+  "assimilate": [
+    "assimilation"
+  ],
+  "assist": [
+    "assistance"
+  ],
+  "associate": [
+    "association"
+  ],
+  "assume": [
+    "assumption"
+  ],
+  "assure": [
+    "assurance"
+  ],
+  "astonish": [
+    "astonishment"
+  ],
+  "astringent": [
+    "astringency"
+  ],
+  "atone": [
+    "atonement"
+  ],
+  "attach": [
+    "attachment"
+  ],
+  "attack": [
+    "attack"
+  ],
+  "attain": [
+    "attainment"
+  ],
+  "attempt": [
+    "attempt"
+  ],
+  "attend": [
+    "attendance",
+    "attention"
+  ],
+  "attenuate": [
+    "attenuation"
+  ],
+  "attract": [
+    "attraction"
+  ],
+  "attractive": [
+    "attractiveness"
+  ],
+  "attribute": [
+    "attribution"
+  ],
+  "auction": [
+    "auction",
+    "auctioning"
+  ],
+  "audacious": [
+    "audacity"
+  ],
+  "audit": [
+    "audit"
+  ],
+  "audition": [
+    "audition"
+  ],
+  "augment": [
+    "augmentation"
+  ],
+  "augur": [
+    "augury"
+  ],
+  "austere": [
+    "austerity"
+  ],
+  "authentic": [
+    "authenticity"
+  ],
+  "authenticate": [
+    "authentication"
+  ],
+  "authorize": [
+    "authorization"
+  ],
+  "autograph": [
+    "autograph"
+  ],
+  "automate": [
+    "automation"
+  ],
+  "autonomous": [
+    "autonomy"
+  ],
+  "available": [
+    "availability"
+  ],
+  "avenge": [
+    "revenge"
+  ],
+  "average": [
+    "average",
+    "averaging"
+  ],
+  "avert": [
+    "aversion"
+  ],
+  "avoid": [
+    "avoidance"
+  ],
+  "avow": [
+    "avowal"
+  ],
+  "award": [
+    "award",
+    "awarding"
+  ],
+  "aware": [
+    "awareness"
+  ],
+  "back": [
+    "backing"
+  ],
+  "backlog": [
+    "backlog"
+  ],
+  "backward": [
+    "way"
+  ],
+  "bag": [
+    "bagging "
+  ],
+  "bail": [
+    "bailment"
+  ],
+  "balance": [
+    "balance",
+    "balancing"
+  ],
+  "balloon": [
+    "ballooning"
+  ],
+  "ballot": [
+    "balloting"
+  ],
+  "ban": [
+    "ban",
+    "banning"
+  ],
+  "bang": [
+    "bang"
+  ],
+  "banish": [
+    "banishment"
+  ],
+  "bank": [
+    "banking"
+  ],
+  "bankrupt": [
+    "bankruptcy"
+  ],
+  "banter": [
+    "banter"
+  ],
+  "baptize": [
+    "baptism"
+  ],
+  "bar": [
+    "obstacle",
+    "roadblock",
+    "setback",
+    "wrinkle"
+  ],
+  "barbarize": [
+    "barbarism"
+  ],
+  "bargain": [
+    "bargain",
+    "bargaining"
+  ],
+  "barter": [
+    "barter",
+    "bartering"
+  ],
+  "base": [
+    "base",
+    "basis"
+  ],
+  "bash": [
+    "bashing"
+  ],
+  "bat": [
+    "batting"
+  ],
+  "batter": [
+    "battering"
+  ],
+  "battle": [
+    "battle",
+    "battling"
+  ],
+  "be": [
+    "being"
+  ],
+  "bear": [
+    "bearing",
+    "birth"
+  ],
+  "beatify": [
+    "beatification"
+  ],
+  "beautiful": [
+    "beauty"
+  ],
+  "bedevil": [
+    "bedevilment"
+  ],
+  "beep": [
+    "beeping"
+  ],
+  "befriend": [
+    "hand"
+  ],
+  "beg": [
+    "beggary"
+  ],
+  "beggar": [
+    "beggary"
+  ],
+  "begin": [
+    "beginning"
+  ],
+  "behave": [
+    "behavior"
+  ],
+  "behead": [
+    "beheading"
+  ],
+  "belch": [
+    "belch"
+  ],
+  "believe": [
+    "belief"
+  ],
+  "benefit": [
+    "benefit"
+  ],
+  "bequeath": [
+    "bequest"
+  ],
+  "bereave": [
+    "bereavement"
+  ],
+  "berth": [
+    "berthing"
+  ],
+  "besiege": [
+    "seige"
+  ],
+  "bestow": [
+    "bestowal"
+  ],
+  "bet": [
+    "bet",
+    "betting"
+  ],
+  "betray": [
+    "betrayal"
+  ],
+  "betroth": [
+    "betrothal"
+  ],
+  "better": [
+    "betterment"
+  ],
+  "bewilder": [
+    "bewilderment"
+  ],
+  "bias": [
+    "bias"
+  ],
+  "bicker": [
+    "bickering"
+  ],
+  "bid": [
+    "bid",
+    "bidding"
+  ],
+  "bifurcate": [
+    "bifurcation"
+  ],
+  "bill": [
+    "bill",
+    "billing"
+  ],
+  "bind": [
+    "bind"
+  ],
+  "binge": [
+    "binge"
+  ],
+  "bisect": [
+    "bisection"
+  ],
+  "bite": [
+    "bite"
+  ],
+  "bitter": [
+    "bitterness"
+  ],
+  "blacklist": [
+    "blacklisting"
+  ],
+  "blame": [
+    "blame"
+  ],
+  "blast": [
+    "blast"
+  ],
+  "blazon": [
+    "blazonry"
+  ],
+  "bleed": [
+    "bleeding"
+  ],
+  "blend": [
+    "blend"
+  ],
+  "bless": [
+    "blessing"
+  ],
+  "blink": [
+    "blink"
+  ],
+  "blip": [
+    "blip"
+  ],
+  "block": [
+    "blockage",
+    "blocking"
+  ],
+  "blockade": [
+    "blockade"
+  ],
+  "blow": [
+    "blow"
+  ],
+  "blunder": [
+    "blunder"
+  ],
+  "boast": [
+    "boast"
+  ],
+  "bomb": [
+    "bombing"
+  ],
+  "bombard": [
+    "bombardment"
+  ],
+  "bond": [
+    "bond"
+  ],
+  "book": [
+    "booking"
+  ],
+  "boom": [
+    "boom"
+  ],
+  "boon": [
+    "boon"
+  ],
+  "boost": [
+    "boost"
+  ],
+  "bore": [
+    "boredom"
+  ],
+  "borrow": [
+    "borrowing"
+  ],
+  "bottle": [
+    "bottling"
+  ],
+  "bounce": [
+    "bounce"
+  ],
+  "box": [
+    "boxing"
+  ],
+  "bracket": [
+    "bracket"
+  ],
+  "brainstorm": [
+    "brainstorming"
+  ],
+  "brave": [
+    "bravery"
+  ],
+  "brawl": [
+    "brawl"
+  ],
+  "breach": [
+    "breach"
+  ],
+  "break": [
+    "break",
+    "breakage",
+    "breaking"
+  ],
+  "breath": [
+    "breath"
+  ],
+  "breathe": [
+    "breathing"
+  ],
+  "breed": [
+    "breeding"
+  ],
+  "brew": [
+    "brewing"
+  ],
+  "bribe": [
+    "bribe",
+    "bribery"
+  ],
+  "brief": [
+    "brief",
+    "briefing"
+  ],
+  "bring": [
+    "bringing"
+  ],
+  "broadcast": [
+    "broadcast",
+    "broadcasting"
+  ],
+  "brush": [
+    "brush"
+  ],
+  "brutal": [
+    "brutality"
+  ],
+  "budget": [
+    "budget"
+  ],
+  "bug": [
+    "bugging"
+  ],
+  "bugger": [
+    "buggery"
+  ],
+  "build": [
+    "building"
+  ],
+  "bullish": [
+    "bullishness"
+  ],
+  "bunt": [
+    "bunt"
+  ],
+  "buoyant": [
+    "buoyancy"
+  ],
+  "burden": [
+    "burden"
+  ],
+  "bureaucratic": [
+    "bureaucracy"
+  ],
+  "burgle": [
+    "burglary"
+  ],
+  "burn": [
+    "burn",
+    "burning"
+  ],
+  "burst": [
+    "burst"
+  ],
+  "bury": [
+    "burial"
+  ],
+  "bustle": [
+    "bustle"
+  ],
+  "butcher": [
+    "butchery"
+  ],
+  "buy": [
+    "buy",
+    "buying"
+  ],
+  "cajole": [
+    "cajolery"
+  ],
+  "calamitous": [
+    "calamity"
+  ],
+  "calcine": [
+    "calcination"
+  ],
+  "calculate": [
+    "calculation"
+  ],
+  "calibrate": [
+    "calibration"
+  ],
+  "call": [
+    "call",
+    "calling"
+  ],
+  "calm": [
+    "calm",
+    "calmness"
+  ],
+  "campaign": [
+    "campaign"
+  ],
+  "can": [
+    "canning"
+  ],
+  "canalize": [
+    "canalization"
+  ],
+  "cancel": [
+    "canceling",
+    "cancellation"
+  ],
+  "cancerous": [
+    "cancer"
+  ],
+  "cannibalize": [
+    "cannibalism"
+  ],
+  "canonize": [
+    "canonization"
+  ],
+  "cant": [
+    "cant"
+  ],
+  "capable": [
+    "capability"
+  ],
+  "capitalize": [
+    "capitalization"
+  ],
+  "capitulate": [
+    "capitulation"
+  ],
+  "captain": [
+    "captain"
+  ],
+  "captive": [
+    "captive"
+  ],
+  "capture": [
+    "capture",
+    "capturing"
+  ],
+  "carbonize": [
+    "carbonization"
+  ],
+  "care": [
+    "care"
+  ],
+  "caricature": [
+    "caricature"
+  ],
+  "carouse": [
+    "carousal"
+  ],
+  "carp": [
+    "carping"
+  ],
+  "carpet": [
+    "carpeting"
+  ],
+  "carry": [
+    "carrying"
+  ],
+  "carve": [
+    "carving"
+  ],
+  "cast": [
+    "cast",
+    "casting"
+  ],
+  "castigate": [
+    "castigation"
+  ],
+  "castrate": [
+    "castration"
+  ],
+  "cataclysmic": [
+    "cataclysm"
+  ],
+  "catalyze": [
+    "catalysis"
+  ],
+  "catastrophic": [
+    "catastrophe"
+  ],
+  "catch": [
+    "catch"
+  ],
+  "catechize": [
+    "catechism"
+  ],
+  "cater": [
+    "catering"
+  ],
+  "cause": [
+    "causation"
+  ],
+  "caution": [
+    "caution",
+    "precaution"
+  ],
+  "cautious": [
+    "cautiousness"
+  ],
+  "cease": [
+    "cessation"
+  ],
+  "cede": [
+    "cession"
+  ],
+  "celebrate": [
+    "celebration"
+  ],
+  "censor": [
+    "censorship"
+  ],
+  "census": [
+    "census"
+  ],
+  "central": [
+    "central"
+  ],
+  "centralize": [
+    "centralization"
+  ],
+  "certain": [
+    "certainty"
+  ],
+  "certify": [
+    "certification"
+  ],
+  "chagrin": [
+    "chagrin"
+  ],
+  "challenge": [
+    "challenge"
+  ],
+  "champion": [
+    "championship"
+  ],
+  "chance": [
+    "chance"
+  ],
+  "change": [
+    "change",
+    "changing"
+  ],
+  "chant": [
+    "chant"
+  ],
+  "chaotic": [
+    "chaos"
+  ],
+  "characterize": [
+    "characterization"
+  ],
+  "charge": [
+    "charge",
+    "charging"
+  ],
+  "charismatic": [
+    "charisma"
+  ],
+  "charm": [
+    "charm"
+  ],
+  "charming": [
+    "charm"
+  ],
+  "chart": [
+    "chart"
+  ],
+  "chase": [
+    "chase"
+  ],
+  "chastise": [
+    "chastisement"
+  ],
+  "chat": [
+    "chat"
+  ],
+  "chauvinistic": [
+    "chauvinism"
+  ],
+  "cheat": [
+    "cheating"
+  ],
+  "check": [
+    "check"
+  ],
+  "cheer": [
+    "cheer"
+  ],
+  "chief": [
+    "chief"
+  ],
+  "chlorinate": [
+    "chlorination"
+  ],
+  "choose": [
+    "choice",
+    "choosing"
+  ],
+  "circle": [
+    "circuit"
+  ],
+  "circulate": [
+    "circulation"
+  ],
+  "circumcise": [
+    "circumcision"
+  ],
+  "circumnavigate": [
+    "circumnavigation"
+  ],
+  "circumscribe": [
+    "circumscription"
+  ],
+  "circumvent": [
+    "circumvention"
+  ],
+  "cite": [
+    "citation"
+  ],
+  "civil": [
+    "civility"
+  ],
+  "civilize": [
+    "civilization"
+  ],
+  "claim": [
+    "claim"
+  ],
+  "clamor": [
+    "clamor"
+  ],
+  "clamp": [
+    "clamp"
+  ],
+  "clang": [
+    "clanging"
+  ],
+  "clarify": [
+    "clarification"
+  ],
+  "clash": [
+    "clash"
+  ],
+  "classic": [
+    "classicism"
+  ],
+  "classify": [
+    "classification"
+  ],
+  "clean": [
+    "mop-up"
+  ],
+  "clear": [
+    "clarity",
+    "clearance",
+    "clearing",
+    "preclearance"
+  ],
+  "climax": [
+    "climax"
+  ],
+  "climb": [
+    "climb",
+    "climbing"
+  ],
+  "clip": [
+    "clipping"
+  ],
+  "cloak": [
+    "cloak"
+  ],
+  "clog": [
+    "clogging"
+  ],
+  "clone": [
+    "clone"
+  ],
+  "close": [
+    "close",
+    "closeness",
+    "closing",
+    "closure"
+  ],
+  "closing": [
+    "closing"
+  ],
+  "cloud": [
+    "clouding"
+  ],
+  "co-operate": [
+    "co-operation"
+  ],
+  "co-opt": [
+    "co-optation"
+  ],
+  "coagulate": [
+    "coagulation"
+  ],
+  "coalesce": [
+    "coalescence"
+  ],
+  "coat": [
+    "coat",
+    "coating"
+  ],
+  "code": [
+    "coding"
+  ],
+  "codify": [
+    "codification"
+  ],
+  "coerce": [
+    "coercion"
+  ],
+  "coexist": [
+    "coexistence"
+  ],
+  "cogenerate": [
+    "cogeneration"
+  ],
+  "cogitate": [
+    "cogitation"
+  ],
+  "cohabit": [
+    "cohabitation"
+  ],
+  "cohere": [
+    "coherence",
+    "cohesion"
+  ],
+  "coil": [
+    "coil"
+  ],
+  "coin": [
+    "coinage"
+  ],
+  "coincide": [
+    "coincidence"
+  ],
+  "collaborate": [
+    "collaboration"
+  ],
+  "collapse": [
+    "collapse"
+  ],
+  "collate": [
+    "collation"
+  ],
+  "collect": [
+    "collecting",
+    "collection"
+  ],
+  "collectivize": [
+    "collectivization"
+  ],
+  "collide": [
+    "collision"
+  ],
+  "collocate": [
+    "collocation"
+  ],
+  "collude": [
+    "collusion"
+  ],
+  "colonize": [
+    "colonization"
+  ],
+  "color": [
+    "colorization"
+  ],
+  "colorless": [
+    "colorlessness"
+  ],
+  "combat": [
+    "combat"
+  ],
+  "combine": [
+    "combination"
+  ],
+  "combust": [
+    "combustion"
+  ],
+  "come": [
+    "homecoming"
+  ],
+  "comfort": [
+    "comfort"
+  ],
+  "command": [
+    "command",
+    "commandment"
+  ],
+  "commemorate": [
+    "commemoration"
+  ],
+  "commence": [
+    "commencement"
+  ],
+  "commend": [
+    "commendation"
+  ],
+  "comment": [
+    "comment",
+    "commentary"
+  ],
+  "commercialize": [
+    "commercialization"
+  ],
+  "commiserate": [
+    "commiseration"
+  ],
+  "commission": [
+    "commissioning"
+  ],
+  "commit": [
+    "commission",
+    "commital",
+    "commitment"
+  ],
+  "commonplace": [
+    "commonplace"
+  ],
+  "commune": [
+    "communion"
+  ],
+  "communicate": [
+    "communication"
+  ],
+  "communication": [
+    "communique"
+  ],
+  "commute": [
+    "commutation",
+    "commute"
+  ],
+  "compare": [
+    "comparison"
+  ],
+  "compassionate": [
+    "compassion"
+  ],
+  "compatible": [
+    "compatability",
+    "compatibility"
+  ],
+  "compensate": [
+    "compensation"
+  ],
+  "compete": [
+    "competition",
+    "competitiveness"
+  ],
+  "competent": [
+    "competence"
+  ],
+  "competitive": [
+    "competitiveness"
+  ],
+  "compile": [
+    "compilation"
+  ],
+  "complacent": [
+    "complacency"
+  ],
+  "complain": [
+    "complaint"
+  ],
+  "complement": [
+    "complement",
+    "complementation"
+  ],
+  "complete": [
+    "completion"
+  ],
+  "complex": [
+    "complexity"
+  ],
+  "complicate": [
+    "complication"
+  ],
+  "compliment": [
+    "compliment"
+  ],
+  "comply": [
+    "complaisance",
+    "compliance"
+  ],
+  "comport": [
+    "comportment"
+  ],
+  "compose": [
+    "composition",
+    "composure"
+  ],
+  "compound": [
+    "compounding"
+  ],
+  "comprehend": [
+    "comprehension"
+  ],
+  "comprehensive": [
+    "comprehensiveness"
+  ],
+  "compress": [
+    "compression"
+  ],
+  "compromise": [
+    "compromise"
+  ],
+  "compute": [
+    "computation",
+    "computing"
+  ],
+  "con": [
+    "con"
+  ],
+  "conceal": [
+    "concealment"
+  ],
+  "concede": [
+    "concession"
+  ],
+  "conceited": [
+    "conceit"
+  ],
+  "conceive": [
+    "concept",
+    "conception"
+  ],
+  "concentrate": [
+    "concentrate",
+    "concentration"
+  ],
+  "conceptualize": [
+    "conceptualization"
+  ],
+  "concern": [
+    "concern"
+  ],
+  "conciliate": [
+    "conciliation"
+  ],
+  "concise": [
+    "concision"
+  ],
+  "conclude": [
+    "conclusion"
+  ],
+  "concoct": [
+    "concoction"
+  ],
+  "concur": [
+    "concurrence"
+  ],
+  "concuss": [
+    "concussion"
+  ],
+  "condemn": [
+    "condemnation"
+  ],
+  "condense": [
+    "condensation"
+  ],
+  "condescend": [
+    "condescension"
+  ],
+  "condition": [
+    "condition",
+    "string"
+  ],
+  "condone": [
+    "condonation"
+  ],
+  "conduct": [
+    "conduct",
+    "conduction"
+  ],
+  "confabulate": [
+    "confabulation"
+  ],
+  "confederate": [
+    "confederation"
+  ],
+  "confer": [
+    "conference",
+    "conferment"
+  ],
+  "confess": [
+    "confession"
+  ],
+  "confide": [
+    "confidence"
+  ],
+  "confidential": [
+    "confidentiality"
+  ],
+  "configure": [
+    "configuration"
+  ],
+  "confine": [
+    "confine",
+    "confinement"
+  ],
+  "confirm": [
+    "confirmation"
+  ],
+  "confiscate": [
+    "confiscation"
+  ],
+  "conflate": [
+    "conflation"
+  ],
+  "conflict": [
+    "conflict"
+  ],
+  "confluent": [
+    "confluence"
+  ],
+  "conform": [
+    "conformation"
+  ],
+  "confront": [
+    "confrontation"
+  ],
+  "confuse": [
+    "confusion"
+  ],
+  "confute": [
+    "confutation"
+  ],
+  "conglomerate": [
+    "conglomeration"
+  ],
+  "congratulate": [
+    "congratulation"
+  ],
+  "congregate": [
+    "congregation"
+  ],
+  "conjoin": [
+    "conjunction"
+  ],
+  "conjugate": [
+    "conjugation"
+  ],
+  "conjure": [
+    "conjuration"
+  ],
+  "connect": [
+    "connection"
+  ],
+  "connive": [
+    "connivance"
+  ],
+  "connote": [
+    "connotation"
+  ],
+  "conquer": [
+    "conquest"
+  ],
+  "conscious": [
+    "consciousness"
+  ],
+  "conscript": [
+    "conscription"
+  ],
+  "consecrate": [
+    "consecration"
+  ],
+  "consent": [
+    "consent"
+  ],
+  "conservative": [
+    "conservatism"
+  ],
+  "conserve": [
+    "conservancy",
+    "conservation"
+  ],
+  "consider": [
+    "consideration"
+  ],
+  "consign": [
+    "consigning",
+    "consignment"
+  ],
+  "consist": [
+    "consistence"
+  ],
+  "consistent": [
+    "consistency"
+  ],
+  "console": [
+    "consolation"
+  ],
+  "consolidate": [
+    "consolidation"
+  ],
+  "conspire": [
+    "conspiracy"
+  ],
+  "constipate": [
+    "constipation"
+  ],
+  "constitute": [
+    "constitution"
+  ],
+  "constitutional": [
+    "constitutionality"
+  ],
+  "constrain": [
+    "constraint"
+  ],
+  "constrict": [
+    "constriction"
+  ],
+  "construct": [
+    "constructing",
+    "construction"
+  ],
+  "construe": [
+    "construction"
+  ],
+  "consult": [
+    "consultation",
+    "consulting"
+  ],
+  "consume": [
+    "consuming",
+    "consumption"
+  ],
+  "consuming": [
+    "consuming"
+  ],
+  "consummate": [
+    "consummation"
+  ],
+  "contact": [
+    "contact"
+  ],
+  "contain": [
+    "containment"
+  ],
+  "contaminate": [
+    "contamination"
+  ],
+  "contemplate": [
+    "contemplation"
+  ],
+  "contend": [
+    "contention"
+  ],
+  "content": [
+    "contentment"
+  ],
+  "contest": [
+    "contest"
+  ],
+  "continue": [
+    "continuance",
+    "continuation"
+  ],
+  "contort": [
+    "contortion"
+  ],
+  "contract": [
+    "contract",
+    "contracting",
+    "contraction"
+  ],
+  "contradict": [
+    "contradiction"
+  ],
+  "contrary": [
+    "contrary"
+  ],
+  "contrast": [
+    "contrast"
+  ],
+  "contravene": [
+    "contravention"
+  ],
+  "contribute": [
+    "contribution"
+  ],
+  "contrive": [
+    "contrivance"
+  ],
+  "control": [
+    "control",
+    "controlling",
+    "valve"
+  ],
+  "controversial": [
+    "controversy"
+  ],
+  "contuse": [
+    "contusion"
+  ],
+  "convalesce": [
+    "convalescence"
+  ],
+  "convene": [
+    "convention"
+  ],
+  "convenient": [
+    "convenience"
+  ],
+  "converge": [
+    "convergence"
+  ],
+  "converse": [
+    "conversation"
+  ],
+  "convert": [
+    "conversion"
+  ],
+  "convex": [
+    "convexity"
+  ],
+  "convey": [
+    "conveyance"
+  ],
+  "convict": [
+    "conviction"
+  ],
+  "convoke": [
+    "convocation"
+  ],
+  "convulse": [
+    "convulsion"
+  ],
+  "cook": [
+    "cooking"
+  ],
+  "cool": [
+    "cooling"
+  ],
+  "cooperate": [
+    "cooperation",
+    "cooperative"
+  ],
+  "coordinate": [
+    "coordination"
+  ],
+  "copulate": [
+    "copulation"
+  ],
+  "copy": [
+    "copying"
+  ],
+  "corner": [
+    "corner"
+  ],
+  "correct": [
+    "correction"
+  ],
+  "correlate": [
+    "correlation"
+  ],
+  "correspond": [
+    "correspondence"
+  ],
+  "corroborate": [
+    "corroboration"
+  ],
+  "corrode": [
+    "corrosion"
+  ],
+  "corroded": [
+    "corrosion"
+  ],
+  "corrugate": [
+    "corrugation"
+  ],
+  "corrupt": [
+    "corruption"
+  ],
+  "cost": [
+    "cost"
+  ],
+  "counsel": [
+    "counseling"
+  ],
+  "count": [
+    "count",
+    "counting"
+  ],
+  "counteract": [
+    "counteraction"
+  ],
+  "couple": [
+    "coupling"
+  ],
+  "courageous": [
+    "courage"
+  ],
+  "court": [
+    "courtship"
+  ],
+  "courteous": [
+    "courtesy"
+  ],
+  "cover": [
+    "coverage"
+  ],
+  "crack": [
+    "crack"
+  ],
+  "crash": [
+    "crash",
+    "crashlet"
+  ],
+  "crave": [
+    "craving"
+  ],
+  "crazy": [
+    "craze"
+  ],
+  "create": [
+    "creation"
+  ],
+  "creative": [
+    "creativity"
+  ],
+  "credible": [
+    "credibility"
+  ],
+  "credit": [
+    "credential",
+    "credit",
+    "crediting"
+  ],
+  "credit-worthy": [
+    "credit-worthiness"
+  ],
+  "cremate": [
+    "cremation"
+  ],
+  "criminal": [
+    "criminality"
+  ],
+  "criticize": [
+    "criticism"
+  ],
+  "cross": [
+    "cross"
+  ],
+  "cross-examine": [
+    "cross-examination"
+  ],
+  "cross-fertilize": [
+    "cross-fertilization"
+  ],
+  "crucial": [
+    "key"
+  ],
+  "cruise": [
+    "cruise"
+  ],
+  "crusade": [
+    "crusade"
+  ],
+  "cry": [
+    "cry"
+  ],
+  "crystallize": [
+    "crystallization"
+  ],
+  "cue": [
+    "cue"
+  ],
+  "cultivate": [
+    "cultivation"
+  ],
+  "curb": [
+    "curb"
+  ],
+  "cure": [
+    "stopgap"
+  ],
+  "curious": [
+    "curiosity"
+  ],
+  "current": [
+    "spot",
+    "standing"
+  ],
+  "curse": [
+    "curse"
+  ],
+  "curtail": [
+    "curtailment"
+  ],
+  "cushion": [
+    "cushion"
+  ],
+  "customize": [
+    "custom"
+  ],
+  "cut": [
+    "cut",
+    "cutting"
+  ],
+  "cynical": [
+    "cynicism"
+  ],
+  "dally": [
+    "dalliance"
+  ],
+  "damage": [
+    "damage"
+  ],
+  "damn": [
+    "damnation"
+  ],
+  "dance": [
+    "dance",
+    "dancing"
+  ],
+  "dangerous": [
+    "danger"
+  ],
+  "dash": [
+    "dash"
+  ],
+  "dawn": [
+    "dawning"
+  ],
+  "de-emphasize": [
+    "de-emphasis"
+  ],
+  "de-escalate": [
+    "de-escalation"
+  ],
+  "deactivate": [
+    "inactivation"
+  ],
+  "deal": [
+    "deal",
+    "dealing"
+  ],
+  "debark": [
+    "debarkation"
+  ],
+  "debase": [
+    "debasement"
+  ],
+  "debate": [
+    "debate"
+  ],
+  "debauch": [
+    "debauchery"
+  ],
+  "debut": [
+    "debut"
+  ],
+  "decadent": [
+    "decadence"
+  ],
+  "decapitate": [
+    "decapitation"
+  ],
+  "decay": [
+    "decay"
+  ],
+  "decease": [
+    "decease"
+  ],
+  "deceive": [
+    "deception"
+  ],
+  "decentralize": [
+    "decentralization"
+  ],
+  "decide": [
+    "decision"
+  ],
+  "decimalize": [
+    "decimalization"
+  ],
+  "declare": [
+    "declaration"
+  ],
+  "declassify": [
+    "declassification"
+  ],
+  "decline": [
+    "declination",
+    "decline"
+  ],
+  "decolonize": [
+    "decolonization"
+  ],
+  "decompose": [
+    "decomposition"
+  ],
+  "decompress": [
+    "decompression"
+  ],
+  "decontaminate": [
+    "decontamination"
+  ],
+  "decorate": [
+    "decoration"
+  ],
+  "decrease": [
+    "decrease"
+  ],
+  "decree": [
+    "decree"
+  ],
+  "dedicate": [
+    "dedication"
+  ],
+  "deduce": [
+    "deduction2"
+  ],
+  "deduct": [
+    "deduction1"
+  ],
+  "deepen": [
+    "deepening"
+  ],
+  "deface": [
+    "defacement"
+  ],
+  "defame": [
+    "defamation"
+  ],
+  "default": [
+    "default"
+  ],
+  "defeat": [
+    "defeat"
+  ],
+  "defecate": [
+    "defecation"
+  ],
+  "defect": [
+    "defection"
+  ],
+  "defective": [
+    "defect"
+  ],
+  "defend": [
+    "defense"
+  ],
+  "defer": [
+    "deference",
+    "deferment",
+    "deferral"
+  ],
+  "deficient": [
+    "deficiency"
+  ],
+  "defile": [
+    "defilement"
+  ],
+  "define": [
+    "definition"
+  ],
+  "deflate": [
+    "deflation"
+  ],
+  "deflect": [
+    "deflection"
+  ],
+  "defoliate": [
+    "defoliation"
+  ],
+  "defray": [
+    "defrayal",
+    "defrayment"
+  ],
+  "defy": [
+    "defiance"
+  ],
+  "degenerate": [
+    "degeneration"
+  ],
+  "degrade": [
+    "degradation"
+  ],
+  "deify": [
+    "deification"
+  ],
+  "delay": [
+    "delay"
+  ],
+  "delegate": [
+    "delegation"
+  ],
+  "delete": [
+    "deletion"
+  ],
+  "deliberate": [
+    "deliberation"
+  ],
+  "delight": [
+    "delight"
+  ],
+  "delimit": [
+    "delimitation"
+  ],
+  "delineate": [
+    "delineation"
+  ],
+  "delinquent": [
+    "delinquency"
+  ],
+  "deliver": [
+    "deliverance",
+    "delivery"
+  ],
+  "delude": [
+    "delusion"
+  ],
+  "delve": [
+    "delving"
+  ],
+  "demagnetize": [
+    "demagnetization"
+  ],
+  "demand": [
+    "demand"
+  ],
+  "demarcate": [
+    "demarcation"
+  ],
+  "demean": [
+    "demeanor"
+  ],
+  "demented": [
+    "dementia"
+  ],
+  "demobilize": [
+    "demobilization"
+  ],
+  "democratize": [
+    "democratization"
+  ],
+  "demolish": [
+    "demolition"
+  ],
+  "demonetize": [
+    "demonetization"
+  ],
+  "demonstrate": [
+    "demo",
+    "demonstration"
+  ],
+  "demonstrative": [
+    "demonstrativeness"
+  ],
+  "demoralize": [
+    "demoralization"
+  ],
+  "demote": [
+    "demotion"
+  ],
+  "denationalize": [
+    "denationalization"
+  ],
+  "denigrate": [
+    "denigration"
+  ],
+  "denominate": [
+    "denomination"
+  ],
+  "denounce": [
+    "denunciation"
+  ],
+  "dense": [
+    "density"
+  ],
+  "dent": [
+    "dent"
+  ],
+  "denude": [
+    "denudation"
+  ],
+  "deny": [
+    "denial"
+  ],
+  "depart": [
+    "departure"
+  ],
+  "depend": [
+    "dependence",
+    "dependency"
+  ],
+  "depict": [
+    "depiction"
+  ],
+  "deplete": [
+    "depletion"
+  ],
+  "deploy": [
+    "deployment"
+  ],
+  "depopulate": [
+    "depopulation"
+  ],
+  "deport": [
+    "deportation",
+    "deportment"
+  ],
+  "depose": [
+    "deposition"
+  ],
+  "deposit": [
+    "deposit",
+    "deposition2"
+  ],
+  "deprecate": [
+    "deprecation"
+  ],
+  "depreciate": [
+    "depreciation"
+  ],
+  "depress": [
+    "depression"
+  ],
+  "deprive": [
+    "deprivation"
+  ],
+  "depute": [
+    "deputation"
+  ],
+  "derail": [
+    "derailment"
+  ],
+  "derange": [
+    "derangement"
+  ],
+  "deregulate": [
+    "deregulation",
+    "deregulaton"
+  ],
+  "derelict": [
+    "dereliction"
+  ],
+  "deride": [
+    "derision"
+  ],
+  "derive": [
+    "derivation",
+    "derivative"
+  ],
+  "derogate": [
+    "derogation"
+  ],
+  "desalinate": [
+    "desalination"
+  ],
+  "desalinize": [
+    "desalinization"
+  ],
+  "descend": [
+    "descent"
+  ],
+  "describe": [
+    "description"
+  ],
+  "desecrate": [
+    "desecration"
+  ],
+  "desegregate": [
+    "desegregation"
+  ],
+  "desensitize": [
+    "desensitization"
+  ],
+  "desert": [
+    "desertion"
+  ],
+  "design": [
+    "design",
+    "designing"
+  ],
+  "designate": [
+    "designation"
+  ],
+  "desire": [
+    "desire"
+  ],
+  "desolate": [
+    "desolation"
+  ],
+  "despair": [
+    "desperation"
+  ],
+  "despondent": [
+    "despondency"
+  ],
+  "destine": [
+    "destination",
+    "destiny"
+  ],
+  "destroy": [
+    "destruction"
+  ],
+  "detach": [
+    "detachment"
+  ],
+  "detain": [
+    "detention"
+  ],
+  "detect": [
+    "detection"
+  ],
+  "deter": [
+    "deterrence"
+  ],
+  "deteriorate": [
+    "deterioration"
+  ],
+  "determine": [
+    "determination"
+  ],
+  "detest": [
+    "detestation"
+  ],
+  "dethrone": [
+    "dethronement"
+  ],
+  "detonate": [
+    "detonation"
+  ],
+  "detoxify": [
+    "detoxification"
+  ],
+  "detract": [
+    "detraction"
+  ],
+  "detribalize": [
+    "detribalization"
+  ],
+  "devaluate": [
+    "devaluation"
+  ],
+  "devastate": [
+    "devastation"
+  ],
+  "develop": [
+    "developing",
+    "development"
+  ],
+  "deviate": [
+    "deviation"
+  ],
+  "devitalize": [
+    "devitalization"
+  ],
+  "devote": [
+    "devotion"
+  ],
+  "diagnose": [
+    "diagnosis"
+  ],
+  "dicker": [
+    "dickering"
+  ],
+  "dictate": [
+    "dictation"
+  ],
+  "die": [
+    "death"
+  ],
+  "differ": [
+    "difference",
+    "differential"
+  ],
+  "different": [
+    "other"
+  ],
+  "differentiate": [
+    "differentiation"
+  ],
+  "difficult": [
+    "difficulty"
+  ],
+  "diffract": [
+    "diffraction"
+  ],
+  "diffuse": [
+    "diffusion"
+  ],
+  "dig": [
+    "dig",
+    "digging"
+  ],
+  "digest": [
+    "digestion"
+  ],
+  "dignified": [
+    "dignity"
+  ],
+  "digress": [
+    "digression"
+  ],
+  "dilate": [
+    "dilation"
+  ],
+  "diligent": [
+    "diligence"
+  ],
+  "dilute": [
+    "dilution"
+  ],
+  "dime": [
+    "diming"
+  ],
+  "diminish": [
+    "diminution"
+  ],
+  "dip": [
+    "dip"
+  ],
+  "diplomatic": [
+    "diplomacy"
+  ],
+  "direct": [
+    "direction",
+    "directive"
+  ],
+  "disable": [
+    "disablement"
+  ],
+  "disadvantageous": [
+    "disadvantage"
+  ],
+  "disagree": [
+    "disagreement"
+  ],
+  "disappear": [
+    "disappearance"
+  ],
+  "disappoint": [
+    "disappointment"
+  ],
+  "disapprove": [
+    "disapprobation",
+    "disapproval"
+  ],
+  "disarm": [
+    "disarmament",
+    "disarming"
+  ],
+  "disarrange": [
+    "disarrangement"
+  ],
+  "disassociate": [
+    "disaffiliation"
+  ],
+  "disasterous": [
+    "disaster"
+  ],
+  "disavow": [
+    "disavowal"
+  ],
+  "disband": [
+    "disbanding",
+    "disbandment"
+  ],
+  "disbelieve": [
+    "disbelief"
+  ],
+  "disburse": [
+    "disbursement"
+  ],
+  "discern": [
+    "discernment"
+  ],
+  "discharge": [
+    "discharge"
+  ],
+  "disclose": [
+    "disclosure"
+  ],
+  "discolor": [
+    "discoloration"
+  ],
+  "discolour": [
+    "discolouration"
+  ],
+  "discombobulate": [
+    "discombobulation"
+  ],
+  "discomfit": [
+    "discomfiture",
+    "discomfort"
+  ],
+  "discompose": [
+    "discomposure"
+  ],
+  "discontent": [
+    "discontent"
+  ],
+  "discontinue": [
+    "discontinuance",
+    "discontinuation"
+  ],
+  "discount": [
+    "discount",
+    "discounting"
+  ],
+  "discourage": [
+    "discouragement"
+  ],
+  "discourse": [
+    "discourse"
+  ],
+  "discover": [
+    "discovery"
+  ],
+  "discredit": [
+    "discrediting"
+  ],
+  "discriminate": [
+    "discrimination"
+  ],
+  "discuss": [
+    "discussion"
+  ],
+  "disembark": [
+    "disembarkation"
+  ],
+  "disembarrass": [
+    "disembarrassment"
+  ],
+  "disenchant": [
+    "disenchantment"
+  ],
+  "disengage": [
+    "disengagement"
+  ],
+  "disentangle": [
+    "disentanglement"
+  ],
+  "disestablish": [
+    "disestablishment"
+  ],
+  "disfavor": [
+    "disfavor"
+  ],
+  "disfigure": [
+    "disfigurement"
+  ],
+  "disfranchise": [
+    "disfranchisement"
+  ],
+  "disgorge": [
+    "disgorgement"
+  ],
+  "disgrace": [
+    "disgrace"
+  ],
+  "disgust": [
+    "disgust"
+  ],
+  "dishonest": [
+    "dishonesty"
+  ],
+  "disillusion": [
+    "disillusion",
+    "disillusionment"
+  ],
+  "disincline": [
+    "disinclination"
+  ],
+  "disinfect": [
+    "disinfection"
+  ],
+  "disinfest": [
+    "disinfestation"
+  ],
+  "disinherit": [
+    "disinheritance"
+  ],
+  "disintegrate": [
+    "disintegration"
+  ],
+  "disinter": [
+    "disinterment"
+  ],
+  "dislike": [
+    "dislike"
+  ],
+  "dislocate": [
+    "dislocation"
+  ],
+  "dislodge": [
+    "dislodgement"
+  ],
+  "disloyal": [
+    "disloyalty"
+  ],
+  "dismantle": [
+    "dismantlement"
+  ],
+  "dismay": [
+    "dismay"
+  ],
+  "dismember": [
+    "dismemberment"
+  ],
+  "dismiss": [
+    "dismissal"
+  ],
+  "disobey": [
+    "disobedience"
+  ],
+  "disorder": [
+    "disorder"
+  ],
+  "disorganize": [
+    "disorganization"
+  ],
+  "disparage": [
+    "disparagement"
+  ],
+  "dispatch": [
+    "dispatch"
+  ],
+  "dispense": [
+    "dispensation"
+  ],
+  "disperse": [
+    "dispersal",
+    "dispersion"
+  ],
+  "displace": [
+    "displacement",
+    "displacing"
+  ],
+  "display": [
+    "display"
+  ],
+  "displease": [
+    "displeasure"
+  ],
+  "disposable": [
+    "disposable"
+  ],
+  "dispose": [
+    "disposal",
+    "disposition"
+  ],
+  "dispossess": [
+    "dispossession"
+  ],
+  "dispute": [
+    "disputation",
+    "dispute"
+  ],
+  "disqualify": [
+    "disqualification"
+  ],
+  "disregard": [
+    "disregard"
+  ],
+  "disrupt": [
+    "disruption"
+  ],
+  "dissatisfy": [
+    "dissatisfaction"
+  ],
+  "dissect": [
+    "dissection"
+  ],
+  "disseminate": [
+    "dissemination"
+  ],
+  "dissent": [
+    "dissension",
+    "dissent"
+  ],
+  "dissimulate": [
+    "dissimulation"
+  ],
+  "dissipate": [
+    "dissipation"
+  ],
+  "dissociate": [
+    "dissociation"
+  ],
+  "dissolve": [
+    "dissolution"
+  ],
+  "dissuade": [
+    "dissuasion"
+  ],
+  "distant": [
+    "distance"
+  ],
+  "distend": [
+    "distension"
+  ],
+  "distill": [
+    "distillation"
+  ],
+  "distinctive": [
+    "distinctiveness"
+  ],
+  "distinguish": [
+    "distinction"
+  ],
+  "distort": [
+    "distortion"
+  ],
+  "distract": [
+    "distraction"
+  ],
+  "distress": [
+    "distress"
+  ],
+  "distribute": [
+    "distribution"
+  ],
+  "district": [
+    "districting"
+  ],
+  "distrust": [
+    "distrust"
+  ],
+  "disturb": [
+    "disturbance"
+  ],
+  "divagate": [
+    "divagation"
+  ],
+  "dive": [
+    "dive"
+  ],
+  "diverge": [
+    "divergence"
+  ],
+  "diverse": [
+    "diversity"
+  ],
+  "diversify": [
+    "diversification"
+  ],
+  "divert": [
+    "diversion"
+  ],
+  "divest": [
+    "divestiture",
+    "divestment"
+  ],
+  "divide": [
+    "divide",
+    "division",
+    "fission"
+  ],
+  "divine": [
+    "divination"
+  ],
+  "divisive": [
+    "divisiveness"
+  ],
+  "divulge": [
+    "divulgence"
+  ],
+  "do": [
+    "deed",
+    "wrongdoing"
+  ],
+  "dock": [
+    "docking"
+  ],
+  "document": [
+    "documentation"
+  ],
+  "domesticate": [
+    "domestication"
+  ],
+  "dominate": [
+    "dominance",
+    "domination",
+    "dominion"
+  ],
+  "donate": [
+    "donation"
+  ],
+  "double": [
+    "doubling"
+  ],
+  "doubt": [
+    "doubt"
+  ],
+  "down": [
+    "downing"
+  ],
+  "downgrade": [
+    "downgrade",
+    "downgrading"
+  ],
+  "downsize": [
+    "downsizing"
+  ],
+  "draft": [
+    "drafting"
+  ],
+  "drain": [
+    "drain",
+    "drainage"
+  ],
+  "dramatic": [
+    "drama"
+  ],
+  "dramatize": [
+    "dramatization"
+  ],
+  "draw": [
+    "drawing"
+  ],
+  "dread": [
+    "dread"
+  ],
+  "dream": [
+    "dream"
+  ],
+  "drench": [
+    "drenching"
+  ],
+  "dress": [
+    "dressing"
+  ],
+  "drift": [
+    "drift"
+  ],
+  "drill": [
+    "drilling"
+  ],
+  "drink": [
+    "drink",
+    "drinking"
+  ],
+  "drive": [
+    "drive",
+    "driving"
+  ],
+  "drop": [
+    "drop"
+  ],
+  "drub": [
+    "drubbing"
+  ],
+  "drudge": [
+    "drudgery"
+  ],
+  "dry": [
+    "dryness"
+  ],
+  "duel": [
+    "duel",
+    "dueling"
+  ],
+  "duplicate": [
+    "duplication"
+  ],
+  "duplicitous": [
+    "duplicity"
+  ],
+  "durable": [
+    "durability"
+  ],
+  "dwell": [
+    "dwelling"
+  ],
+  "dye": [
+    "dying"
+  ],
+  "dynamic": [
+    "dynamic",
+    "dynamism"
+  ],
+  "eager": [
+    "eagerness"
+  ],
+  "earn": [
+    "earning"
+  ],
+  "ease": [
+    "easing"
+  ],
+  "easy": [
+    "ease"
+  ],
+  "eat": [
+    "diet",
+    "fare"
+  ],
+  "eavesdrop": [
+    "eavesdropping"
+  ],
+  "ebb": [
+    "ebb"
+  ],
+  "echo": [
+    "echo"
+  ],
+  "edgy": [
+    "edginess"
+  ],
+  "edify": [
+    "edification"
+  ],
+  "edit": [
+    "edition"
+  ],
+  "educate": [
+    "education",
+    "eduction"
+  ],
+  "efface": [
+    "effacement"
+  ],
+  "effect": [
+    "brunt"
+  ],
+  "effect-verb": [
+    "effect"
+  ],
+  "effective": [
+    "effectiveness"
+  ],
+  "effervesce": [
+    "effervescence"
+  ],
+  "efficient": [
+    "efficiency"
+  ],
+  "ejaculate": [
+    "ejaculation"
+  ],
+  "eject": [
+    "ejection"
+  ],
+  "elaborate": [
+    "elaboration"
+  ],
+  "elate": [
+    "elation"
+  ],
+  "elect": [
+    "election"
+  ],
+  "electrify": [
+    "electrification",
+    "electrolysis"
+  ],
+  "electrocute": [
+    "electrocution"
+  ],
+  "elevate": [
+    "elevation"
+  ],
+  "elicit": [
+    "elicitation"
+  ],
+  "elide": [
+    "elision"
+  ],
+  "eliminate": [
+    "elimination"
+  ],
+  "elongate": [
+    "elongation"
+  ],
+  "elope": [
+    "elopement"
+  ],
+  "eloquent": [
+    "eloquence"
+  ],
+  "elucidate": [
+    "elucidation"
+  ],
+  "emaciate": [
+    "emaciation"
+  ],
+  "emanate": [
+    "emanation"
+  ],
+  "emancipate": [
+    "emancipation"
+  ],
+  "emasculate": [
+    "emasculation"
+  ],
+  "embalm": [
+    "embalmment"
+  ],
+  "embargo": [
+    "embargo"
+  ],
+  "embark": [
+    "embarkation"
+  ],
+  "embarrass": [
+    "embarrassment"
+  ],
+  "embellish": [
+    "embellishment"
+  ],
+  "embezzle": [
+    "embezzlement"
+  ],
+  "embitter": [
+    "embitterment"
+  ],
+  "embody": [
+    "embodiment"
+  ],
+  "embroider": [
+    "embroidery"
+  ],
+  "emend": [
+    "emendation"
+  ],
+  "emerge": [
+    "emergence"
+  ],
+  "emigrate": [
+    "emigration"
+  ],
+  "emit": [
+    "emission"
+  ],
+  "emphasize": [
+    "emphasis"
+  ],
+  "employ": [
+    "employment"
+  ],
+  "emulate": [
+    "emulation"
+  ],
+  "enact": [
+    "enactment"
+  ],
+  "encamp": [
+    "encampment"
+  ],
+  "enchant": [
+    "enchantment"
+  ],
+  "encircle": [
+    "encirclement"
+  ],
+  "enclose": [
+    "enclosure"
+  ],
+  "encounter": [
+    "encounter"
+  ],
+  "encourage": [
+    "encouragement"
+  ],
+  "encroach": [
+    "encroachment"
+  ],
+  "end": [
+    "end",
+    "ending"
+  ],
+  "endanger": [
+    "endangerment"
+  ],
+  "endear": [
+    "endearment"
+  ],
+  "endeavor": [
+    "endeavor"
+  ],
+  "endorse": [
+    "endorsement"
+  ],
+  "endow": [
+    "endowment"
+  ],
+  "endure": [
+    "endurance"
+  ],
+  "enforce": [
+    "enforcement"
+  ],
+  "enfranchise": [
+    "enfranchisement"
+  ],
+  "engage": [
+    "engagement"
+  ],
+  "engineer": [
+    "engineering"
+  ],
+  "engorge": [
+    "engorgement"
+  ],
+  "enhance": [
+    "enhancement"
+  ],
+  "enjoy": [
+    "enjoyment"
+  ],
+  "enlarge": [
+    "enlargement"
+  ],
+  "enlighten": [
+    "enlightenment"
+  ],
+  "enlist": [
+    "enlistment"
+  ],
+  "ennoble": [
+    "ennoblement"
+  ],
+  "enquire": [
+    "enquiry"
+  ],
+  "enrich": [
+    "enrichment"
+  ],
+  "enroll": [
+    "enrollment",
+    "enrolment"
+  ],
+  "enslave": [
+    "enslavement",
+    "slavery"
+  ],
+  "entangle": [
+    "entanglement"
+  ],
+  "enter": [
+    "entrance",
+    "entry"
+  ],
+  "entertain": [
+    "entertainment"
+  ],
+  "enthrone": [
+    "enthronement"
+  ],
+  "enthusiastic": [
+    "enthusiasm"
+  ],
+  "entice": [
+    "enticement"
+  ],
+  "entire": [
+    "entirety"
+  ],
+  "entitle": [
+    "entitlement"
+  ],
+  "entreat": [
+    "entreaty"
+  ],
+  "entrench": [
+    "entrenchment"
+  ],
+  "entrust": [
+    "charge"
+  ],
+  "enumerate": [
+    "enumeration"
+  ],
+  "enunciate": [
+    "enunciation"
+  ],
+  "envelope": [
+    "envelopment"
+  ],
+  "envious": [
+    "envy"
+  ],
+  "envy": [
+    "envy"
+  ],
+  "equal": [
+    "equality"
+  ],
+  "equalize": [
+    "equalization"
+  ],
+  "equate": [
+    "equation"
+  ],
+  "equip": [
+    "equipment"
+  ],
+  "equivalent": [
+    "equivalency"
+  ],
+  "eradicate": [
+    "eradication"
+  ],
+  "erase": [
+    "erasure"
+  ],
+  "erect": [
+    "erection"
+  ],
+  "erode": [
+    "erosion"
+  ],
+  "err": [
+    "error"
+  ],
+  "erupt": [
+    "eruption"
+  ],
+  "escalate": [
+    "escalation"
+  ],
+  "escape": [
+    "escape",
+    "escapement"
+  ],
+  "escrow": [
+    "escrow"
+  ],
+  "espouse": [
+    "espousal"
+  ],
+  "establish": [
+    "establishing",
+    "establishment"
+  ],
+  "esteem": [
+    "esteem"
+  ],
+  "estimate": [
+    "estimate",
+    "estimation"
+  ],
+  "estrange": [
+    "estrangement"
+  ],
+  "euphoric": [
+    "euphoria"
+  ],
+  "evacuate": [
+    "evacuation"
+  ],
+  "evade": [
+    "evasion"
+  ],
+  "evaluate": [
+    "evaluation"
+  ],
+  "evaporate": [
+    "evaporation"
+  ],
+  "evict": [
+    "eviction"
+  ],
+  "evolve": [
+    "evolution"
+  ],
+  "exacerbate": [
+    "exacerbation"
+  ],
+  "exact": [
+    "exaction"
+  ],
+  "exaggerate": [
+    "exaggeration"
+  ],
+  "exalt": [
+    "exaltation"
+  ],
+  "examine": [
+    "examination"
+  ],
+  "exasperate": [
+    "exasperation"
+  ],
+  "excavate": [
+    "excavation"
+  ],
+  "exceed": [
+    "excess"
+  ],
+  "excel": [
+    "excellence"
+  ],
+  "except": [
+    "exception"
+  ],
+  "exchange": [
+    "exchange"
+  ],
+  "excise": [
+    "excision"
+  ],
+  "excite": [
+    "excitement"
+  ],
+  "exclaim": [
+    "exclamation"
+  ],
+  "exclude": [
+    "exclusion"
+  ],
+  "exclusive": [
+    "exclusiveness",
+    "exclusivity"
+  ],
+  "excogitate": [
+    "excogitation"
+  ],
+  "excommunicate": [
+    "excommunication"
+  ],
+  "excoriate": [
+    "excoriation"
+  ],
+  "excrete": [
+    "excretion"
+  ],
+  "excuse": [
+    "excuse"
+  ],
+  "execrate": [
+    "execration"
+  ],
+  "execute": [
+    "execution"
+  ],
+  "exemplify": [
+    "exemplification"
+  ],
+  "exempt": [
+    "exemption"
+  ],
+  "exercise": [
+    "exercise",
+    "exercising"
+  ],
+  "exert": [
+    "exertion"
+  ],
+  "exhale": [
+    "exhalation"
+  ],
+  "exhaust": [
+    "exhaustion"
+  ],
+  "exhibit": [
+    "exhibit",
+    "exhibition"
+  ],
+  "exhilarate": [
+    "exhilaration"
+  ],
+  "exhort": [
+    "exhortation"
+  ],
+  "exhume": [
+    "exhumation"
+  ],
+  "exile": [
+    "exile"
+  ],
+  "exist": [
+    "existence",
+    "existing"
+  ],
+  "exit": [
+    "exit"
+  ],
+  "exonerate": [
+    "exoneration"
+  ],
+  "exorcise": [
+    "exorcism"
+  ],
+  "expand": [
+    "expanding",
+    "expansion",
+    "expansionism"
+  ],
+  "expect": [
+    "expectancy",
+    "expectation"
+  ],
+  "expedite": [
+    "expedition"
+  ],
+  "expel": [
+    "explusion",
+    "expulsion"
+  ],
+  "expend": [
+    "expense"
+  ],
+  "experience": [
+    "experience"
+  ],
+  "experiment": [
+    "experiment",
+    "experimentation"
+  ],
+  "expert": [
+    "knack",
+    "strategist"
+  ],
+  "expiate": [
+    "expiation"
+  ],
+  "expire": [
+    "expiration",
+    "expiry"
+  ],
+  "explain": [
+    "explanation"
+  ],
+  "explode": [
+    "explosion"
+  ],
+  "exploit": [
+    "exploitation"
+  ],
+  "explore": [
+    "exploration"
+  ],
+  "export": [
+    "export",
+    "exportation"
+  ],
+  "expose": [
+    "exposition",
+    "exposure"
+  ],
+  "expostulate": [
+    "expostulation"
+  ],
+  "express": [
+    "expression"
+  ],
+  "expropriate": [
+    "expropriation"
+  ],
+  "expurgate": [
+    "expurgation"
+  ],
+  "extend": [
+    "extension"
+  ],
+  "extensive": [
+    "extensiveness"
+  ],
+  "extenuate": [
+    "extenuation"
+  ],
+  "exterminate": [
+    "extermination"
+  ],
+  "extinct": [
+    "extinction"
+  ],
+  "extirpate": [
+    "extirpation"
+  ],
+  "extort": [
+    "extortion"
+  ],
+  "extract": [
+    "extraction"
+  ],
+  "extradite": [
+    "extradition"
+  ],
+  "extrapolate": [
+    "extrapolation"
+  ],
+  "extricate": [
+    "extrication"
+  ],
+  "extrude": [
+    "extrusion"
+  ],
+  "exuberant": [
+    "exuberance"
+  ],
+  "exult": [
+    "exultation"
+  ],
+  "fabricate": [
+    "fabrication"
+  ],
+  "face": [
+    "facing"
+  ],
+  "factor": [
+    "factoring"
+  ],
+  "fail": [
+    "failure"
+  ],
+  "faint": [
+    "fainting"
+  ],
+  "fair": [
+    "fairness"
+  ],
+  "fall": [
+    "fall"
+  ],
+  "fallacious": [
+    "fallacy"
+  ],
+  "falsify": [
+    "falsification"
+  ],
+  "familiar": [
+    "familiarity"
+  ],
+  "familiarize": [
+    "familiarization"
+  ],
+  "famous": [
+    "fame"
+  ],
+  "farm": [
+    "farming"
+  ],
+  "fascinate": [
+    "fascination"
+  ],
+  "fashionable": [
+    "mainstream"
+  ],
+  "fatal": [
+    "fatality"
+  ],
+  "fate": [
+    "fate"
+  ],
+  "fault": [
+    "fault"
+  ],
+  "favor": [
+    "favoritism"
+  ],
+  "fax": [
+    "fax"
+  ],
+  "fear": [
+    "fear"
+  ],
+  "feasible": [
+    "feasibility"
+  ],
+  "federate": [
+    "federation"
+  ],
+  "feed": [
+    "feeding"
+  ],
+  "feel": [
+    "feel",
+    "feeling"
+  ],
+  "felicitate": [
+    "felicitation"
+  ],
+  "feminine": [
+    "femininity"
+  ],
+  "ferment": [
+    "fermentation"
+  ],
+  "fertile": [
+    "fertility"
+  ],
+  "fertilize": [
+    "fertilization"
+  ],
+  "feud": [
+    "feud"
+  ],
+  "fickle": [
+    "fickleness"
+  ],
+  "fictional": [
+    "fiction"
+  ],
+  "fiddle": [
+    "fiddling"
+  ],
+  "fight": [
+    "fight",
+    "fighting"
+  ],
+  "figure": [
+    "figure"
+  ],
+  "file": [
+    "file",
+    "filing"
+  ],
+  "filibuster": [
+    "filibuster"
+  ],
+  "fill": [
+    "filling"
+  ],
+  "film": [
+    "film"
+  ],
+  "filter": [
+    "filtration"
+  ],
+  "finance": [
+    "finance",
+    "financing"
+  ],
+  "find": [
+    "find",
+    "finding"
+  ],
+  "fine": [
+    "fine"
+  ],
+  "finish": [
+    "finish"
+  ],
+  "fire": [
+    "fire",
+    "firing"
+  ],
+  "firefight": [
+    "firefighting"
+  ],
+  "firm": [
+    "firming",
+    "firmness"
+  ],
+  "fish": [
+    "fishing"
+  ],
+  "fit": [
+    "fit",
+    "fitment",
+    "fitness"
+  ],
+  "fix": [
+    "fix"
+  ],
+  "fixate": [
+    "fixation"
+  ],
+  "fixed": [
+    "fixture"
+  ],
+  "flagellate": [
+    "flagellation"
+  ],
+  "flap": [
+    "flap"
+  ],
+  "flash": [
+    "flash"
+  ],
+  "flat": [
+    "flatness"
+  ],
+  "flatter": [
+    "flattery"
+  ],
+  "flaw": [
+    "dent"
+  ],
+  "fledgling": [
+    "fledgling"
+  ],
+  "flee": [
+    "flight"
+  ],
+  "flexible": [
+    "flexibility"
+  ],
+  "flighty": [
+    "flightiness"
+  ],
+  "flirt": [
+    "flirtation"
+  ],
+  "float": [
+    "floatation",
+    "flotation"
+  ],
+  "flood": [
+    "flooding"
+  ],
+  "flow": [
+    "flow"
+  ],
+  "fluctuate": [
+    "fluctuation"
+  ],
+  "fluoridate": [
+    "fluoridation"
+  ],
+  "fluoridize": [
+    "fluoridization"
+  ],
+  "flute": [
+    "fluting"
+  ],
+  "fly": [
+    "flight"
+  ],
+  "focus": [
+    "focus"
+  ],
+  "fold": [
+    "folding"
+  ],
+  "foldable": [
+    "foldability"
+  ],
+  "follow": [
+    "following"
+  ],
+  "foment": [
+    "fomentation"
+  ],
+  "fond": [
+    "fondness"
+  ],
+  "fondness": [
+    "penchant"
+  ],
+  "fool": [
+    "fooling"
+  ],
+  "foot": [
+    "footing"
+  ],
+  "foray": [
+    "foray"
+  ],
+  "forbear": [
+    "forbearance"
+  ],
+  "forceful": [
+    "forcefulness"
+  ],
+  "forecast": [
+    "forecast",
+    "forecasting"
+  ],
+  "foreclose": [
+    "foreclosure"
+  ],
+  "forfeit": [
+    "forfeiture"
+  ],
+  "forge": [
+    "forgery",
+    "forging"
+  ],
+  "forgive": [
+    "forgiveness"
+  ],
+  "form": [
+    "formation"
+  ],
+  "formal": [
+    "formality"
+  ],
+  "formalize": [
+    "formalism"
+  ],
+  "formulate": [
+    "formulation"
+  ],
+  "fornicate": [
+    "fornication"
+  ],
+  "forthright": [
+    "table"
+  ],
+  "fortify": [
+    "fortification"
+  ],
+  "fossilize": [
+    "fossilization"
+  ],
+  "foul": [
+    "fouling"
+  ],
+  "found": [
+    "foundation",
+    "founding"
+  ],
+  "founder": [
+    "foundry"
+  ],
+  "fragile": [
+    "fragility"
+  ],
+  "fragment": [
+    "fragmentation"
+  ],
+  "frail": [
+    "frailty"
+  ],
+  "franchise": [
+    "franchise"
+  ],
+  "frank": [
+    "candor"
+  ],
+  "fraternize": [
+    "fraternization"
+  ],
+  "free": [
+    "freedom",
+    "freeing"
+  ],
+  "freeze": [
+    "freeze",
+    "freezing"
+  ],
+  "frenzied": [
+    "frenzy"
+  ],
+  "frequent": [
+    "frequency"
+  ],
+  "friendly": [
+    "friendliness",
+    "friendship"
+  ],
+  "frighten": [
+    "specter"
+  ],
+  "fructify": [
+    "fructification"
+  ],
+  "frugal": [
+    "frugality"
+  ],
+  "frustrate": [
+    "frustration"
+  ],
+  "fuck": [
+    "sex"
+  ],
+  "fulfill": [
+    "fulfillment",
+    "fulfilment"
+  ],
+  "fulminate": [
+    "fulmination"
+  ],
+  "fumigate": [
+    "fumigation"
+  ],
+  "function": [
+    "function",
+    "functioning"
+  ],
+  "functional": [
+    "functionality"
+  ],
+  "fund": [
+    "fund",
+    "funding"
+  ],
+  "fundamental": [
+    "fundamental",
+    "fundamentalism"
+  ],
+  "furious": [
+    "furor",
+    "fury"
+  ],
+  "furnish": [
+    "furnishing"
+  ],
+  "fuse": [
+    "fusing",
+    "fusion"
+  ],
+  "fuss": [
+    "ado"
+  ],
+  "futile": [
+    "futility"
+  ],
+  "gain": [
+    "gain"
+  ],
+  "galvanize": [
+    "galvanism"
+  ],
+  "gamble": [
+    "gamble"
+  ],
+  "game": [
+    "game"
+  ],
+  "gasify": [
+    "gasification"
+  ],
+  "gather": [
+    "gathering"
+  ],
+  "generalize": [
+    "generalization"
+  ],
+  "generate": [
+    "generating",
+    "generation"
+  ],
+  "generous": [
+    "sweetheart"
+  ],
+  "genuflect": [
+    "genuflection"
+  ],
+  "germinate": [
+    "germination"
+  ],
+  "gerrymander": [
+    "gerrymandering"
+  ],
+  "gesticulate": [
+    "gesticulation"
+  ],
+  "gesture": [
+    "gesture"
+  ],
+  "gin": [
+    "gin"
+  ],
+  "give": [
+    "gift"
+  ],
+  "glamorize": [
+    "glamorization"
+  ],
+  "glamorous": [
+    "glamour"
+  ],
+  "glance": [
+    "glance"
+  ],
+  "glare": [
+    "glare"
+  ],
+  "gleeful": [
+    "glee"
+  ],
+  "glimmer": [
+    "glimmer"
+  ],
+  "glimpse": [
+    "glimpse"
+  ],
+  "globalize": [
+    "globalization"
+  ],
+  "gloomy": [
+    "gloom"
+  ],
+  "glorify": [
+    "glorification"
+  ],
+  "glorious": [
+    "glory"
+  ],
+  "gloss": [
+    "whitewash"
+  ],
+  "good": [
+    "good",
+    "goodness"
+  ],
+  "gossip": [
+    "gossip"
+  ],
+  "govern": [
+    "governance",
+    "governing",
+    "government"
+  ],
+  "grab": [
+    "grab"
+  ],
+  "graduate": [
+    "graduation"
+  ],
+  "grant": [
+    "grant"
+  ],
+  "grasp": [
+    "grasp"
+  ],
+  "gratify": [
+    "gratification",
+    "gratifying"
+  ],
+  "grave": [
+    "gravity"
+  ],
+  "gravitate": [
+    "gravitation"
+  ],
+  "gray": [
+    "graying"
+  ],
+  "graze": [
+    "grazing"
+  ],
+  "grease": [
+    "grease"
+  ],
+  "great": [
+    "greatness"
+  ],
+  "greedy": [
+    "greed"
+  ],
+  "green": [
+    "greening"
+  ],
+  "greet": [
+    "greeting"
+  ],
+  "grieve": [
+    "greif",
+    "grief",
+    "grievance"
+  ],
+  "grip": [
+    "grip"
+  ],
+  "gripe": [
+    "gripe"
+  ],
+  "ground": [
+    "ground",
+    "grounding"
+  ],
+  "group": [
+    "multiple"
+  ],
+  "grow": [
+    "growing",
+    "growth"
+  ],
+  "guarantee": [
+    "guarantee"
+  ],
+  "guess": [
+    "guess",
+    "guesswork"
+  ],
+  "guide": [
+    "guidance"
+  ],
+  "guilty": [
+    "guilt"
+  ],
+  "gyrate": [
+    "gyration"
+  ],
+  "habituate": [
+    "habituation"
+  ],
+  "halt": [
+    "halt"
+  ],
+  "hand": [
+    "handing"
+  ],
+  "handle": [
+    "handling"
+  ],
+  "happen": [
+    "happening"
+  ],
+  "happy": [
+    "happiness"
+  ],
+  "harangue": [
+    "harangue"
+  ],
+  "harass": [
+    "harassment"
+  ],
+  "harm": [
+    "harm"
+  ],
+  "harmonious": [
+    "tune"
+  ],
+  "harmonize": [
+    "harmonization"
+  ],
+  "harsh": [
+    "harshness"
+  ],
+  "harvest": [
+    "harvest",
+    "harvesting"
+  ],
+  "hasty": [
+    "haste"
+  ],
+  "hate": [
+    "hatred"
+  ],
+  "haughty": [
+    "hauteur"
+  ],
+  "haul": [
+    "haulage"
+  ],
+  "hazardous": [
+    "hazard"
+  ],
+  "heal": [
+    "healing"
+  ],
+  "healthy": [
+    "healthiness"
+  ],
+  "heat": [
+    "heat",
+    "heating"
+  ],
+  "heavy-handed": [
+    "heavy-handedness"
+  ],
+  "hedge": [
+    "hedging"
+  ],
+  "heed": [
+    "heart"
+  ],
+  "heist": [
+    "heist"
+  ],
+  "help": [
+    "help"
+  ],
+  "hemorrhage": [
+    "hemorrhaging"
+  ],
+  "herd": [
+    "herding"
+  ],
+  "hesitate": [
+    "hesitance",
+    "hesitation"
+  ],
+  "hibernate": [
+    "hibernation"
+  ],
+  "hide": [
+    "secret"
+  ],
+  "hike": [
+    "hike",
+    "hiking"
+  ],
+  "hinder": [
+    "hindrances"
+  ],
+  "hint": [
+    "hint"
+  ],
+  "hire": [
+    "hiring"
+  ],
+  "hit": [
+    "hit"
+  ],
+  "hoard": [
+    "hoard"
+  ],
+  "hog": [
+    "hog"
+  ],
+  "hoist": [
+    "hoist",
+    "hoisting"
+  ],
+  "hold": [
+    "hold",
+    "holding"
+  ],
+  "honest": [
+    "honesty"
+  ],
+  "honor": [
+    "honor"
+  ],
+  "hope": [
+    "hope"
+  ],
+  "horrible": [
+    "horror"
+  ],
+  "hospitable": [
+    "hospitality"
+  ],
+  "hospitalize": [
+    "hospitalization"
+  ],
+  "hostile": [
+    "hostility"
+  ],
+  "hot": [
+    "heat"
+  ],
+  "howl": [
+    "howl"
+  ],
+  "hug": [
+    "hug"
+  ],
+  "humble": [
+    "humility"
+  ],
+  "humiliate": [
+    "humiliation"
+  ],
+  "hunger": [
+    "hunger"
+  ],
+  "hunt": [
+    "hunt",
+    "hunting"
+  ],
+  "hurry": [
+    "hurry"
+  ],
+  "hurt": [
+    "ass",
+    "casualty"
+  ],
+  "hydrogenate": [
+    "hydrogenation"
+  ],
+  "hype": [
+    "hyping"
+  ],
+  "hypnotize": [
+    "hypnotism"
+  ],
+  "hypocritical": [
+    "hypocrisy"
+  ],
+  "ideal": [
+    "ideal"
+  ],
+  "idealistic": [
+    "idealism"
+  ],
+  "idealize": [
+    "idealism",
+    "idealization"
+  ],
+  "identify": [
+    "identification",
+    "identity"
+  ],
+  "idiotic": [
+    "idiocy"
+  ],
+  "idle": [
+    "idling"
+  ],
+  "idolize": [
+    "idolization"
+  ],
+  "ignite": [
+    "ignition"
+  ],
+  "ill-treat": [
+    "ill-treatment"
+  ],
+  "ill-use": [
+    "ill-usage"
+  ],
+  "illegal": [
+    "illegality"
+  ],
+  "illegitimate": [
+    "racket"
+  ],
+  "illiterate": [
+    "illiteracy"
+  ],
+  "illogical": [
+    "illogic"
+  ],
+  "illuminate": [
+    "illumination"
+  ],
+  "illusory": [
+    "illusion"
+  ],
+  "illustrate": [
+    "illustration"
+  ],
+  "imagine": [
+    "image",
+    "imagination"
+  ],
+  "imitate": [
+    "imitation"
+  ],
+  "immature": [
+    "immaturity"
+  ],
+  "immerse": [
+    "immersion"
+  ],
+  "immigrate": [
+    "immigration"
+  ],
+  "immobilize": [
+    "immobilization"
+  ],
+  "immolate": [
+    "immolation"
+  ],
+  "immoral": [
+    "immorality"
+  ],
+  "immune": [
+    "immunity"
+  ],
+  "immunize": [
+    "immunization"
+  ],
+  "impact": [
+    "impact"
+  ],
+  "impair": [
+    "impairment"
+  ],
+  "impale": [
+    "impalement"
+  ],
+  "impatient": [
+    "impatience"
+  ],
+  "impeach": [
+    "impeachment"
+  ],
+  "impede": [
+    "impediment"
+  ],
+  "imperative": [
+    "imperative"
+  ],
+  "imperfect": [
+    "imperfection"
+  ],
+  "imperil": [
+    "peril"
+  ],
+  "impersonate": [
+    "impersonation"
+  ],
+  "impinge": [
+    "impingement"
+  ],
+  "implant": [
+    "implant",
+    "implantation"
+  ],
+  "implement": [
+    "implementation"
+  ],
+  "implicate": [
+    "implication"
+  ],
+  "implode": [
+    "implosion"
+  ],
+  "import": [
+    "importation"
+  ],
+  "important": [
+    "import",
+    "importance"
+  ],
+  "impose": [
+    "imposition"
+  ],
+  "impoverish": [
+    "impoverishment"
+  ],
+  "imprecate": [
+    "imprecation"
+  ],
+  "impress": [
+    "impression"
+  ],
+  "imprison": [
+    "imprisonment"
+  ],
+  "improbable": [
+    "improbability"
+  ],
+  "improve": [
+    "improvement",
+    "improving"
+  ],
+  "improvise": [
+    "improvisation"
+  ],
+  "impulsive": [
+    "impulse"
+  ],
+  "impute": [
+    "imputation"
+  ],
+  "inaccurate": [
+    "inaccuracy"
+  ],
+  "inadequate": [
+    "inadequacy"
+  ],
+  "inadvertent": [
+    "inadvertence"
+  ],
+  "inappropriate": [
+    "base"
+  ],
+  "inattentive": [
+    "inattention"
+  ],
+  "inaugurate": [
+    "inauguration"
+  ],
+  "incarcerate": [
+    "incarceration"
+  ],
+  "incarnate": [
+    "incarnation"
+  ],
+  "incinerate": [
+    "incineration"
+  ],
+  "incise": [
+    "incision"
+  ],
+  "incite": [
+    "incitement"
+  ],
+  "incline": [
+    "inclination"
+  ],
+  "inclose": [
+    "inclosure"
+  ],
+  "include": [
+    "inclusion"
+  ],
+  "incompatible": [
+    "incompatibility"
+  ],
+  "incompetent": [
+    "incompetence",
+    "incompetency"
+  ],
+  "incongruous": [
+    "incongruity"
+  ],
+  "inconsistent": [
+    "inconsistency"
+  ],
+  "inconvenience": [
+    "inconvenience"
+  ],
+  "inconvenient": [
+    "inconvenience"
+  ],
+  "incorporate": [
+    "incorporation"
+  ],
+  "increase": [
+    "increase"
+  ],
+  "incriminate": [
+    "incrimination"
+  ],
+  "incubate": [
+    "incubation"
+  ],
+  "incur": [
+    "incursion"
+  ],
+  "indebted": [
+    "indebtedness"
+  ],
+  "indecisive": [
+    "indecisiveness"
+  ],
+  "indemnify": [
+    "indemnification",
+    "indemnity"
+  ],
+  "indent": [
+    "indentation"
+  ],
+  "indenture": [
+    "indenture"
+  ],
+  "independent": [
+    "independence"
+  ],
+  "index": [
+    "index",
+    "indexation",
+    "indexing"
+  ],
+  "indicate": [
+    "indication",
+    "indicative"
+  ],
+  "indict": [
+    "indictment"
+  ],
+  "indifferent": [
+    "indifference"
+  ],
+  "indirect": [
+    "indirectness"
+  ],
+  "indispensable": [
+    "indispensability"
+  ],
+  "indoctrinate": [
+    "indoctrination"
+  ],
+  "induce": [
+    "inducement",
+    "induction"
+  ],
+  "indulge": [
+    "indulgence"
+  ],
+  "industrialize": [
+    "industrialization"
+  ],
+  "inebriate": [
+    "inebriation"
+  ],
+  "ineffective": [
+    "ineffectiveness"
+  ],
+  "inefficient": [
+    "inefficiency"
+  ],
+  "inept": [
+    "ineptitude"
+  ],
+  "inevitable": [
+    "inevitability"
+  ],
+  "inexperienced": [
+    "inexperience"
+  ],
+  "infatuate": [
+    "infatuation"
+  ],
+  "infect": [
+    "infection"
+  ],
+  "infer": [
+    "inference"
+  ],
+  "infertile": [
+    "infertility"
+  ],
+  "infest": [
+    "infestation"
+  ],
+  "infiltrate": [
+    "infiltration"
+  ],
+  "inflame": [
+    "inflammation"
+  ],
+  "inflate": [
+    "inflation"
+  ],
+  "inflect": [
+    "inflection"
+  ],
+  "inflict": [
+    "infliction"
+  ],
+  "influence": [
+    "influence"
+  ],
+  "inform": [
+    "information"
+  ],
+  "infringe": [
+    "infringement"
+  ],
+  "infuriate": [
+    "hackles"
+  ],
+  "infuse": [
+    "infusion"
+  ],
+  "ingest": [
+    "ingestion"
+  ],
+  "inhabit": [
+    "habitation"
+  ],
+  "inhale": [
+    "inhalation"
+  ],
+  "inherit": [
+    "heritage",
+    "inheritance"
+  ],
+  "inhibit": [
+    "inhibition"
+  ],
+  "initiate": [
+    "initiation"
+  ],
+  "inject": [
+    "injection"
+  ],
+  "injure": [
+    "injury"
+  ],
+  "innocent": [
+    "innocence"
+  ],
+  "innovate": [
+    "innovation"
+  ],
+  "inoculate": [
+    "inoculation"
+  ],
+  "input": [
+    "input"
+  ],
+  "inquire": [
+    "inquiry",
+    "inquisition"
+  ],
+  "inscribe": [
+    "inscription"
+  ],
+  "inseminate": [
+    "insemination"
+  ],
+  "insensitive": [
+    "insensitivity"
+  ],
+  "insert": [
+    "insertion"
+  ],
+  "insinuate": [
+    "insinuation"
+  ],
+  "insist": [
+    "insistence"
+  ],
+  "insolvent": [
+    "insolvency"
+  ],
+  "inspect": [
+    "inspection"
+  ],
+  "inspire": [
+    "inspiration"
+  ],
+  "install": [
+    "installation",
+    "installment"
+  ],
+  "instigate": [
+    "instigation"
+  ],
+  "instill": [
+    "instillation"
+  ],
+  "institute": [
+    "institution"
+  ],
+  "instruct": [
+    "instruction",
+    "instructions"
+  ],
+  "insubordinate": [
+    "insubordination"
+  ],
+  "insulate": [
+    "insulation"
+  ],
+  "insult": [
+    "insult"
+  ],
+  "insure": [
+    "insurance"
+  ],
+  "integrate": [
+    "integration"
+  ],
+  "intelligent": [
+    "intelligence"
+  ],
+  "intend": [
+    "intent",
+    "intention"
+  ],
+  "intense": [
+    "intensity"
+  ],
+  "intensify": [
+    "intensification"
+  ],
+  "inter": [
+    "interment"
+  ],
+  "interact": [
+    "interaction"
+  ],
+  "intercede": [
+    "intercession"
+  ],
+  "intercept": [
+    "interception"
+  ],
+  "intercommunicate": [
+    "intercommunication"
+  ],
+  "interconnect": [
+    "interconnection"
+  ],
+  "interdict": [
+    "interdiction"
+  ],
+  "interest": [
+    "interest"
+  ],
+  "interfere": [
+    "interference"
+  ],
+  "interject": [
+    "interjection"
+  ],
+  "intermarry": [
+    "intermarriage"
+  ],
+  "intern": [
+    "internment"
+  ],
+  "internationalize": [
+    "internationalization"
+  ],
+  "interpellate": [
+    "interpellation"
+  ],
+  "interpolate": [
+    "interpolation"
+  ],
+  "interpose": [
+    "interposition"
+  ],
+  "interpret": [
+    "interpretation"
+  ],
+  "interrelate": [
+    "interrelation"
+  ],
+  "interrogate": [
+    "interrogation"
+  ],
+  "interrupt": [
+    "interruption"
+  ],
+  "intersect": [
+    "intersection"
+  ],
+  "intervene": [
+    "intervention"
+  ],
+  "interview": [
+    "interview"
+  ],
+  "intimate": [
+    "intimacy",
+    "intimation"
+  ],
+  "intimidate": [
+    "intimidation"
+  ],
+  "intone": [
+    "intonation"
+  ],
+  "intoxicate": [
+    "intoxication"
+  ],
+  "introduce": [
+    "introduction"
+  ],
+  "introspect": [
+    "introspection"
+  ],
+  "introvert": [
+    "introversion"
+  ],
+  "intrude": [
+    "intrusion"
+  ],
+  "intuit": [
+    "intuition"
+  ],
+  "inundate": [
+    "inundation"
+  ],
+  "invade": [
+    "invasion"
+  ],
+  "invalidate": [
+    "invalidation"
+  ],
+  "invent": [
+    "invention"
+  ],
+  "inventive": [
+    "inventiveness"
+  ],
+  "inverse": [
+    "inverse"
+  ],
+  "invert": [
+    "inversion"
+  ],
+  "invest": [
+    "investing",
+    "investment"
+  ],
+  "investigate": [
+    "investigation"
+  ],
+  "invite": [
+    "invitation",
+    "invitational"
+  ],
+  "invoice": [
+    "invoicing"
+  ],
+  "involve": [
+    "involution",
+    "involvement"
+  ],
+  "ionize": [
+    "ionization"
+  ],
+  "irate": [
+    "ire"
+  ],
+  "ironic": [
+    "irony"
+  ],
+  "irradiate": [
+    "irradiation"
+  ],
+  "irregular": [
+    "irregularity"
+  ],
+  "irrigate": [
+    "irrigation"
+  ],
+  "irritate": [
+    "irritation"
+  ],
+  "isolate": [
+    "isolation"
+  ],
+  "issue": [
+    "issuance",
+    "issue",
+    "issuing"
+  ],
+  "iterate": [
+    "iteration"
+  ],
+  "jab": [
+    "jab"
+  ],
+  "jabber": [
+    "jabber"
+  ],
+  "jam": [
+    "jam",
+    "jamming"
+  ],
+  "jaunt": [
+    "jaunt"
+  ],
+  "jawbone": [
+    "jawboning"
+  ],
+  "jealous": [
+    "jealousy"
+  ],
+  "jockey": [
+    "jockeying"
+  ],
+  "joint": [
+    "jointure"
+  ],
+  "joke": [
+    "jest",
+    "joke"
+  ],
+  "jolt": [
+    "jolt"
+  ],
+  "journey": [
+    "journey"
+  ],
+  "joyful": [
+    "joy"
+  ],
+  "judge": [
+    "judgement",
+    "judgment"
+  ],
+  "jump": [
+    "jump"
+  ],
+  "jumpy": [
+    "jumpiness"
+  ],
+  "junior": [
+    "assistant"
+  ],
+  "junket": [
+    "junket"
+  ],
+  "justify": [
+    "justification"
+  ],
+  "juxtapose": [
+    "juxtaposition"
+  ],
+  "kidnap": [
+    "kidnapping"
+  ],
+  "kill": [
+    "killing"
+  ],
+  "kind": [
+    "kind"
+  ],
+  "knock": [
+    "knock"
+  ],
+  "know": [
+    "know-how",
+    "knowledge"
+  ],
+  "label": [
+    "label"
+  ],
+  "labor": [
+    "labor"
+  ],
+  "lacerate": [
+    "laceration"
+  ],
+  "lack": [
+    "lack"
+  ],
+  "lag": [
+    "lagging"
+  ],
+  "lament": [
+    "lament",
+    "lamentation"
+  ],
+  "land": [
+    "landing"
+  ],
+  "landscape": [
+    "landscaping"
+  ],
+  "lapse": [
+    "lapse"
+  ],
+  "last": [
+    "longevity",
+    "term"
+  ],
+  "laugh": [
+    "laugh"
+  ],
+  "launch": [
+    "launch",
+    "launching"
+  ],
+  "launder": [
+    "laundering"
+  ],
+  "lay": [
+    "laying"
+  ],
+  "lead": [
+    "lead"
+  ],
+  "leading": [
+    "title"
+  ],
+  "leak": [
+    "leakage"
+  ],
+  "leap": [
+    "leap"
+  ],
+  "lease": [
+    "lease",
+    "leasing"
+  ],
+  "leave": [
+    "leave",
+    "leaving"
+  ],
+  "lecture": [
+    "lecture"
+  ],
+  "legal": [
+    "legality"
+  ],
+  "legalize": [
+    "legalization"
+  ],
+  "legislate": [
+    "legislation"
+  ],
+  "legitimate": [
+    "legitimacy"
+  ],
+  "lend": [
+    "lending"
+  ],
+  "lenient": [
+    "leniency"
+  ],
+  "lethargic": [
+    "lethargy"
+  ],
+  "level": [
+    "leveling"
+  ],
+  "leverage": [
+    "leverage"
+  ],
+  "levitate": [
+    "levitation"
+  ],
+  "levy": [
+    "levy"
+  ],
+  "liable": [
+    "liability"
+  ],
+  "libel": [
+    "libel"
+  ],
+  "liberalize": [
+    "liberalization"
+  ],
+  "liberate": [
+    "liberation"
+  ],
+  "license": [
+    "license",
+    "licensing"
+  ],
+  "licentious": [
+    "licentiousness"
+  ],
+  "lie": [
+    "perjury"
+  ],
+  "lift": [
+    "lift",
+    "lifting"
+  ],
+  "light": [
+    "lighting"
+  ],
+  "like": [
+    "fancy",
+    "warmth"
+  ],
+  "likely": [
+    "likelihood"
+  ],
+  "limit": [
+    "limit",
+    "limitation"
+  ],
+  "limp": [
+    "claudication"
+  ],
+  "link": [
+    "link",
+    "linkage",
+    "linking"
+  ],
+  "liquid": [
+    "liquidity"
+  ],
+  "liquidate": [
+    "liquidation"
+  ],
+  "list": [
+    "list",
+    "listing"
+  ],
+  "listen": [
+    "listening"
+  ],
+  "litigate": [
+    "litigation"
+  ],
+  "live": [
+    "life"
+  ],
+  "loan": [
+    "loan"
+  ],
+  "loathe": [
+    "loathing"
+  ],
+  "lobby": [
+    "lobbying"
+  ],
+  "localize": [
+    "localization"
+  ],
+  "locate": [
+    "location"
+  ],
+  "lock": [
+    "lock"
+  ],
+  "lodge": [
+    "lodgement"
+  ],
+  "logical": [
+    "logic"
+  ],
+  "loiter": [
+    "loitering"
+  ],
+  "long": [
+    "longing"
+  ],
+  "look": [
+    "countenance",
+    "look"
+  ],
+  "loot": [
+    "looting"
+  ],
+  "lose": [
+    "loss"
+  ],
+  "lounge": [
+    "loitering"
+  ],
+  "love": [
+    "love"
+  ],
+  "loyal": [
+    "loyalty"
+  ],
+  "lubricate": [
+    "lubrication"
+  ],
+  "lunch": [
+    "lunch"
+  ],
+  "lure": [
+    "lure"
+  ],
+  "luxuriate": [
+    "luxuriance"
+  ],
+  "luxurious": [
+    "luxury"
+  ],
+  "machinate": [
+    "machination"
+  ],
+  "magnetize": [
+    "magnetization"
+  ],
+  "magnify": [
+    "magnification"
+  ],
+  "mail": [
+    "mail",
+    "mailing"
+  ],
+  "maintain": [
+    "maintainence",
+    "maintenance"
+  ],
+  "make": [
+    "making"
+  ],
+  "malfunction": [
+    "malfunction"
+  ],
+  "malignant": [
+    "malignancy"
+  ],
+  "maltreat": [
+    "maltreatment"
+  ],
+  "manage": [
+    "management",
+    "managing"
+  ],
+  "mandate": [
+    "mandate"
+  ],
+  "maneuver": [
+    "maneuver",
+    "maneuvering"
+  ],
+  "manifest": [
+    "manifestation"
+  ],
+  "manipulate": [
+    "manipulation"
+  ],
+  "manufacture": [
+    "manufacture",
+    "manufacturing"
+  ],
+  "manumit": [
+    "manumission"
+  ],
+  "map": [
+    "map",
+    "mapping"
+  ],
+  "march": [
+    "march"
+  ],
+  "margin": [
+    "margining"
+  ],
+  "market": [
+    "marketing",
+    "marketization"
+  ],
+  "marry": [
+    "marriage"
+  ],
+  "massacre": [
+    "massacre"
+  ],
+  "massage": [
+    "massage"
+  ],
+  "master": [
+    "mastery"
+  ],
+  "mastermind": [
+    "masterminding"
+  ],
+  "masticate": [
+    "mastication"
+  ],
+  "masturbate": [
+    "masturbation"
+  ],
+  "match": [
+    "matching"
+  ],
+  "materialize": [
+    "materialization"
+  ],
+  "matriculate": [
+    "matriculation"
+  ],
+  "mature": [
+    "maturation",
+    "maturity"
+  ],
+  "maximize": [
+    "maximization"
+  ],
+  "mean": [
+    "meaning"
+  ],
+  "measure": [
+    "measure",
+    "measurement"
+  ],
+  "mechanize": [
+    "mechanization"
+  ],
+  "median": [
+    "median"
+  ],
+  "mediate": [
+    "mediation"
+  ],
+  "medicate": [
+    "medication"
+  ],
+  "meditate": [
+    "meditation"
+  ],
+  "meet": [
+    "meet",
+    "meeting"
+  ],
+  "meld": [
+    "melding"
+  ],
+  "meliorate": [
+    "melioration"
+  ],
+  "melt": [
+    "meltdown",
+    "melting"
+  ],
+  "menace": [
+    "menace"
+  ],
+  "menstruate": [
+    "menstruation"
+  ],
+  "mention": [
+    "mention"
+  ],
+  "merciful": [
+    "mercy"
+  ],
+  "merge": [
+    "merger",
+    "merging"
+  ],
+  "merit": [
+    "merit"
+  ],
+  "mesmerize": [
+    "mesmerism"
+  ],
+  "mess": [
+    "mess"
+  ],
+  "messy": [
+    "disarray"
+  ],
+  "metaphoric": [
+    "metaphor"
+  ],
+  "methodical": [
+    "methodicalness"
+  ],
+  "migrate": [
+    "migration"
+  ],
+  "mimic": [
+    "mimicry"
+  ],
+  "mine": [
+    "mine",
+    "mining"
+  ],
+  "miniaturize": [
+    "miniaturization"
+  ],
+  "minister": [
+    "ministry"
+  ],
+  "miraculous": [
+    "miracle"
+  ],
+  "mirror": [
+    "mirroring"
+  ],
+  "misapply": [
+    "misapplication"
+  ],
+  "misapprehend": [
+    "misapprehension"
+  ],
+  "misappropriate": [
+    "misappropriation"
+  ],
+  "misbehave": [
+    "misbehavior"
+  ],
+  "miscalculate": [
+    "miscalculation"
+  ],
+  "miscarry": [
+    "miscarriage"
+  ],
+  "mischievous": [
+    "mischief"
+  ],
+  "misconceive": [
+    "misconception"
+  ],
+  "misdirect": [
+    "misdirection"
+  ],
+  "miserable": [
+    "misery"
+  ],
+  "misgovern": [
+    "misgovernment"
+  ],
+  "mishandle": [
+    "mishandling"
+  ],
+  "misinform": [
+    "misinformation"
+  ],
+  "misinterpret": [
+    "misinterpretation"
+  ],
+  "misjudge": [
+    "misjudgment"
+  ],
+  "mismanage": [
+    "mismanagement"
+  ],
+  "mismatch": [
+    "mismatch"
+  ],
+  "misquote": [
+    "misquotation"
+  ],
+  "misrepresent": [
+    "misrepresentation"
+  ],
+  "misstate": [
+    "misstatement"
+  ],
+  "mistake": [
+    "mistake"
+  ],
+  "mistaken": [
+    "misconception"
+  ],
+  "mistranslate": [
+    "mistranslation"
+  ],
+  "mistrust": [
+    "mistrust"
+  ],
+  "misunderstand": [
+    "misunderstanding"
+  ],
+  "misuse": [
+    "misuse"
+  ],
+  "mitigate": [
+    "mitigation"
+  ],
+  "mix": [
+    "mix",
+    "mixture"
+  ],
+  "mob": [
+    "mob"
+  ],
+  "mobilize": [
+    "mobilization"
+  ],
+  "mock": [
+    "mockery"
+  ],
+  "model": [
+    "modeling",
+    "modelling"
+  ],
+  "moderate": [
+    "moderation"
+  ],
+  "modernize": [
+    "modernization"
+  ],
+  "modest": [
+    "modesty"
+  ],
+  "modify": [
+    "modification"
+  ],
+  "modulate": [
+    "modulation"
+  ],
+  "molest": [
+    "molestation"
+  ],
+  "mollify": [
+    "mollification"
+  ],
+  "monetize": [
+    "monetization"
+  ],
+  "monitor": [
+    "monitoring"
+  ],
+  "monopolize": [
+    "monopolization",
+    "monopoly"
+  ],
+  "moonlight": [
+    "moonlighting"
+  ],
+  "mortal": [
+    "mortality"
+  ],
+  "mortgage": [
+    "mortgage"
+  ],
+  "mortify": [
+    "mortification"
+  ],
+  "mothball": [
+    "mothballing"
+  ],
+  "motion": [
+    "motion2"
+  ],
+  "motivate": [
+    "motivation"
+  ],
+  "move": [
+    "motion1",
+    "move",
+    "movement"
+  ],
+  "mulch": [
+    "mulching"
+  ],
+  "multiply": [
+    "multiple",
+    "multiplication"
+  ],
+  "mummify": [
+    "mummification"
+  ],
+  "munition": [
+    "munition"
+  ],
+  "murder": [
+    "murder"
+  ],
+  "mutate": [
+    "mutation"
+  ],
+  "mutilate": [
+    "mutilation"
+  ],
+  "mystify": [
+    "mystification"
+  ],
+  "nag": [
+    "nagging"
+  ],
+  "name": [
+    "naming"
+  ],
+  "narrate": [
+    "narration"
+  ],
+  "narrow": [
+    "narrowing",
+    "narrowness"
+  ],
+  "nationalize": [
+    "nationalization"
+  ],
+  "naturalize": [
+    "naturalization"
+  ],
+  "navigate": [
+    "navigation"
+  ],
+  "near": [
+    "vicinity"
+  ],
+  "necessary": [
+    "necessity"
+  ],
+  "need": [
+    "necessity",
+    "need"
+  ],
+  "negate": [
+    "negation"
+  ],
+  "neglect": [
+    "neglect",
+    "negligence"
+  ],
+  "negligent": [
+    "negligence"
+  ],
+  "negotiable": [
+    "table"
+  ],
+  "negotiate": [
+    "negotiating",
+    "negotiation"
+  ],
+  "nervous": [
+    "nerve",
+    "nervousness"
+  ],
+  "network": [
+    "networking"
+  ],
+  "neutralize": [
+    "neutralization"
+  ],
+  "new": [
+    "fledgling"
+  ],
+  "noble": [
+    "nobility"
+  ],
+  "nod": [
+    "nod"
+  ],
+  "nominate": [
+    "nomination"
+  ],
+  "normal": [
+    "norm",
+    "normalcy"
+  ],
+  "normalize": [
+    "normalization"
+  ],
+  "north": [
+    "north"
+  ],
+  "notice": [
+    "notice"
+  ],
+  "notify": [
+    "notification"
+  ],
+  "nourish": [
+    "nourishment"
+  ],
+  "nullify": [
+    "nullification"
+  ],
+  "nurse": [
+    "nursing"
+  ],
+  "nutritious": [
+    "nutrition"
+  ],
+  "obey": [
+    "obedience",
+    "obeisance"
+  ],
+  "obfuscate": [
+    "obfuscation"
+  ],
+  "object": [
+    "objection"
+  ],
+  "objective": [
+    "objectivity"
+  ],
+  "oblige": [
+    "obligation"
+  ],
+  "obliterate": [
+    "obliteration"
+  ],
+  "obscure": [
+    "obscurity"
+  ],
+  "observe": [
+    "observance",
+    "observation",
+    "observing"
+  ],
+  "obsess": [
+    "obsession"
+  ],
+  "obstruct": [
+    "obstruction"
+  ],
+  "occasion": [
+    "occasion"
+  ],
+  "occupy": [
+    "occupancy",
+    "occupation"
+  ],
+  "occur": [
+    "occurrence"
+  ],
+  "odd": [
+    "oddity"
+  ],
+  "offend": [
+    "offense"
+  ],
+  "offer": [
+    "offer",
+    "offering"
+  ],
+  "omit": [
+    "omission"
+  ],
+  "open": [
+    "open",
+    "opening",
+    "openness"
+  ],
+  "operate": [
+    "operating",
+    "operation"
+  ],
+  "opine": [
+    "opinion"
+  ],
+  "opportunistic": [
+    "opportunism"
+  ],
+  "oppress": [
+    "oppression"
+  ],
+  "opt": [
+    "option"
+  ],
+  "optimistic": [
+    "optimism"
+  ],
+  "optimize": [
+    "optimization"
+  ],
+  "orate": [
+    "oration",
+    "oratory"
+  ],
+  "orchestrate": [
+    "orchestration"
+  ],
+  "order": [
+    "order"
+  ],
+  "organize": [
+    "organization",
+    "organizing"
+  ],
+  "orientate": [
+    "orientation"
+  ],
+  "original": [
+    "originality"
+  ],
+  "originate": [
+    "origin",
+    "origination"
+  ],
+  "ornament": [
+    "ornamentation"
+  ],
+  "oscillate": [
+    "oscillation"
+  ],
+  "ossify": [
+    "ossification"
+  ],
+  "ostracize": [
+    "ostracism"
+  ],
+  "oust": [
+    "ouster"
+  ],
+  "outlaw": [
+    "outlawry"
+  ],
+  "outline": [
+    "outline"
+  ],
+  "outrage": [
+    "outrage"
+  ],
+  "overbroad": [
+    "overbreadth"
+  ],
+  "overbuild": [
+    "overbuilding"
+  ],
+  "overcharge": [
+    "overcharge"
+  ],
+  "overexert": [
+    "overexertion"
+  ],
+  "overexpose": [
+    "overexposure"
+  ],
+  "overextend": [
+    "overextension"
+  ],
+  "overhaul": [
+    "overhaul"
+  ],
+  "overindulge": [
+    "overindulgence"
+  ],
+  "overlay": [
+    "overlay"
+  ],
+  "overpay": [
+    "overpayment"
+  ],
+  "overproduce": [
+    "overproduction"
+  ],
+  "overrun": [
+    "overrun"
+  ],
+  "oversee": [
+    "oversight"
+  ],
+  "overspend": [
+    "overspending"
+  ],
+  "overstate": [
+    "overstatement"
+  ],
+  "overuse": [
+    "overuse"
+  ],
+  "owe": [
+    "arrears",
+    "due"
+  ],
+  "own": [
+    "ownership"
+  ],
+  "oxidize": [
+    "oxidation",
+    "oxidization"
+  ],
+  "pace": [
+    "pace",
+    "pacing"
+  ],
+  "pacify": [
+    "pacification"
+  ],
+  "package": [
+    "packaging"
+  ],
+  "pain": [
+    "pain"
+  ],
+  "paint": [
+    "painting"
+  ],
+  "pall": [
+    "pall"
+  ],
+  "palliate": [
+    "palliation"
+  ],
+  "palpitate": [
+    "palpitation"
+  ],
+  "panic": [
+    "panic"
+  ],
+  "parade": [
+    "procession"
+  ],
+  "parallel": [
+    "parallel",
+    "parallelism"
+  ],
+  "paralyze": [
+    "paralysis"
+  ],
+  "paraphrase": [
+    "circumlocution"
+  ],
+  "pardon": [
+    "pardon"
+  ],
+  "park": [
+    "parking"
+  ],
+  "parody": [
+    "parody"
+  ],
+  "participate": [
+    "participation"
+  ],
+  "particular": [
+    "particular"
+  ],
+  "partition": [
+    "partition"
+  ],
+  "pass": [
+    "pass",
+    "passage",
+    "passing"
+  ],
+  "passionate": [
+    "passion"
+  ],
+  "passive": [
+    "passivity"
+  ],
+  "pasteurize": [
+    "pasteurization"
+  ],
+  "patent": [
+    "patent"
+  ],
+  "patient": [
+    "patience"
+  ],
+  "patrol": [
+    "patrol",
+    "patrolling"
+  ],
+  "patronize": [
+    "business"
+  ],
+  "patter": [
+    "patter"
+  ],
+  "pauperize": [
+    "pauperization"
+  ],
+  "pause": [
+    "pause"
+  ],
+  "pay": [
+    "pay",
+    "payment",
+    "payroll"
+  ],
+  "peaceful": [
+    "comity"
+  ],
+  "peak": [
+    "peak"
+  ],
+  "peal": [
+    "peal"
+  ],
+  "peculate": [
+    "peculation"
+  ],
+  "peculiar": [
+    "peculiarity"
+  ],
+  "peek": [
+    "peek"
+  ],
+  "penalize": [
+    "penalization"
+  ],
+  "penetrate": [
+    "penetration"
+  ],
+  "pension off": [
+    "pension"
+  ],
+  "perambulate": [
+    "perambulation"
+  ],
+  "perceive": [
+    "perception"
+  ],
+  "perfect": [
+    "perfecting",
+    "perfection"
+  ],
+  "perforate": [
+    "perforation"
+  ],
+  "perform": [
+    "performance"
+  ],
+  "perjure": [
+    "perjury"
+  ],
+  "permanent": [
+    "permanence"
+  ],
+  "permeate": [
+    "permeation"
+  ],
+  "permit": [
+    "permission"
+  ],
+  "permute": [
+    "permutation"
+  ],
+  "perpetrate": [
+    "perpetration"
+  ],
+  "perpetuate": [
+    "perpetuation"
+  ],
+  "persecute": [
+    "persecution"
+  ],
+  "persevere": [
+    "perseverance"
+  ],
+  "persist": [
+    "persistence"
+  ],
+  "personal": [
+    "personality"
+  ],
+  "personate": [
+    "personation"
+  ],
+  "personify": [
+    "personification"
+  ],
+  "perspire": [
+    "perspiration"
+  ],
+  "persuade": [
+    "persuasion"
+  ],
+  "persuasive": [
+    "persuasiveness"
+  ],
+  "perturb": [
+    "perturbation"
+  ],
+  "peruse": [
+    "perusal"
+  ],
+  "pervade": [
+    "pervasion"
+  ],
+  "perverse": [
+    "perversity"
+  ],
+  "pervert": [
+    "perversion"
+  ],
+  "pessimistic": [
+    "pessimism"
+  ],
+  "petition": [
+    "petition"
+  ],
+  "petty": [
+    "pettiness"
+  ],
+  "phobic": [
+    "phobia"
+  ],
+  "picture": [
+    "picture"
+  ],
+  "pilfer": [
+    "pilferage"
+  ],
+  "pin": [
+    "pinning"
+  ],
+  "pirate": [
+    "piracy"
+  ],
+  "pitch": [
+    "pitch"
+  ],
+  "pity": [
+    "pity"
+  ],
+  "place": [
+    "placement",
+    "placing"
+  ],
+  "plagiarize": [
+    "plagiarism"
+  ],
+  "plague": [
+    "scourge"
+  ],
+  "plan": [
+    "plan",
+    "planning"
+  ],
+  "plant": [
+    "planting"
+  ],
+  "plateau": [
+    "plateau"
+  ],
+  "play": [
+    "play",
+    "playing"
+  ],
+  "please": [
+    "pleasure"
+  ],
+  "plot": [
+    "plot"
+  ],
+  "plug": [
+    "plug"
+  ],
+  "plummet": [
+    "plummet"
+  ],
+  "plunge": [
+    "plunge",
+    "plunging"
+  ],
+  "polarize": [
+    "polarization"
+  ],
+  "polish": [
+    "polishing"
+  ],
+  "poll": [
+    "poll",
+    "polling"
+  ],
+  "pollinate": [
+    "pollination"
+  ],
+  "pollute": [
+    "pollution"
+  ],
+  "popular": [
+    "popularity"
+  ],
+  "popularize": [
+    "popularization"
+  ],
+  "populate": [
+    "population"
+  ],
+  "portion": [
+    "portion"
+  ],
+  "portray": [
+    "portrayal"
+  ],
+  "position": [
+    "position",
+    "positioning"
+  ],
+  "positive": [
+    "positiveness"
+  ],
+  "possess": [
+    "possession"
+  ],
+  "possible": [
+    "possibility",
+    "possiblity"
+  ],
+  "post": [
+    "posting"
+  ],
+  "postpone": [
+    "postponement"
+  ],
+  "posture": [
+    "posture"
+  ],
+  "potential": [
+    "potentiality"
+  ],
+  "powder": [
+    "powder"
+  ],
+  "practice": [
+    "practice",
+    "practicing"
+  ],
+  "pragmatic": [
+    "pragmatism"
+  ],
+  "praise": [
+    "praise"
+  ],
+  "prattle": [
+    "prattle"
+  ],
+  "pre-eminent": [
+    "pre-eminence"
+  ],
+  "pre-empt": [
+    "pre-emption"
+  ],
+  "pre-exist": [
+    "pre-existence"
+  ],
+  "prearrange": [
+    "prearrangement"
+  ],
+  "precede": [
+    "precedence",
+    "precession"
+  ],
+  "precipitate": [
+    "precipitation"
+  ],
+  "precise": [
+    "precision"
+  ],
+  "preclude": [
+    "preclusion"
+  ],
+  "predestinate": [
+    "predestination"
+  ],
+  "predetermine": [
+    "predetermination"
+  ],
+  "predict": [
+    "prediction"
+  ],
+  "predictable": [
+    "predictability"
+  ],
+  "predispose": [
+    "predisposition"
+  ],
+  "predominate": [
+    "predominance"
+  ],
+  "prefabricate": [
+    "prefabrication"
+  ],
+  "preface": [
+    "preface"
+  ],
+  "prefer": [
+    "preference",
+    "preferment"
+  ],
+  "pregnant": [
+    "pregnancy"
+  ],
+  "prejudge": [
+    "prejudgement"
+  ],
+  "prejudice": [
+    "prejudice"
+  ],
+  "preliminary": [
+    "pilot"
+  ],
+  "prelude": [
+    "prelude"
+  ],
+  "premeditate": [
+    "premeditation"
+  ],
+  "premiere": [
+    "premiere"
+  ],
+  "premise": [
+    "premise"
+  ],
+  "preoccupy": [
+    "preoccupation"
+  ],
+  "prepare": [
+    "preparation"
+  ],
+  "prepay": [
+    "prepayment"
+  ],
+  "preponderate": [
+    "preponderance"
+  ],
+  "prepossess": [
+    "prepossession"
+  ],
+  "prerequisite": [
+    "prerequisite"
+  ],
+  "prescribe": [
+    "prescription"
+  ],
+  "present": [
+    "present",
+    "presentation",
+    "presenting"
+  ],
+  "preserve": [
+    "preservation"
+  ],
+  "press": [
+    "pressure"
+  ],
+  "pressure": [
+    "pressure"
+  ],
+  "prestigious": [
+    "prestige"
+  ],
+  "presume": [
+    "presumption"
+  ],
+  "presuppose": [
+    "presupposition"
+  ],
+  "pretend": [
+    "pretense",
+    "pretension"
+  ],
+  "prevail": [
+    "prevalance"
+  ],
+  "prevalent": [
+    "prevalance"
+  ],
+  "prevaricate": [
+    "prevarication"
+  ],
+  "prevent": [
+    "prevention"
+  ],
+  "preview": [
+    "preview"
+  ],
+  "price": [
+    "price",
+    "pricing"
+  ],
+  "print": [
+    "printing"
+  ],
+  "prior": [
+    "priority"
+  ],
+  "private": [
+    "privacy"
+  ],
+  "privatize": [
+    "privatization"
+  ],
+  "probable": [
+    "probability"
+  ],
+  "probate": [
+    "probation"
+  ],
+  "probe": [
+    "probe"
+  ],
+  "proceed": [
+    "proceeding"
+  ],
+  "process": [
+    "processing"
+  ],
+  "proclaim": [
+    "proclamation"
+  ],
+  "procrastinate": [
+    "procrastination"
+  ],
+  "procreate": [
+    "procreation"
+  ],
+  "procure": [
+    "procurement"
+  ],
+  "prod": [
+    "prodding"
+  ],
+  "produce": [
+    "product",
+    "production"
+  ],
+  "productive": [
+    "productivity"
+  ],
+  "profane": [
+    "profanation"
+  ],
+  "profess": [
+    "profession"
+  ],
+  "proficient": [
+    "proficiency"
+  ],
+  "profile": [
+    "profile"
+  ],
+  "profit": [
+    "profit"
+  ],
+  "prognosticate": [
+    "prognostication"
+  ],
+  "program": [
+    "programming"
+  ],
+  "programme": [
+    "programming"
+  ],
+  "progress": [
+    "progress",
+    "progression"
+  ],
+  "prohibit": [
+    "prohibition"
+  ],
+  "project": [
+    "projection"
+  ],
+  "proliferate": [
+    "proliferation"
+  ],
+  "prolong": [
+    "prolongation"
+  ],
+  "prominent": [
+    "prominence"
+  ],
+  "promise": [
+    "promise"
+  ],
+  "promote": [
+    "promotion"
+  ],
+  "promulgate": [
+    "promulgation"
+  ],
+  "pronounce": [
+    "pronouncement",
+    "pronunciation"
+  ],
+  "propagate": [
+    "propagation"
+  ],
+  "propel": [
+    "propellant"
+  ],
+  "propitiate": [
+    "propitiation"
+  ],
+  "proportion": [
+    "proportion"
+  ],
+  "propose": [
+    "proposal",
+    "proposing",
+    "proposition"
+  ],
+  "prorogue": [
+    "prorogation"
+  ],
+  "proscribe": [
+    "proscription"
+  ],
+  "prosecute": [
+    "prosecution"
+  ],
+  "prospect": [
+    "prospecting"
+  ],
+  "prosper": [
+    "prosperity"
+  ],
+  "prostitute": [
+    "prostitution"
+  ],
+  "prostrate": [
+    "prostration"
+  ],
+  "protect": [
+    "protection",
+    "protectionism"
+  ],
+  "protest": [
+    "protest",
+    "protestation"
+  ],
+  "protract": [
+    "protraction"
+  ],
+  "protrude": [
+    "protrusion"
+  ],
+  "proud": [
+    "pride"
+  ],
+  "prove": [
+    "proof"
+  ],
+  "provide": [
+    "provision"
+  ],
+  "provoke": [
+    "provocation"
+  ],
+  "prowl": [
+    "prowl"
+  ],
+  "public": [
+    "publicity"
+  ],
+  "publish": [
+    "publication",
+    "publishing"
+  ],
+  "pulsate": [
+    "pulsation"
+  ],
+  "pummel": [
+    "pummeling"
+  ],
+  "pump": [
+    "pumping"
+  ],
+  "punch": [
+    "punching"
+  ],
+  "punctuate": [
+    "punctuation"
+  ],
+  "punish": [
+    "punishment"
+  ],
+  "purchase": [
+    "purchase",
+    "purchasing"
+  ],
+  "purge": [
+    "purgation"
+  ],
+  "purify": [
+    "purification"
+  ],
+  "pursue": [
+    "pursuance",
+    "pursuing",
+    "pursuit"
+  ],
+  "purvey": [
+    "purveyance"
+  ],
+  "push": [
+    "push"
+  ],
+  "pusillanimous": [
+    "pusillanimity"
+  ],
+  "puzzle": [
+    "puzzlement"
+  ],
+  "quadruple": [
+    "quadrupling"
+  ],
+  "qualify": [
+    "qualification",
+    "qualifying"
+  ],
+  "quantify": [
+    "quantification"
+  ],
+  "quarantine": [
+    "quarantine"
+  ],
+  "quarrel": [
+    "quarrel"
+  ],
+  "query": [
+    "query"
+  ],
+  "quest": [
+    "quest"
+  ],
+  "question": [
+    "question"
+  ],
+  "queue": [
+    "queue"
+  ],
+  "quicken": [
+    "steam"
+  ],
+  "quip": [
+    "quip"
+  ],
+  "quirky": [
+    "quirk"
+  ],
+  "quote": [
+    "quotation",
+    "quote"
+  ],
+  "race": [
+    "race"
+  ],
+  "radiate": [
+    "radiance",
+    "radiation"
+  ],
+  "radioactive": [
+    "radioactivity"
+  ],
+  "radiopasteurize": [
+    "radiopasteurization"
+  ],
+  "rage": [
+    "rage"
+  ],
+  "raid": [
+    "raid"
+  ],
+  "rail": [
+    "raillery"
+  ],
+  "rain": [
+    "rain"
+  ],
+  "raise": [
+    "raise",
+    "raising"
+  ],
+  "rally": [
+    "rally"
+  ],
+  "ramify": [
+    "ramification"
+  ],
+  "rampage": [
+    "rampage"
+  ],
+  "rancorous": [
+    "rancor"
+  ],
+  "random": [
+    "randomness"
+  ],
+  "range": [
+    "range"
+  ],
+  "rank": [
+    "rank",
+    "ranking"
+  ],
+  "ransom": [
+    "ransom"
+  ],
+  "rap": [
+    "rap"
+  ],
+  "rape": [
+    "rape"
+  ],
+  "rapid": [
+    "rapidity"
+  ],
+  "rare": [
+    "rarity"
+  ],
+  "rate": [
+    "rating"
+  ],
+  "ratify": [
+    "ratification"
+  ],
+  "rational": [
+    "rationality"
+  ],
+  "rationalize": [
+    "rationalization"
+  ],
+  "ravage": [
+    "ravage"
+  ],
+  "ravish": [
+    "ravishment"
+  ],
+  "re-elect": [
+    "re-election"
+  ],
+  "re-enact": [
+    "re-enactment"
+  ],
+  "re-enter": [
+    "re-entry"
+  ],
+  "re-form": [
+    "re-formation"
+  ],
+  "reach": [
+    "reach",
+    "reaching"
+  ],
+  "react": [
+    "reaction"
+  ],
+  "read": [
+    "reading"
+  ],
+  "readjust": [
+    "readjustment"
+  ],
+  "readmit": [
+    "readmission"
+  ],
+  "ready": [
+    "readiness"
+  ],
+  "real": [
+    "reality"
+  ],
+  "realign": [
+    "realignment"
+  ],
+  "realistic": [
+    "realism"
+  ],
+  "realize": [
+    "realization"
+  ],
+  "reappear": [
+    "reappearance"
+  ],
+  "reappraise": [
+    "reappraisal"
+  ],
+  "rear": [
+    "rearing"
+  ],
+  "rearm": [
+    "rearmament"
+  ],
+  "rearrange": [
+    "rearrangement"
+  ],
+  "reason": [
+    "reasoning"
+  ],
+  "reassess": [
+    "reassessment"
+  ],
+  "reassign": [
+    "reassignment"
+  ],
+  "reassure": [
+    "reassurance"
+  ],
+  "reauthorize": [
+    "reauthorization"
+  ],
+  "rebate": [
+    "rebate"
+  ],
+  "rebel": [
+    "rebellion"
+  ],
+  "rebound": [
+    "rebound"
+  ],
+  "rebuff": [
+    "rebuff"
+  ],
+  "rebut": [
+    "rebuttal"
+  ],
+  "recalculate": [
+    "recalculation"
+  ],
+  "recall": [
+    "recall"
+  ],
+  "recant": [
+    "recantation"
+  ],
+  "recapitalize": [
+    "recapitalization"
+  ],
+  "recapitulate": [
+    "recapitulation"
+  ],
+  "receive": [
+    "receipt",
+    "reception"
+  ],
+  "receptive": [
+    "receptivity"
+  ],
+  "recess": [
+    "recession"
+  ],
+  "reciprocate": [
+    "reciprocation"
+  ],
+  "recite": [
+    "recital",
+    "recitation"
+  ],
+  "reckless": [
+    "adventurism"
+  ],
+  "reckon": [
+    "reckoning"
+  ],
+  "recognize": [
+    "recognition",
+    "recognizance"
+  ],
+  "recollect": [
+    "recollection"
+  ],
+  "recombine": [
+    "recombination"
+  ],
+  "recommend": [
+    "recommendation"
+  ],
+  "reconcile": [
+    "reconciliation"
+  ],
+  "reconnoiter": [
+    "reconnaissance"
+  ],
+  "reconsider": [
+    "reconsideration"
+  ],
+  "reconstruct": [
+    "reconstruction"
+  ],
+  "record": [
+    "record",
+    "recording"
+  ],
+  "recover": [
+    "recovery"
+  ],
+  "recreate": [
+    "recreation"
+  ],
+  "recriminate": [
+    "recrimination"
+  ],
+  "recruit": [
+    "recruiting",
+    "recruitment"
+  ],
+  "rectify": [
+    "rectification"
+  ],
+  "recuperate": [
+    "recuperation"
+  ],
+  "recur": [
+    "recurrence"
+  ],
+  "recycle": [
+    "recycling"
+  ],
+  "redact": [
+    "redaction"
+  ],
+  "redeem": [
+    "redemption"
+  ],
+  "redefine": [
+    "redefinition"
+  ],
+  "redeploy": [
+    "redeployment"
+  ],
+  "redevelop": [
+    "redevelopment"
+  ],
+  "rediscover": [
+    "rediscovery"
+  ],
+  "redistribute": [
+    "redistribution",
+    "redistributionism"
+  ],
+  "reduce": [
+    "reduction"
+  ],
+  "reduplicate": [
+    "reduplication"
+  ],
+  "reevaluate": [
+    "reevaluation"
+  ],
+  "refer": [
+    "reference",
+    "referral"
+  ],
+  "refinance": [
+    "refinancing"
+  ],
+  "refine": [
+    "refinement",
+    "refining"
+  ],
+  "reflate": [
+    "reflation"
+  ],
+  "reflect": [
+    "reflection"
+  ],
+  "refocus": [
+    "refocusing"
+  ],
+  "reforest": [
+    "reforestation"
+  ],
+  "reform": [
+    "reform",
+    "reformation"
+  ],
+  "reformulate": [
+    "reformulation"
+  ],
+  "refract": [
+    "refraction"
+  ],
+  "refresh": [
+    "refreshment"
+  ],
+  "refrigerate": [
+    "refrigeration"
+  ],
+  "refund": [
+    "refund",
+    "refunding"
+  ],
+  "refurbish": [
+    "refurbishing",
+    "refurbishment"
+  ],
+  "refuse": [
+    "refusal"
+  ],
+  "refute": [
+    "refutation"
+  ],
+  "regard": [
+    "regard"
+  ],
+  "regenerate": [
+    "regeneration"
+  ],
+  "regiment": [
+    "regimentation"
+  ],
+  "register": [
+    "registration",
+    "registry"
+  ],
+  "regress": [
+    "regression"
+  ],
+  "regret": [
+    "regret"
+  ],
+  "regular": [
+    "regularity"
+  ],
+  "regularize": [
+    "regularization"
+  ],
+  "regulate": [
+    "regulation"
+  ],
+  "rehabilitate": [
+    "rehabilitation"
+  ],
+  "rehear": [
+    "rehearing"
+  ],
+  "rehearse": [
+    "rehearsal"
+  ],
+  "reign": [
+    "reign"
+  ],
+  "reimburse": [
+    "reimbursement"
+  ],
+  "rein": [
+    "rein"
+  ],
+  "reincarnate": [
+    "reincarnation"
+  ],
+  "reinforce": [
+    "reinforcement"
+  ],
+  "reinstate": [
+    "reinstatement"
+  ],
+  "reinsure": [
+    "reinsurance"
+  ],
+  "reinterpret": [
+    "reinterpretation"
+  ],
+  "reinvest": [
+    "reinvestment"
+  ],
+  "reiterate": [
+    "reiteration"
+  ],
+  "reject": [
+    "rejection"
+  ],
+  "rejuvenate": [
+    "rejuvenation"
+  ],
+  "relate": [
+    "relation",
+    "relationship"
+  ],
+  "relax": [
+    "relaxation"
+  ],
+  "relay": [
+    "relay"
+  ],
+  "release": [
+    "release"
+  ],
+  "relegate": [
+    "relegation"
+  ],
+  "relevant": [
+    "relevance",
+    "relevancy"
+  ],
+  "relieve": [
+    "relief"
+  ],
+  "relinquish": [
+    "relinquishment"
+  ],
+  "relish": [
+    "relish"
+  ],
+  "relocate": [
+    "relocation"
+  ],
+  "reluctant": [
+    "reluctance"
+  ],
+  "rely": [
+    "reliance"
+  ],
+  "remain": [
+    "remain"
+  ],
+  "remark": [
+    "remark"
+  ],
+  "remarket": [
+    "remarketing"
+  ],
+  "remarry": [
+    "remarriage"
+  ],
+  "remedy": [
+    "remedy"
+  ],
+  "remember": [
+    "remembrance"
+  ],
+  "remilitarize": [
+    "remilitarization"
+  ],
+  "remind": [
+    "souvenir"
+  ],
+  "reminisce": [
+    "reminiscence"
+  ],
+  "remit": [
+    "remission",
+    "remittance"
+  ],
+  "remodel": [
+    "remodeling"
+  ],
+  "remonstrate": [
+    "remonstrance"
+  ],
+  "remove": [
+    "removal"
+  ],
+  "remunerate": [
+    "remuneration"
+  ],
+  "render": [
+    "rendering"
+  ],
+  "rendezvous": [
+    "rendezvous"
+  ],
+  "renegotiate": [
+    "renegotiation"
+  ],
+  "renew": [
+    "renewal"
+  ],
+  "renounce": [
+    "renunciation"
+  ],
+  "renovate": [
+    "renovation"
+  ],
+  "rent": [
+    "rent",
+    "rental"
+  ],
+  "reopen": [
+    "reopening"
+  ],
+  "reorder": [
+    "reordering"
+  ],
+  "reorganize": [
+    "reorganization"
+  ],
+  "reorientate": [
+    "reorientation"
+  ],
+  "repair": [
+    "repair",
+    "reparation"
+  ],
+  "repatriate": [
+    "repatriation"
+  ],
+  "repay": [
+    "repayment"
+  ],
+  "repeal": [
+    "repeal"
+  ],
+  "repeat": [
+    "repeat",
+    "repetition"
+  ],
+  "repel": [
+    "repulsion"
+  ],
+  "repent": [
+    "repentance"
+  ],
+  "replace": [
+    "replacement"
+  ],
+  "replay": [
+    "replay"
+  ],
+  "replenish": [
+    "replenishment"
+  ],
+  "reply": [
+    "reply"
+  ],
+  "report": [
+    "report",
+    "reportage",
+    "reporting"
+  ],
+  "reposition": [
+    "repositioning"
+  ],
+  "represent": [
+    "representation"
+  ],
+  "repress": [
+    "repression"
+  ],
+  "reprieve": [
+    "reprieve"
+  ],
+  "reprobate": [
+    "reprobation"
+  ],
+  "reproduce": [
+    "reproduction"
+  ],
+  "reprove": [
+    "reproval"
+  ],
+  "repudiate": [
+    "repudiation"
+  ],
+  "repurchase": [
+    "repurchase"
+  ],
+  "repute": [
+    "rep",
+    "reputation"
+  ],
+  "request": [
+    "request"
+  ],
+  "require": [
+    "requirement"
+  ],
+  "requisition": [
+    "requisition"
+  ],
+  "requite": [
+    "requital"
+  ],
+  "rerun": [
+    "rerun"
+  ],
+  "rescind": [
+    "rescission"
+  ],
+  "rescue": [
+    "rescue"
+  ],
+  "research": [
+    "research",
+    "researching"
+  ],
+  "resemble": [
+    "resemblance"
+  ],
+  "resent": [
+    "resentment"
+  ],
+  "reserve": [
+    "reservation"
+  ],
+  "resettle": [
+    "resettlement"
+  ],
+  "reshuffle": [
+    "reshuffle",
+    "reshuffling"
+  ],
+  "reside": [
+    "residence"
+  ],
+  "resign": [
+    "resignation"
+  ],
+  "resilient": [
+    "resilience",
+    "resiliency"
+  ],
+  "resist": [
+    "resistance"
+  ],
+  "resolve": [
+    "resolution",
+    "resolve"
+  ],
+  "resonate": [
+    "resonance"
+  ],
+  "respect": [
+    "respect",
+    "respectability"
+  ],
+  "respectable": [
+    "respectability"
+  ],
+  "respire": [
+    "respiration"
+  ],
+  "respond": [
+    "response"
+  ],
+  "responsible": [
+    "respectability",
+    "responsibility"
+  ],
+  "restate": [
+    "restatement"
+  ],
+  "restitute": [
+    "restitution"
+  ],
+  "restore": [
+    "restoration"
+  ],
+  "restrain": [
+    "restraint"
+  ],
+  "restrict": [
+    "restriction"
+  ],
+  "restructure": [
+    "restructuring"
+  ],
+  "result": [
+    "result"
+  ],
+  "resume": [
+    "resumption"
+  ],
+  "resurrect": [
+    "resurrection"
+  ],
+  "resuscitate": [
+    "resuscitation"
+  ],
+  "retail": [
+    "retailing"
+  ],
+  "retain": [
+    "retention"
+  ],
+  "retaliate": [
+    "retaliation"
+  ],
+  "retard": [
+    "retardation"
+  ],
+  "rethink": [
+    "rethink"
+  ],
+  "reticent": [
+    "reticence"
+  ],
+  "reticulate": [
+    "reticulation"
+  ],
+  "retire": [
+    "retirement"
+  ],
+  "retort": [
+    "retort"
+  ],
+  "retract": [
+    "retraction"
+  ],
+  "retreat": [
+    "retreat"
+  ],
+  "retrench": [
+    "retrenchment"
+  ],
+  "retrieve": [
+    "retrieval"
+  ],
+  "retrogress": [
+    "retrogression"
+  ],
+  "return": [
+    "return"
+  ],
+  "reunify": [
+    "reunification"
+  ],
+  "reunite": [
+    "reunion"
+  ],
+  "revaluate": [
+    "revaluation"
+  ],
+  "revamp": [
+    "revamping"
+  ],
+  "reveal": [
+    "revelation"
+  ],
+  "revel": [
+    "revel",
+    "revelry"
+  ],
+  "revenge": [
+    "revenge",
+    "vengeance"
+  ],
+  "reverberate": [
+    "reverberation"
+  ],
+  "revere": [
+    "reverence"
+  ],
+  "reverse": [
+    "reversal",
+    "reversion",
+    "table"
+  ],
+  "review": [
+    "review"
+  ],
+  "revise": [
+    "revision"
+  ],
+  "revitalize": [
+    "revitalization"
+  ],
+  "revive": [
+    "revival"
+  ],
+  "revolt": [
+    "revolution"
+  ],
+  "reward": [
+    "reward"
+  ],
+  "rewrite": [
+    "rewrite"
+  ],
+  "rich": [
+    "richness"
+  ],
+  "rid": [
+    "riddance"
+  ],
+  "ride": [
+    "ride"
+  ],
+  "ridicule": [
+    "ridicule"
+  ],
+  "rifle": [
+    "rifle"
+  ],
+  "rigid": [
+    "rigidity"
+  ],
+  "rigorous": [
+    "rigor"
+  ],
+  "riot": [
+    "riot"
+  ],
+  "ripple": [
+    "ripple"
+  ],
+  "rise": [
+    "rise"
+  ],
+  "risk": [
+    "risk"
+  ],
+  "risky": [
+    "riskiness"
+  ],
+  "rival": [
+    "rivalry"
+  ],
+  "roar": [
+    "roar"
+  ],
+  "rob": [
+    "robbery"
+  ],
+  "roll": [
+    "roll"
+  ],
+  "rope": [
+    "rope"
+  ],
+  "rotate": [
+    "rotation"
+  ],
+  "rout": [
+    "rout",
+    "routing"
+  ],
+  "ruin": [
+    "ruination"
+  ],
+  "rule": [
+    "rule",
+    "ruling"
+  ],
+  "rumble": [
+    "rumbling"
+  ],
+  "ruminate": [
+    "rumination"
+  ],
+  "rumor": [
+    "rumor"
+  ],
+  "run": [
+    "run"
+  ],
+  "rush": [
+    "rush"
+  ],
+  "sabotage": [
+    "sabotage"
+  ],
+  "sack": [
+    "sack",
+    "sacking"
+  ],
+  "sacrid": [
+    "sanctity"
+  ],
+  "sacrifice": [
+    "sacrifice"
+  ],
+  "safe": [
+    "safety"
+  ],
+  "safeguard": [
+    "safeguard"
+  ],
+  "sage": [
+    "sage"
+  ],
+  "sail": [
+    "sailing"
+  ],
+  "salute": [
+    "salutation",
+    "salute"
+  ],
+  "salvage": [
+    "salvage"
+  ],
+  "sample": [
+    "sampler"
+  ],
+  "sanctify": [
+    "sanctification"
+  ],
+  "sanction": [
+    "sanction"
+  ],
+  "sandwich": [
+    "sandwich"
+  ],
+  "satirical": [
+    "satire"
+  ],
+  "satisfy": [
+    "satisfaction"
+  ],
+  "saturate": [
+    "saturation"
+  ],
+  "savage": [
+    "savagery"
+  ],
+  "save": [
+    "salvation",
+    "saving"
+  ],
+  "savor": [
+    "savor"
+  ],
+  "say": [
+    "saying"
+  ],
+  "scale": [
+    "scaling"
+  ],
+  "scam": [
+    "scam"
+  ],
+  "scarce": [
+    "scarcity"
+  ],
+  "scare": [
+    "scare"
+  ],
+  "schedule": [
+    "schedule",
+    "scheduling"
+  ],
+  "scheme": [
+    "scheme"
+  ],
+  "scintillate": [
+    "scintillation"
+  ],
+  "score": [
+    "score"
+  ],
+  "scorn": [
+    "contempt",
+    "scorn"
+  ],
+  "scramble": [
+    "scramble"
+  ],
+  "scrap": [
+    "scrapping"
+  ],
+  "screen": [
+    "screening"
+  ],
+  "scrutinize": [
+    "scrutiny"
+  ],
+  "sculpt": [
+    "sculpture"
+  ],
+  "seal": [
+    "seal"
+  ],
+  "search": [
+    "search"
+  ],
+  "seasonal": [
+    "seasonality"
+  ],
+  "secede": [
+    "secession"
+  ],
+  "seclude": [
+    "seclusion"
+  ],
+  "second": [
+    "second"
+  ],
+  "secret": [
+    "secrecy"
+  ],
+  "secrete": [
+    "secretion"
+  ],
+  "secure": [
+    "security"
+  ],
+  "sedate": [
+    "sedation"
+  ],
+  "seduce": [
+    "seduction"
+  ],
+  "see": [
+    "eye",
+    "sight",
+    "sighting",
+    "vision"
+  ],
+  "segment": [
+    "segment",
+    "segmentation"
+  ],
+  "segregate": [
+    "segregation"
+  ],
+  "seize": [
+    "seizure"
+  ],
+  "select": [
+    "selection"
+  ],
+  "sell": [
+    "sale",
+    "sell",
+    "selling"
+  ],
+  "send": [
+    "message",
+    "telegram"
+  ],
+  "senior": [
+    "seniority"
+  ],
+  "sensationalistic": [
+    "sensationalism"
+  ],
+  "sense": [
+    "sensation",
+    "sense"
+  ],
+  "sensible": [
+    "sensibility"
+  ],
+  "sensitive": [
+    "sensitivity"
+  ],
+  "sensitize": [
+    "sensitization"
+  ],
+  "sensual": [
+    "sensuality"
+  ],
+  "sentence": [
+    "sentence",
+    "sentencing"
+  ],
+  "sentimental": [
+    "sentimentality"
+  ],
+  "separate": [
+    "separation"
+  ],
+  "sequester": [
+    "sequester"
+  ],
+  "sequestrate": [
+    "sequestration"
+  ],
+  "serious": [
+    "seriousness"
+  ],
+  "serve": [
+    "service",
+    "serving"
+  ],
+  "service": [
+    "servicing"
+  ],
+  "set": [
+    "setting"
+  ],
+  "settle": [
+    "settlement",
+    "settling"
+  ],
+  "sever": [
+    "severance"
+  ],
+  "severe": [
+    "severity"
+  ],
+  "shadow": [
+    "shadow"
+  ],
+  "shake": [
+    "shake"
+  ],
+  "shame": [
+    "shame"
+  ],
+  "shape": [
+    "shape"
+  ],
+  "share": [
+    "share",
+    "sharing"
+  ],
+  "sharp": [
+    "sharpness"
+  ],
+  "sharpen": [
+    "definition"
+  ],
+  "shed": [
+    "shedding"
+  ],
+  "shelter": [
+    "asylum"
+  ],
+  "shield": [
+    "shield"
+  ],
+  "shift": [
+    "shift"
+  ],
+  "ship": [
+    "shipment",
+    "shipping"
+  ],
+  "shiver": [
+    "shiver"
+  ],
+  "shock": [
+    "shock"
+  ],
+  "shoot": [
+    "shoot",
+    "shooting"
+  ],
+  "shop": [
+    "shopping"
+  ],
+  "short": [
+    "shortage"
+  ],
+  "shout": [
+    "shouting"
+  ],
+  "show": [
+    "show",
+    "showing"
+  ],
+  "shower": [
+    "shower"
+  ],
+  "shriek": [
+    "shriek"
+  ],
+  "shrink": [
+    "shrinkage"
+  ],
+  "shuffle": [
+    "shuffle"
+  ],
+  "shuttle": [
+    "shuttle"
+  ],
+  "sigh": [
+    "sigh"
+  ],
+  "sight": [
+    "sight",
+    "sighting"
+  ],
+  "sign": [
+    "sign",
+    "signature",
+    "signing"
+  ],
+  "signal": [
+    "signal"
+  ],
+  "significant": [
+    "significance"
+  ],
+  "signify": [
+    "signification"
+  ],
+  "silent": [
+    "silence"
+  ],
+  "simple": [
+    "simplicity"
+  ],
+  "simplify": [
+    "simplification"
+  ],
+  "simulate": [
+    "simulation"
+  ],
+  "sin": [
+    "sin"
+  ],
+  "sincere": [
+    "sincerity"
+  ],
+  "sing": [
+    "cant"
+  ],
+  "sink": [
+    "sinking"
+  ],
+  "sit": [
+    "sitting"
+  ],
+  "situate": [
+    "situation"
+  ],
+  "sketch": [
+    "sketch"
+  ],
+  "skid": [
+    "skid"
+  ],
+  "skilled": [
+    "skill"
+  ],
+  "skillful": [
+    "virtuosity"
+  ],
+  "skirmish": [
+    "skirmish"
+  ],
+  "skittish": [
+    "skittishness"
+  ],
+  "slap": [
+    "slap",
+    "slapping"
+  ],
+  "slash": [
+    "slash",
+    "slashing"
+  ],
+  "slaughter": [
+    "slaughter"
+  ],
+  "slay": [
+    "slaying"
+  ],
+  "sleep": [
+    "sleep"
+  ],
+  "slice": [
+    "slicing"
+  ],
+  "slide": [
+    "slide"
+  ],
+  "slip": [
+    "slip",
+    "slippage"
+  ],
+  "slot": [
+    "slot"
+  ],
+  "slow": [
+    "slowing"
+  ],
+  "sluggish": [
+    "sluggishness"
+  ],
+  "slump": [
+    "slump"
+  ],
+  "slur": [
+    "slur"
+  ],
+  "smell": [
+    "aroma",
+    "scent"
+  ],
+  "smelt": [
+    "smelting"
+  ],
+  "smile": [
+    "smile"
+  ],
+  "smoke": [
+    "smoke",
+    "smoking"
+  ],
+  "snake": [
+    "snaking"
+  ],
+  "snicker": [
+    "snicker"
+  ],
+  "snobbish": [
+    "snobbery"
+  ],
+  "socialize": [
+    "socialization"
+  ],
+  "soft": [
+    "softness"
+  ],
+  "soften": [
+    "softening"
+  ],
+  "solace": [
+    "solace"
+  ],
+  "soldier": [
+    "soldiery"
+  ],
+  "solemnize": [
+    "solemnization"
+  ],
+  "solicit": [
+    "solicitation"
+  ],
+  "solidify": [
+    "solidification"
+  ],
+  "solve": [
+    "solution"
+  ],
+  "solvent": [
+    "solvency"
+  ],
+  "sophisticated": [
+    "sophistication"
+  ],
+  "sort": [
+    "sort"
+  ],
+  "sound": [
+    "sound",
+    "sounding",
+    "soundness"
+  ],
+  "sour": [
+    "souring"
+  ],
+  "south": [
+    "south"
+  ],
+  "southeast": [
+    "southeast"
+  ],
+  "southwest": [
+    "southwest"
+  ],
+  "sovereign": [
+    "sovereignty"
+  ],
+  "span": [
+    "span"
+  ],
+  "spank": [
+    "spanking"
+  ],
+  "sparkle": [
+    "sparkle"
+  ],
+  "spasm": [
+    "spasm"
+  ],
+  "speak": [
+    "speech"
+  ],
+  "specialize": [
+    "specialism",
+    "specialization",
+    "specialty"
+  ],
+  "specific": [
+    "specificity",
+    "specifics"
+  ],
+  "specify": [
+    "specification"
+  ],
+  "speculate": [
+    "speculating",
+    "speculation"
+  ],
+  "speed": [
+    "speeding"
+  ],
+  "spell": [
+    "spelling"
+  ],
+  "spend": [
+    "expenditure",
+    "spending"
+  ],
+  "spice": [
+    "spice"
+  ],
+  "spill": [
+    "spill",
+    "spillage"
+  ],
+  "spin": [
+    "spinning"
+  ],
+  "spiral": [
+    "spiral"
+  ],
+  "spiritualize": [
+    "spiritualization"
+  ],
+  "split": [
+    "split"
+  ],
+  "sponsor": [
+    "sponsorship"
+  ],
+  "spread": [
+    "spread"
+  ],
+  "spring": [
+    "springing"
+  ],
+  "spur": [
+    "spur"
+  ],
+  "spurt": [
+    "spurt"
+  ],
+  "spy": [
+    "espionage"
+  ],
+  "squabble": [
+    "squabble",
+    "squabbling"
+  ],
+  "squalid": [
+    "squalor"
+  ],
+  "squeeze": [
+    "squeeze"
+  ],
+  "stabilize": [
+    "stabilization"
+  ],
+  "stable": [
+    "stability"
+  ],
+  "stage": [
+    "staging"
+  ],
+  "stagnate": [
+    "stagnation"
+  ],
+  "stall": [
+    "deadlock"
+  ],
+  "stampede": [
+    "stampede"
+  ],
+  "standard": [
+    "benchmark",
+    "boilerplate"
+  ],
+  "standardize": [
+    "standardization"
+  ],
+  "start": [
+    "start"
+  ],
+  "starve": [
+    "starvation"
+  ],
+  "state": [
+    "statement"
+  ],
+  "station": [
+    "station"
+  ],
+  "statist": [
+    "statism"
+  ],
+  "stay": [
+    "stay"
+  ],
+  "steady": [
+    "steadiness"
+  ],
+  "steal": [
+    "heist",
+    "theft",
+    "thief"
+  ],
+  "steer": [
+    "steerage",
+    "steering"
+  ],
+  "step": [
+    "step"
+  ],
+  "stereotype": [
+    "stereotype"
+  ],
+  "sterile": [
+    "sterility"
+  ],
+  "sterilize": [
+    "sterilization"
+  ],
+  "sticky": [
+    "stickiness"
+  ],
+  "stimulate": [
+    "stimulation"
+  ],
+  "stink": [
+    "stink"
+  ],
+  "stipulate": [
+    "stipulation"
+  ],
+  "stir": [
+    "stirring"
+  ],
+  "stock": [
+    "stocking"
+  ],
+  "stockpile": [
+    "stockpile"
+  ],
+  "stomach": [
+    "stomach"
+  ],
+  "stooge": [
+    "stooge"
+  ],
+  "stop": [
+    "stop",
+    "stoppage"
+  ],
+  "store": [
+    "storage",
+    "store",
+    "storing"
+  ],
+  "strain": [
+    "strain"
+  ],
+  "strange": [
+    "strangeness"
+  ],
+  "strategize": [
+    "strategizing"
+  ],
+  "stratify": [
+    "stratification"
+  ],
+  "streamline": [
+    "streamlining"
+  ],
+  "strengthen": [
+    "strengthening"
+  ],
+  "stress": [
+    "stress"
+  ],
+  "stretch": [
+    "stretch"
+  ],
+  "stridulate": [
+    "stridulation"
+  ],
+  "strike": [
+    "strike"
+  ],
+  "stroke": [
+    "stroke"
+  ],
+  "strong": [
+    "strength"
+  ],
+  "structure": [
+    "structuring"
+  ],
+  "struggle": [
+    "struggle"
+  ],
+  "studious": [
+    "studiousness"
+  ],
+  "study": [
+    "study"
+  ],
+  "stultify": [
+    "stultification"
+  ],
+  "stumble": [
+    "stumble"
+  ],
+  "stylish": [
+    "vogue"
+  ],
+  "stylize": [
+    "stylization"
+  ],
+  "subdivide": [
+    "subdivision"
+  ],
+  "subject": [
+    "subject",
+    "subjection"
+  ],
+  "subjugate": [
+    "subjugation"
+  ],
+  "sublimate": [
+    "sublimation"
+  ],
+  "submerge": [
+    "submergence"
+  ],
+  "submit": [
+    "submission"
+  ],
+  "subordinate": [
+    "subordination"
+  ],
+  "suborn": [
+    "subornation"
+  ],
+  "subpoena": [
+    "subpoena"
+  ],
+  "subscribe": [
+    "subscription"
+  ],
+  "subscription": [
+    "undersubscription"
+  ],
+  "subside": [
+    "subsidence"
+  ],
+  "subsidize": [
+    "subsidization",
+    "subsidy"
+  ],
+  "subsist": [
+    "subsistence"
+  ],
+  "substantiate": [
+    "substantiation"
+  ],
+  "substitute": [
+    "substitution"
+  ],
+  "subtle": [
+    "subtlety"
+  ],
+  "subtract": [
+    "subtraction"
+  ],
+  "subvert": [
+    "subversion"
+  ],
+  "succeed": [
+    "success",
+    "succession"
+  ],
+  "successful": [
+    "roll"
+  ],
+  "sue": [
+    "lawsuit",
+    "suit"
+  ],
+  "suffer": [
+    "sufferance",
+    "suffering"
+  ],
+  "suffocate": [
+    "suffocation"
+  ],
+  "suffuse": [
+    "suffusion"
+  ],
+  "sugar": [
+    "sugar"
+  ],
+  "suggest": [
+    "suggestion"
+  ],
+  "suitable": [
+    "candidacy"
+  ],
+  "sum": [
+    "summation"
+  ],
+  "summarize": [
+    "summary"
+  ],
+  "superannuate": [
+    "superannuation"
+  ],
+  "superintend": [
+    "superintendence"
+  ],
+  "superior": [
+    "superior",
+    "superiority"
+  ],
+  "supersede": [
+    "supersession"
+  ],
+  "supervise": [
+    "supervision"
+  ],
+  "supplement": [
+    "supplement"
+  ],
+  "supplicate": [
+    "supplication"
+  ],
+  "supply": [
+    "supply"
+  ],
+  "support": [
+    "support"
+  ],
+  "suppose": [
+    "supposition"
+  ],
+  "suppress": [
+    "suppression"
+  ],
+  "suppurate": [
+    "suppuration"
+  ],
+  "supreme": [
+    "supremacy"
+  ],
+  "surface": [
+    "face"
+  ],
+  "surge": [
+    "surge"
+  ],
+  "surprise": [
+    "surprise"
+  ],
+  "surrender": [
+    "surrender"
+  ],
+  "surround": [
+    "surroundings"
+  ],
+  "surtax": [
+    "surtax"
+  ],
+  "survey": [
+    "surveillance",
+    "survey"
+  ],
+  "survive": [
+    "survival"
+  ],
+  "susceptible": [
+    "diathesis"
+  ],
+  "suspect": [
+    "suspicion"
+  ],
+  "suspend": [
+    "suspense",
+    "suspension"
+  ],
+  "sustain": [
+    "sustenance"
+  ],
+  "swap": [
+    "swap",
+    "swapping"
+  ],
+  "swat": [
+    "swat"
+  ],
+  "sway": [
+    "sway",
+    "swaying"
+  ],
+  "swear": [
+    "swearing"
+  ],
+  "sweep": [
+    "sweep"
+  ],
+  "sweet": [
+    "sweetness"
+  ],
+  "sweeten": [
+    "sweetening"
+  ],
+  "swell": [
+    "swell"
+  ],
+  "swig": [
+    "swig"
+  ],
+  "swing": [
+    "swing"
+  ],
+  "swirl": [
+    "swirl"
+  ],
+  "switch": [
+    "switch"
+  ],
+  "swoon": [
+    "swoon"
+  ],
+  "syllabicate": [
+    "syllabication"
+  ],
+  "syllabify": [
+    "syllabification"
+  ],
+  "symbolize": [
+    "symbol",
+    "symbolism",
+    "symbolization"
+  ],
+  "symmetrical": [
+    "symmetry"
+  ],
+  "sympathize": [
+    "sympathy"
+  ],
+  "symptomatic": [
+    "symptom"
+  ],
+  "synchronize": [
+    "sync",
+    "synchronization"
+  ],
+  "syncopate": [
+    "syncopation"
+  ],
+  "syndicate": [
+    "syndication"
+  ],
+  "synthesize": [
+    "synthesis"
+  ],
+  "systematize": [
+    "systematization"
+  ],
+  "taboo": [
+    "taboo"
+  ],
+  "tabulate": [
+    "tabulation"
+  ],
+  "tag": [
+    "tag"
+  ],
+  "taint": [
+    "taint"
+  ],
+  "take": [
+    "taking"
+  ],
+  "taking": [
+    "taking"
+  ],
+  "talk": [
+    "talk"
+  ],
+  "tally": [
+    "tally"
+  ],
+  "tap": [
+    "wiretap"
+  ],
+  "tape": [
+    "tape",
+    "taping"
+  ],
+  "target": [
+    "target"
+  ],
+  "taste": [
+    "taste"
+  ],
+  "taunt": [
+    "taunting"
+  ],
+  "tax": [
+    "tax",
+    "taxation"
+  ],
+  "teach": [
+    "teaching"
+  ],
+  "telecast": [
+    "telecast"
+  ],
+  "telegraph": [
+    "telegraph"
+  ],
+  "televise": [
+    "televising"
+  ],
+  "tell": [
+    "storytelling"
+  ],
+  "temper": [
+    "temperance"
+  ],
+  "tempt": [
+    "temptation"
+  ],
+  "tend": [
+    "tendency"
+  ],
+  "tendency": [
+    "propensity"
+  ],
+  "tense": [
+    "tension"
+  ],
+  "terminate": [
+    "termination"
+  ],
+  "terrorize": [
+    "terrorism"
+  ],
+  "test": [
+    "test",
+    "testing"
+  ],
+  "testify": [
+    "testament",
+    "testimonial",
+    "testimony"
+  ],
+  "thank": [
+    "thank"
+  ],
+  "thaw": [
+    "thaw"
+  ],
+  "thieve": [
+    "theft",
+    "thievery"
+  ],
+  "think": [
+    "thinking",
+    "thought"
+  ],
+  "thirst": [
+    "thirst"
+  ],
+  "threaten": [
+    "threat"
+  ],
+  "thrill": [
+    "thrill"
+  ],
+  "throw": [
+    "pass"
+  ],
+  "thrust": [
+    "thrust"
+  ],
+  "tie": [
+    "tie"
+  ],
+  "tighten": [
+    "tightening"
+  ],
+  "till": [
+    "tilth"
+  ],
+  "tilt": [
+    "tilt"
+  ],
+  "time": [
+    "timing"
+  ],
+  "timid": [
+    "timidity"
+  ],
+  "tinge": [
+    "tinge"
+  ],
+  "tinker": [
+    "tinkering"
+  ],
+  "tip": [
+    "tip"
+  ],
+  "titillate": [
+    "titillation"
+  ],
+  "toast": [
+    "toast"
+  ],
+  "toil": [
+    "toiling"
+  ],
+  "tolerate": [
+    "tolerance",
+    "toleration"
+  ],
+  "tool": [
+    "tooling"
+  ],
+  "top": [
+    "top"
+  ],
+  "total": [
+    "total"
+  ],
+  "touch": [
+    "touch"
+  ],
+  "tough": [
+    "toughness"
+  ],
+  "tour": [
+    "tour",
+    "tourism"
+  ],
+  "toxic": [
+    "toxicity"
+  ],
+  "track": [
+    "tracking"
+  ],
+  "trade": [
+    "trade",
+    "trading"
+  ],
+  "trademark": [
+    "trademark"
+  ],
+  "traffic": [
+    "traffic"
+  ],
+  "train": [
+    "training"
+  ],
+  "transact": [
+    "transaction"
+  ],
+  "transcend": [
+    "transcendence"
+  ],
+  "transcribe": [
+    "transcript",
+    "transcription"
+  ],
+  "transfer": [
+    "transfer",
+    "transference"
+  ],
+  "transfigure": [
+    "transfiguration"
+  ],
+  "transform": [
+    "transformation"
+  ],
+  "transfuse": [
+    "transfusion"
+  ],
+  "transgress": [
+    "transgression"
+  ],
+  "translate": [
+    "translation"
+  ],
+  "transliterate": [
+    "transliteration"
+  ],
+  "transmit": [
+    "transmission"
+  ],
+  "transmogrify": [
+    "transmogrification"
+  ],
+  "transmute": [
+    "transmutation"
+  ],
+  "transpire": [
+    "transpiration"
+  ],
+  "transplant": [
+    "transplant",
+    "transplantation"
+  ],
+  "transport": [
+    "transport",
+    "transportation"
+  ],
+  "transpose": [
+    "transposition"
+  ],
+  "trap": [
+    "trapping"
+  ],
+  "traumatize": [
+    "trauma"
+  ],
+  "travel": [
+    "travel",
+    "traveling"
+  ],
+  "treasure": [
+    "treasure"
+  ],
+  "treat": [
+    "treatment"
+  ],
+  "trend": [
+    "trend"
+  ],
+  "trespass": [
+    "trespass"
+  ],
+  "trick": [
+    "trick",
+    "trickery"
+  ],
+  "trigger": [
+    "triggering"
+  ],
+  "triumph": [
+    "triumph"
+  ],
+  "trouble": [
+    "trouble"
+  ],
+  "truculent": [
+    "truculence"
+  ],
+  "trudge": [
+    "trudge"
+  ],
+  "true": [
+    "truth"
+  ],
+  "trust": [
+    "trust"
+  ],
+  "try": [
+    "trial",
+    "try"
+  ],
+  "tumble": [
+    "tumble"
+  ],
+  "tune": [
+    "tuning"
+  ],
+  "turbulent": [
+    "turbulence"
+  ],
+  "turn": [
+    "turn"
+  ],
+  "twist": [
+    "twist"
+  ],
+  "ubiquitous": [
+    "ubiquity"
+  ],
+  "ulcerate": [
+    "ulceration"
+  ],
+  "ululate": [
+    "ululation"
+  ],
+  "unable": [
+    "disability",
+    "inability"
+  ],
+  "unanimous": [
+    "unanimity"
+  ],
+  "unavailable": [
+    "unavailability"
+  ],
+  "unaware": [
+    "unawareness"
+  ],
+  "uncertain": [
+    "uncertainty"
+  ],
+  "uncomfortable": [
+    "discomfort"
+  ],
+  "uncover": [
+    "uncovering"
+  ],
+  "underestimate": [
+    "underestimation"
+  ],
+  "underexpose": [
+    "underexposure"
+  ],
+  "underpay": [
+    "underpayment"
+  ],
+  "underpin": [
+    "underpinning"
+  ],
+  "understand": [
+    "understanding"
+  ],
+  "understate": [
+    "understatement"
+  ],
+  "undertake": [
+    "undertaking"
+  ],
+  "undervalue": [
+    "undervaluation"
+  ],
+  "underwrite": [
+    "underwriting"
+  ],
+  "undulate": [
+    "undulation"
+  ],
+  "uneasy": [
+    "unease",
+    "uneasiness"
+  ],
+  "unequal": [
+    "inequity"
+  ],
+  "unfaithful": [
+    "infidelity"
+  ],
+  "unfortunate": [
+    "misfortune"
+  ],
+  "unhappy": [
+    "unhappiness"
+  ],
+  "uniform": [
+    "uniformity"
+  ],
+  "unify": [
+    "unification"
+  ],
+  "unimportant": [
+    "non-event"
+  ],
+  "unite": [
+    "unity"
+  ],
+  "unjust": [
+    "injustice"
+  ],
+  "unknown": [
+    "unknown"
+  ],
+  "unload": [
+    "unloading"
+  ],
+  "unpleasant": [
+    "unpleasantness"
+  ],
+  "unpopular": [
+    "unpopularity"
+  ],
+  "unravel": [
+    "unraveling"
+  ],
+  "unreasonable": [
+    "unreasonableness"
+  ],
+  "unsettle": [
+    "unsettlement"
+  ],
+  "unstable": [
+    "instability"
+  ],
+  "unsteady": [
+    "unsteadiness"
+  ],
+  "unveil": [
+    "unveiling"
+  ],
+  "unwilling": [
+    "unwillingness"
+  ],
+  "update": [
+    "update",
+    "updating"
+  ],
+  "upgrade": [
+    "upgrade",
+    "upgrading"
+  ],
+  "upset": [
+    "upset"
+  ],
+  "urbanize": [
+    "urbanization"
+  ],
+  "urge": [
+    "urge",
+    "urging"
+  ],
+  "urgent": [
+    "urgency"
+  ],
+  "use": [
+    "usage",
+    "use"
+  ],
+  "useful": [
+    "usefulness"
+  ],
+  "usurp": [
+    "usurpation"
+  ],
+  "utilize": [
+    "utilization"
+  ],
+  "utter": [
+    "utterance"
+  ],
+  "vacant": [
+    "vacancy"
+  ],
+  "vacation": [
+    "vacation"
+  ],
+  "vaccinate": [
+    "vaccination"
+  ],
+  "vacillate": [
+    "vacillation"
+  ],
+  "vague": [
+    "vagary"
+  ],
+  "vain": [
+    "vanity"
+  ],
+  "valid": [
+    "validity"
+  ],
+  "value": [
+    "valuation"
+  ],
+  "vaporize": [
+    "vaporization"
+  ],
+  "variable": [
+    "variable"
+  ],
+  "vary": [
+    "variance",
+    "variation",
+    "variety"
+  ],
+  "vegetate": [
+    "vegetation"
+  ],
+  "vehement": [
+    "vehemence"
+  ],
+  "venerate": [
+    "veneration"
+  ],
+  "ventilate": [
+    "ventilation"
+  ],
+  "venture": [
+    "venture"
+  ],
+  "veracious": [
+    "veracity"
+  ],
+  "verge": [
+    "verge"
+  ],
+  "verify": [
+    "verification"
+  ],
+  "vest": [
+    "vestment"
+  ],
+  "veto": [
+    "veto"
+  ],
+  "vex": [
+    "vexation"
+  ],
+  "viable": [
+    "viability"
+  ],
+  "vibrate": [
+    "vibration"
+  ],
+  "victimize": [
+    "victimization"
+  ],
+  "victorious": [
+    "victory"
+  ],
+  "view": [
+    "view"
+  ],
+  "vigorous": [
+    "vigor"
+  ],
+  "vilify": [
+    "vilification"
+  ],
+  "vindicate": [
+    "vindication"
+  ],
+  "violate": [
+    "violation"
+  ],
+  "violent": [
+    "violence"
+  ],
+  "virile": [
+    "virility"
+  ],
+  "virtuous": [
+    "virtue"
+  ],
+  "virulent": [
+    "virulence"
+  ],
+  "visible": [
+    "visibility"
+  ],
+  "visit": [
+    "visit",
+    "visitation",
+    "visiting"
+  ],
+  "visualize": [
+    "visualization"
+  ],
+  "vital": [
+    "vitality"
+  ],
+  "vituperate": [
+    "vituperation"
+  ],
+  "vivisect": [
+    "vivisection"
+  ],
+  "vociferate": [
+    "vociferation"
+  ],
+  "voice": [
+    "voice"
+  ],
+  "volatile": [
+    "volatility"
+  ],
+  "volley": [
+    "volley"
+  ],
+  "volunteer": [
+    "volunteerism"
+  ],
+  "vote": [
+    "vote",
+    "voting"
+  ],
+  "vow": [
+    "vow"
+  ],
+  "voyage": [
+    "voyage"
+  ],
+  "vulcanize": [
+    "vulcanization"
+  ],
+  "vulgarize": [
+    "vulgarization"
+  ],
+  "vulnerable": [
+    "vulnerability"
+  ],
+  "waffle": [
+    "waffle"
+  ],
+  "wager": [
+    "wager"
+  ],
+  "wait": [
+    "time"
+  ],
+  "waive": [
+    "waiver"
+  ],
+  "walk": [
+    "walk"
+  ],
+  "war": [
+    "war",
+    "warfare"
+  ],
+  "warm": [
+    "warming"
+  ],
+  "warn": [
+    "warning"
+  ],
+  "warrant": [
+    "warrant",
+    "warranty"
+  ],
+  "wash": [
+    "wash"
+  ],
+  "waste": [
+    "wastage",
+    "waste",
+    "wasting"
+  ],
+  "watch": [
+    "watch"
+  ],
+  "weak": [
+    "weakness"
+  ],
+  "weaken": [
+    "weakening"
+  ],
+  "wealthy": [
+    "wealth"
+  ],
+  "weary": [
+    "weariness"
+  ],
+  "weave": [
+    "weaving"
+  ],
+  "wed": [
+    "wedding"
+  ],
+  "weight": [
+    "weighting"
+  ],
+  "welcome": [
+    "welcome"
+  ],
+  "well-known": [
+    "stature"
+  ],
+  "west": [
+    "west"
+  ],
+  "westernize": [
+    "westernization"
+  ],
+  "whimper": [
+    "whimper"
+  ],
+  "whip": [
+    "whipping"
+  ],
+  "whisper": [
+    "whisper"
+  ],
+  "white": [
+    "whiteness"
+  ],
+  "whitewash": [
+    "whitewash"
+  ],
+  "whore": [
+    "whoring"
+  ],
+  "widen": [
+    "widening"
+  ],
+  "will": [
+    "will"
+  ],
+  "willing": [
+    "willingness"
+  ],
+  "win": [
+    "win"
+  ],
+  "wiretap": [
+    "wiretap"
+  ],
+  "wise": [
+    "wisdom"
+  ],
+  "wish": [
+    "wish"
+  ],
+  "withdraw": [
+    "withdrawal"
+  ],
+  "wonder": [
+    "wonder",
+    "wonderment"
+  ],
+  "woo": [
+    "wooing"
+  ],
+  "word": [
+    "language"
+  ],
+  "work": [
+    "work"
+  ],
+  "worry": [
+    "worry"
+  ],
+  "worsen": [
+    "worsening"
+  ],
+  "worship": [
+    "worship"
+  ],
+  "worth": [
+    "worth"
+  ],
+  "worthy": [
+    "worthiness"
+  ],
+  "wound": [
+    "wound"
+  ],
+  "wrangle": [
+    "wrangling"
+  ],
+  "wrathful": [
+    "wrath"
+  ],
+  "wreck": [
+    "wreck",
+    "wreckage"
+  ],
+  "write": [
+    "writing"
+  ],
+  "yearn": [
+    "yearning"
+  ],
+  "yell": [
+    "outburst"
+  ],
+  "yield": [
+    "yield"
+  ],
+  "young": [
+    "youth"
+  ],
+  "zigzag": [
+    "zigzag"
+  ],
+  "zone": [
+    "zone"
+  ]
+}
