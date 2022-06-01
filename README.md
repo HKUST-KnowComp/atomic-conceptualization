@@ -1,5 +1,5 @@
 # Acquiring and Modelling Abstract Commonsense Knowledge via Conceptualization
-This repository contains the code and data in the [paper](), with each part introduced below. `requirements.txt` for
+This repository contains the code and data in our paper to be published, with each part introduced below. `requirements.txt` for
 each part of the repository is given respectively.
 
 # Identification & Heuristic-based Concept Linking
