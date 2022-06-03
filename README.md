@@ -2,6 +2,14 @@
 This repository contains the code and data in our paper to be published, with each part introduced below. `requirements.txt` for
 each part of the repository is given respectively.
 
+# Dataset & Pretrained Models
+
+Our annotated data are given in `conceptualizer/data`, including `stage2_combined.json` for event conceptualizations
+and `stage3_combined.neg2.json` for abstract triples.
+Intermediate ATOMIC parsing results are also given in `conceptualizer/parse`, as mentioned above.
+Experiment data built upon ATOMIC and our data are given in `discriminator/data` or `discriminator/gen`.
+Pretrained models and Abstract ATOMIC are available [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/mhear_connect_ust_hk/Eo1sMdC6DalKtOllhrDXohABihrryFFd1MqJ9a_KPoqj6w?e=KWwaGy).
+
 # Identification & Heuristic-based Concept Linking
 
 Download the [Probase](http://concept.research.microsoft.com/Home/Download) to
@@ -37,14 +45,6 @@ of the concept. Senses is List[[Sense, Score]], with Sense the WordNet synset na
 (or a found idiom, starting with "Idiom:"), and Score from GlossBERT.
 Text is the textual concept, and Left/Right is the span of the concept in the original text, 
 represented by token indices.
-
-# Dataset & Pretrained Models
-
-Our annotated data are given in `conceptualizer/data`, including `stage2_combined.json` for event conceptualizations
-and `stage3_combined.neg2.json` for abstract triples.
-Intermediate ATOMIC parsing results are also given in `conceptualizer/parse`, as mentioned above.
-Experiment data built upon ATOMIC and our data are given in `discriminator/data` or `discriminator/gen`.
-Pretrained models and Abstract ATOMIC are available [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/mhear_connect_ust_hk/Eo1sMdC6DalKtOllhrDXohABihrryFFd1MqJ9a_KPoqj6w?e=KWwaGy).
 
 # Model Training
 
