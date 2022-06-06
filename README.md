@@ -20,8 +20,10 @@ each part of the repository is given respectively.
 
 Our annotated data are given in `conceptualizer/data`, including `stage2_combined.json` for event conceptualizations
 and `stage3_combined.neg2.json` for abstract triples.
+
 Intermediate ATOMIC parsing results are also given in `conceptualizer/parse`, as mentioned above.
 Experiment data built upon ATOMIC and our data are given in `discriminator/data` or `discriminator/gen`.
+
 Pretrained models and **Abstract ATOMIC** are available [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/mhear_connect_ust_hk/Eo1sMdC6DalKtOllhrDXohABihrryFFd1MqJ9a_KPoqj6w?e=KWwaGy).
 
 # Identification & Heuristic-based Concept Linking
