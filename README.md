@@ -3,21 +3,16 @@ This repository contains the code and data in our paper to be published, with ea
 each part of the repository is given respectively.
 
 # Paper
+```
 @misc{he2022acquiring,
-
       title={Acquiring and Modelling Abstract Commonsense Knowledge via Conceptualization}, 
-      
       author={Mutian He and Tianqing Fang and Weiqi Wang and Yangqiu Song},
-      
       year={2022},
-      
       eprint={2206.01532},
-      
       archivePrefix={arXiv},
-      
       primaryClass={cs.CL}
-      
 }
+```
 
 [Paper Link](https://arxiv.org/abs/2206.01532)
 
