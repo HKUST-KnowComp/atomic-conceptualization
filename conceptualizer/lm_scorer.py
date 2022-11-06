@@ -1,3 +1,4 @@
+# Used in atomic_parse.py to score different ways to add possessive pronoun or determiner using GPT2.
 
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch

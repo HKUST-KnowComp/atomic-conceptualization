@@ -9,6 +9,8 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 output_path = r'parse'
 
+# DataSource class to hold the data: parsing results, Probase client, etc.
+# Used in annotation and building Abstract ATOMIC
 class DataSource():
     def __init__(self):
         docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
@@ -65,6 +67,9 @@ class DataSource():
             results.append((sub_text, l_i, r_i))
         return results
 
+    # Get a list of possible alignments/linkings from a constituent to PB.
+    # Note that the ones in self._concepts (collected in atomic_parse.py) might only have WN alignment,
+    # and the Probase alignments might not be optimal (e.g. without nounification).
     def get_pb_alignments(self, d_i, c_i, v_i, collect_extra=True):
         mods, syn, sub_text, l_i, r_i, = self._concepts[d_i][c_i][v_i]
 
@@ -97,11 +102,6 @@ class DataSource():
                     options = options[:3]
                 for o in options:
                     pb_aligns.append(o)
-        if collect_extra:
-            submitted_alignments = self.get_extra_alignments(d_i, c_i, sub_text)
-            for s in submitted_alignments:
-                if s not in pb_aligns:
-                    pb_aligns.append(s)
         return pb_aligns
 
     def get_abstractions(self, node, d_i=-1, c_i=-1, do_shuffle=True, n_samples=10):

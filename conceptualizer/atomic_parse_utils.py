@@ -1,3 +1,8 @@
+# Various utility functions & classes for parsing. Many of them are not really used now.
+
+# One important thing: we use only nodes in PB with some occurrences, as we find that
+# the quality of conceptualizations for rare nodes is not good.
+
 from nltk.corpus import wordnet as wn
 from collections import namedtuple, defaultdict
 from threading import Lock
@@ -33,7 +38,7 @@ top_concepts = open(os.path.join('data', 'top_concepts.txt')).read().splitlines(
 class ProbaseClient:
     def __init__(self):
         from multiprocessing.connection import Client
-        address = ('localhost', 9233)
+        address = ('localhost', 9233) # Use a fixed one. Hope it's not occupied.
         print('Connecting Probase...')
         self.conn = Client(address)
         print('Connected')
@@ -41,7 +46,6 @@ class ProbaseClient:
         self._lock = Lock()
 
     def query(self, x, sort_method='mi', truncate=50, target='abs', do_filter=True):
-        # print("Query", x, sort_method, truncate)
         x = x.lower()
         if (x, sort_method, truncate, target) in self.cache:
             return copy.copy(self.cache[(x, sort_method, truncate, target)])
@@ -50,7 +54,7 @@ class ProbaseClient:
             res = json.loads(self.conn.recv())
             key_remove = []
             if do_filter:
-                for key in res:
+                for key in res: # Some concepts are unwanted
                     if key.split(' ')[-1] in ['word', 'phrase', 'noun', 'adjective', 'verb', 'pronoun', 'term', 'aux'] or key in top_concepts:
                         key_remove.append(key)
             for k in key_remove:
@@ -89,6 +93,7 @@ def wn_nounify(word=None, pos=None, exclude_person=True, synset_name=None, max_l
             if l.synset().name().split('.')[1] == 'n':
                 related_noun_lemmas.append(l)
     related_noun_lemmas = list(set(related_noun_lemmas))
+    # We exclude them by default, as we find that they often contain unwanted results like person names
     if exclude_person:
         related_noun_lemmas = [lem for lem in related_noun_lemmas if lem._synset._lexname
                                not in ['noun.person', 'noun.substance', 'noun.animal', 'noun.artifact', 'noun.group']]
@@ -103,11 +108,12 @@ def is_possibly_mod(tok):
     return (tok.pos == 'VERB' and tok.lemma in ['finish', 'start', 'complete', 'continue',
                                                 'end', 'stop', 'begin', 'cease', 'try', 'attempt'])
 
+# Some mis-lemmatizations that spacy gives. They are not necessarily wrong, but give suboptimal conceptualizations.
 def correct_mislemmas(tok):
     mislemmas = {'taxes': 'tax', 'lenses': 'lens', 'goods': 'goods', 'waters': 'waters', 'ashes': 'ash',
                  'fries': 'fries', 'politics': 'politics', 'glasses': 'glasses', 'clothes': 'clothes',
                  'scissors': 'scissors', 'shorts': 'shorts', 'thanks': 'thanks',
-                 'media': 'media', 'woods': 'woods', 'data': 'data','belongings': 'belongings'}
+                 'media': 'media', 'woods': 'woods', 'data': 'data', 'belongings': 'belongings'}
     if tok.text not in mislemmas:
         return tok.lemma
     return mislemmas[tok.text]
@@ -184,6 +190,7 @@ def filter_cand_lems(pb, lems):
     results = list(set(results))
     return results
 
+# Get PB alignments from synset
 pb_align_cache = {}
 def get_pb_align(pb, nl, s, lem, restrict_lem=True, expand_synset=False):
     if s.startswith('PB'):
@@ -202,22 +209,14 @@ def get_pb_align(pb, nl, s, lem, restrict_lem=True, expand_synset=False):
                 lems.add(rel_lem)
         wn_nouns = list(lems)
     pbn = filter_cand_lems(pb, wn_nouns)
-    # lems = wn.synset(s).lemmas()
-    # for l in lems:
-    #     l = l.name().lower().replace('_', ' ')
-    #     if l in nl:
-    #         for t in nl[l]:
-    #             if t not in pbn and pb.query(t):
-    #                 pbn.append(t)
-    #     if s.split('.')[-2] == 'v':
-    #         l = to_gerund(l)
-    #         if l not in pbn and pb.query(l):
-    #             pbn.append(l)
-    # pbn = list(set(pbn))
     pbn.sort()
     pb_align_cache[key] = pbn
     return copy.copy(pbn)
 
+# Get the desired linking/alignment to PB nodes from the text and synsets.
+# Direct alignments in the previous stage might not be optimal.
+# So we tried to used some additional heuristics, filtering, and
+# external data (like nomlex) to improve the results as discussed in the paper.
 pb_align_cache_text = {}
 def get_pb_align_by_text(pb, nl, text, is_nominal, is_predicate, syns):
     if (text, is_nominal, is_predicate) in pb_align_cache_text:
