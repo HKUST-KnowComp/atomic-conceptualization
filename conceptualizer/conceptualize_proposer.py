@@ -9,14 +9,7 @@ import inflect
 expr = 'atomic'
 _infl = inflect.engine()
 
-probase_path = r'/home/mhear/data/probase/data-concept-instance-relations.txt'
-if not os.path.exists(probase_path):
-    probase_path = r'/data/mhear/data/probase/data-concept-instance-relations.txt'
-if not os.path.exists(probase_path):
-    probase_path = r'C:\Users\dy.octa\Store\data-concept\data-concept-instance-relations.txt'
-if not os.path.exists(probase_path):
-    probase_path = r'C:\Users\t-muh\Store\kg\data-concept\data-concept-instance-relations.txt'
-
+probase_path = r'~/data/probase/data-concept-instance-relations.txt'
 top_k_candidates = 5
 
 
@@ -53,6 +46,7 @@ def substitute(pre_text, cand, post_text, det_idx, det_text, alt_dets):
         _pre_text = pre_text[:det_idx] + d + pre_text[det_idx + len(det_text):]
         yield _pre_text + cand + post_text
 
+# Class to hold Probase, with some query functions (mostly not used in the current version)
 class Proposer:
     _probase = None
 

@@ -1,5 +1,5 @@
 from typing import NamedTuple, List, Tuple
-
+# Some utility data type definitions. Mostly not used in the current version.
 # l_i, l, r_i, r, det_idx, det_text, cent_i, cent_idx, base_concept, skeleton_id
 class EntityMentionE(NamedTuple):
     l_i: int

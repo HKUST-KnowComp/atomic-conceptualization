@@ -36,7 +36,6 @@ nlp = spacy.load("en_core_web_lg")
 
 base_path = r'data/v4_atomic_all_agg.csv'
 output_path = r'parse'
-concept_path = r'~/data/probase/data-concept-instance-relations.txt'
 
 if not os.path.exists(output_path):
     os.makedirs(output_path)
@@ -61,6 +60,9 @@ def create_source():
     open(os.path.join(output_path, 'parse.0.bin'), 'wb').write(docs)
 
 
+# Some manual fixes and normalizations.
+# There are a lot of mysterious errors in ATOMIC, many of them break the parsing.
+# Whenever I see one, I fix it here. Still there might be some errors that I didn't notice.
 def head_normalize(text: str):
     seen_persons = ['X', 'Y', 'Z']
     place = 0
@@ -203,7 +205,7 @@ def head_normalize(text: str):
     return text
 
 
-# Step 1: do basic auto normalizations that doesn't need parsing results
+# Step 1: do basic auto normalizations that don't need parsing results
 def preprocess_heads():
     lines = open(os.path.join(output_path, 'heads.0.txt')).read().splitlines()
     fw = open(os.path.join(output_path, 'heads.1.txt'), 'w')
@@ -226,7 +228,9 @@ def has_determiner(doc, tok):
     return False
 
 
-# replacements: List[(l.i, r.i, source, sub, type)], replacements from heads.1, guaranteed no intersection
+# replacements: List[(l.i, r.i, source, sub, type)], used to track the replacements in texts since heads.1, so that we
+# can restore them later.
+# For each head, it is ensured that there is no intersection between replacements.
 def add_replacement(replacement, text, pos, source, sub, type):
     updated = copy.deepcopy(replacement)
     offset = len(sub) - len(source)
@@ -247,6 +251,9 @@ def find_alt_text(text, idx, all_texts):
             return l[idx: len(l) - (len(text) - idx - len('Placeholder'))]
     return None
 
+# Wildcards "_" in ATOMIC often lead to parsing errors.
+# We know that the wildcards are nouns. Hence we try different words and determiners
+# to replace the wildcard so that it could be correctly parsed as a noun.
 placeholder_cands = ['thing', 'person', 'dollars', 'entity']
 def fix_wildcards():
     lines = open(os.path.join(output_path, 'heads.1.txt')).read().splitlines()
@@ -298,6 +305,9 @@ def fix_wildcards():
     open(os.path.join(output_path, 'parse.2.bin'), 'wb').write(docs)
 
 # Step 3: fix verbs by inflection to past tense
+# The tense, aspect, and number of verbs in ATOMIC are not consistent with many errors.
+# Also, the most common form (present, 3rd person singular) sometimes leads to parsing errors (like being considered
+# as plural nouns). We try to normalize them to past tense.
 def fix_verbs():
     lines = open(os.path.join(output_path, 'heads.2.txt')).read().splitlines()
     docs = pickle.load(open(os.path.join(output_path, 'parse.2.bin'), 'rb'))
@@ -342,6 +352,9 @@ def fix_verbs():
     open(os.path.join(output_path, 'parse.3.bin'), 'wb').write(docs)
 
 # Step 4: fix the possessions of PersonY or determiners of iobj
+# The possessive determiners and determiners of indirect object in ATOMIC are often missing, leading to parsing errors
+# (such as viewing iobj as part of a compound dobj).
+# Often it is hard to decide. In such cases, we try the different possibilities compare than by LM.
 def fix_poss_iobj():
     lines = open(os.path.join(output_path, 'heads.3.txt')).read().splitlines()
     docs = pickle.load(open(os.path.join(output_path, 'parse.3.bin'), 'rb'))
@@ -455,6 +468,11 @@ def lemmatize(tok):
         lem = tok.lemma_
     return lem.lower()
 
+# Some rules to decide if a token is possibly a predicative or nominal candidate.
+# Note that we try to collect all possible candidates and leave the task to verify them to the models.
+# Hence the results contain false positives.
+# Also the rules are decided iteratively based on the their outputs and parsing results, so they may not be
+# consistent with the "correct" grammar.
 def is_possibly_predicate(tok):
     if tok.dep_ in ['csubj', 'advcl', 'acl', 'relcl', 'ROOT'] and tok.pos_ in ['VERB', 'ADJ', 'ADV', 'AUX', 'NOUN']:
         return True
@@ -498,6 +516,7 @@ def is_modifier(t):
                 (t.dep_ == 'appos' and t.text == 'all') for t_ in t.subtree]
     return all([c for c in sub_deps])
 
+# Check if the possible candidates in the sentence are have matched content, dependencies, etc.
 def match_noun(tok):
     match = defaultdict(list)
     for t in tok.children:
@@ -577,6 +596,8 @@ def is_root_nsubj(tok, root):
 ent_exclusion = ['csubj', 'advcl', 'acl', 'advmod', 'aux', 'neg', 'mark', 'punct', 'acomp', 'npadvmod', 'cc', 'prt',
                  'nmod', 'nummod', 'compound', 'amod', 'det', 'case', 'predet', 'quantmod']
 ent_child_exclusion = ['csubj', 'advcl', 'punct', 'npadvmod', 'prt', 'compound']
+
+# Check the parsing results using a set of rules. Those with errors will be excluded.
 def match_dependencies():
     docs = pickle.load(open(os.path.join(output_path, 'parse.4.bin'), 'rb'))
     matches = []
@@ -630,7 +651,7 @@ def match_dependencies():
         print(k, v)
     json.dump(exclusions, open(os.path.join(output_path, 'exclusions.json'), 'w'))
 
-
+# Print out all parsing results for debugging.
 def print_trees():
     docs = pickle.load(open(os.path.join(output_path, 'parse.4.bin'), 'rb'))
     replacements = [json.loads(l) for l in open(os.path.join(output_path, 'replacements.4.jsonl'))]
@@ -678,9 +699,8 @@ def find_i_by_idx(doc, char_idx):
             return doc[i - 1]
     raise ValueError()
 
-# replacements: List[(l.i, r.i, source, sub, type)], replacements from heads.1, guaranteed no intersection
-# type
-
+# Recover the original text from some replacements
+# according to the tracked replacements, so that the texts can be more annotator-friendly.
 def rebuild_texts():
     docs = pickle.load(open(os.path.join(output_path, 'parse.4.bin'), 'rb'))
     exclusions = json.load(open(os.path.join(output_path, 'exclusions.json')))
@@ -790,6 +810,8 @@ def rebuild_texts():
 
 from atomic_parse_utils import Token, get_left_edge, get_right_edge, get_children, get_text
 
+# Collect all constituents that are nominal or predicate in the tree, stored into sample_patterns
+# They are organized by their dep, onced used to get some statistics
 sample_patterns = []
 def tree_explorer(doc, tok):
     whole_children = defaultdict(list)
@@ -817,8 +839,11 @@ def tree_explorer(doc, tok):
     if tok.nominal or tok.predicate:
         sample_patterns.append((ordered_pattern, tok))
         ordered_pattern = OrderedDict()
+    # Constituents within the whole subtree, or those only belong to itself.
+    # This is actually not used, for debugging and statistics only. What matters is sample_patterns.
     return ordered_child, ordered_pattern
 
+# Not used at the moment
 def get_entity(doc, tok, accept_deps=['compound'], return_range=False):
     l_i = r_i = tok.i
     ch = get_children(doc, tok)
@@ -847,6 +872,7 @@ def get_entity(doc, tok, accept_deps=['compound'], return_range=False):
     post_text = text[tok.idx + len(tok.text): doc[r_i].idx + len(doc[r_i].text)]
     return pre_text + tok.lemma + post_text
 
+# Collect all components (constituents as conceptualization candidates) in the trees
 def collect_components():
     docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
     exclusions = json.load(open(os.path.join(output_path, 'exclusions.json')))
@@ -868,7 +894,7 @@ def collect_components():
     for s in sample_components:
         fw.write(json.dumps(s) + '\n')
 
-
+# Get some statistics of different types of constituents
 def stat_components():
     docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
     components = [json.loads(l) for l in open(os.path.join(output_path, 'components.jsonl')).read().splitlines()]
@@ -918,6 +944,9 @@ def stat_components():
             printout_dict(doc)
 
 from atomic_parse_utils import wn_query
+
+# Try to find phrasal verbs (like "get up") by matching verbs plus an object,
+# or 1/2 adjuncts (adv, prep, etc.) with WordNet by text matching
 def find_phrasal_verb(doc, c_i):
     tok = doc[c_i]
     # match by raw text
@@ -955,7 +984,7 @@ def find_phrasal_verb(doc, c_i):
     adjuncts = list(set(adjuncts))
     adjuncts.sort()
     adjuncts = [(a[0], a[2]) for a in adjuncts]
-
+    # If not found, try 2 adjuncts
     for cent in [(tok.i, tok.lemma), (tok.i, tok.text)]:
         for i in range(len(adjuncts)):
             for j in range(i+1, len(adjuncts)):
@@ -991,13 +1020,14 @@ def merge_nominal_pred_match(nom_sub, pred_sub):
             results.append(p)
     return results
 
+# Link a predicate candidate to concepts
 is_covered = []
 def collect_predicate_group(pb, doc, c_i, mods):
     mods = copy.copy(mods)
     tok = doc[c_i]
     results = []
     children = get_children(doc, tok)
-    # Itself is the core
+    # tok is the verb as part of a phrasal verb
     mods.extend(find_mods(doc, tok))
     phrase = find_phrasal_verb(doc, c_i)
     if phrase:
@@ -1006,6 +1036,7 @@ def collect_predicate_group(pb, doc, c_i, mods):
         results.append((mods, syn, text, l, r))
     # In these special constructions we ignore the multi-word case and leave it to annotators
     for ch in children:
+        # like "[be] able to do something"
         if ch.dep == 'acomp' and ch.text in ['certain', 'meant', 'able', 'due', 'obliged', 'about', 'forced',
                                              'set', 'allowed', 'going', 'supposed', 'bound', 'likely', 'sure']:
             gch = get_children(doc, ch)
@@ -1033,7 +1064,7 @@ def collect_predicate_group(pb, doc, c_i, mods):
                     results.extend(collect_predicate_group(pb, doc, gch.i, ex_mods))
 
             return results
-    # Light verb, core determined by dobj (noun) or verbal comp
+    # Light verb, true concept determined by dobj (noun) or verbal comp
     if is_possibly_light(tok):
         for ch in children:
             if ch.dep in ['dobj', 'ccomp', 'xcomp', 'acomp'] and (ch.nominal or ch.predicate):
@@ -1050,11 +1081,9 @@ def collect_predicate_group(pb, doc, c_i, mods):
                 if ch.tag == 'VBG' or (ch.text.endswith('ing') and wn_query(ch.text, 'v')):
                     return results
     else:
-        # Itself is a modal, core determined by xcomp/ccomp
+        # Itself is a modal, true concept determined by xcomp/ccomp
         for ch in children:
             if ch.dep in ['ccomp', 'xcomp'] and ch.predicate:
-                # if not any([(t.text == 'to' and t.tag == 'TO') for t in get_children(doc, ch)]):
-                #     continue
                 ex_mods = mods + [tok.i]
                 is_covered.append(ch.i)
                 results.extend(collect_predicate_group(pb, doc, ch.i, ex_mods))
@@ -1066,7 +1095,7 @@ def collect_predicate_group(pb, doc, c_i, mods):
                 # Presumed modal verbs, e.g. raising-to-subject
                 if tok.lemma in ['seem', 'appear', 'be', 'have', 'used', 'ought', 'get']:
                     return results
-
+    # Itself can be the true concept, i.e. function not returned in the above cases
     syn = wn_query(tok.text, 'v')
     if not syn:
         syn = wn_query(tok.lemma, 'v')
@@ -1079,6 +1108,7 @@ def collect_predicate_group(pb, doc, c_i, mods):
         results.append((mods, syn, tok.lemma, c_i, c_i))
     return results
 
+# Match Probase concepts by word matching
 from atomic_parse_utils import is_pb_close, correct_mislemmas
 def collect_by_substr(doc, tok, c_i, text, pb, mods, marks=None):
     marks[c_i] = True
@@ -1088,12 +1118,12 @@ def collect_by_substr(doc, tok, c_i, text, pb, mods, marks=None):
     for l in range(le, c_i + 1):
         if marks is not None and not marks[l]:
             continue
-        # if doc[l].text == 'the' or doc[l].dep == 'poss':
         if doc[l].dep in ['det', 'poss']:
             continue
         for r in range(c_i, re + 1):
             if marks is not None and not marks[r]:
                 continue
+            # Try to use different forms of the words
             cand_subs = []
             lem = correct_mislemmas(doc[c_i])
             for mid_text in [lem, doc[c_i].text]:
@@ -1119,6 +1149,7 @@ def collect_by_substr(doc, tok, c_i, text, pb, mods, marks=None):
 
     return results
 
+# Get a list of "modifier" marks
 def collect_modifier_marks(doc, tok, c_i):
     le = get_left_edge(doc, tok).i
     re = get_right_edge(doc, tok).i
@@ -1135,6 +1166,7 @@ def collect_modifier_marks(doc, tok, c_i):
 
 transparent_noun_prep = json.load(open(os.path.join('data', 'nomlex.transparent.json')))
 cc = set()
+# Link a nominal candidate to concepts
 def collect_nominal_group(pb, doc, c_i, mods):
     mods = copy.copy(mods)
     if doc[c_i].tag == 'VBG':
@@ -1152,7 +1184,7 @@ def collect_nominal_group(pb, doc, c_i, mods):
         transparent_preps.append('of')
     for ch in children:
         ex_mods = mods
-        if ch.text == 'of':
+        if ch.text == 'of': # e.g. a cup of tea, the city of new york
             if doc[c_i].pos in ['DET', 'PRON'] and doc[c_i].text.startswith('no'):
                 ex_mods = mods + [c_i]
 
@@ -1166,15 +1198,16 @@ def collect_nominal_group(pb, doc, c_i, mods):
                     if transparent_preps:
                         return results
 
-    if doc[c_i].pos not in ['PRON', 'DET']:
+    if doc[c_i].pos not in ['PRON', 'DET']: # Try to match the text with Probase
         marks = collect_modifier_marks(doc, tok, c_i)
         mods.extend(find_mods(doc, tok))
         collected = collect_by_substr(doc, tok, c_i, text, pb, mods, marks)
         results.extend(collected)
-    if not results:
+    if not results: # Nothing found
         results = [(mods, [], doc[c_i].text, c_i, c_i)]
     return results
 
+# Attempt to link constituent c_i to some concepts
 def collect_candidate(pb, doc, c_i):
     nominal_sub = collect_nominal_group(pb, doc, c_i, []) if doc[c_i].nominal else []
     pred_sub = collect_predicate_group(pb, doc, c_i, []) if doc[c_i].predicate else []
@@ -1193,8 +1226,6 @@ def align_concepts():
     exclusions = json.load(open(os.path.join(output_path, 'exclusions.json')))
     all_linked_concepts = []
     pb = ProbaseClient()
-    # pb = None
-    appeared_mods = set()
 
     for i, doc in tqdm.tqdm(enumerate(docs)):
         all_linked_concepts.append([])
@@ -1207,7 +1238,6 @@ def align_concepts():
             variations = collect_candidate(pb, doc, c_i)
             linked_concepts.append(variations)
 
-        # print(get_text(doc))
         printout_dict(doc)
         all_texts = defaultdict(set)
         for k, variations in enumerate(linked_concepts):
@@ -1234,6 +1264,7 @@ def align_concepts():
     open(os.path.join(output_path, 'linked_concepts.jsonl'), 'w').writelines(
         [json.dumps(l) + '\n' for l in all_linked_concepts])
 
+# Build the inputs for GlossBERT using the synsets linked above
 def build_glossbert_inputs():
     docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
     linked_concepts = [json.loads(l) for l in open(
@@ -1260,6 +1291,7 @@ def build_glossbert_inputs():
                     gloss = sub_text + ' : ' + wn.synset(s).definition()
                     fw.write('\t'.join([id, '0', sent, gloss, s]) + '\n')
 
+# Read the GlossBERT outputs, add the scores into the results, and sort the synsets by the scores
 def sort_by_glossbert_results():
     docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
     linked_concepts = [json.loads(l) for l in open(
@@ -1292,6 +1324,7 @@ def get_depth(doc, tok):
         tok = doc[tok.head]
     return dep
 
+# Add idioms we identified to the results; not used at the moment as heads with idioms are excluded
 def inject_idioms():
     docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
     linked_concepts = [json.loads(l) for l in open(
@@ -1299,7 +1332,7 @@ def inject_idioms():
     components = [json.loads(l) for l in open(
         os.path.join(output_path, 'components.jsonl')).read().splitlines()]
     exclusions = json.load(open(os.path.join(output_path, 'exclusions.json')))
-    idioms = json.load(open(os.path.join('data', 'idiom_samples.json'))) # We managed to found more idioms this time to reduce annotation scale.
+    idioms = json.load(open(os.path.join('data', 'idiom_samples.json')))
     idioms = dict([(int(k), v) for k, v in idioms.items()])
 
     for i, doc in tqdm.tqdm(enumerate(docs)):
@@ -1324,7 +1357,9 @@ def inject_idioms():
     open(os.path.join(output_path, 'linked_concepts.2.jsonl'), 'w').writelines(
         [json.dumps(l) + '\n' for l in linked_concepts])
 
-
+# Prepare all candidates for following annotation and conceptualization. Many constitutents (e.g. “[PersonX]...”,
+# “...goes to school [every day]”) that are less meaningful for conceptualization
+# are filtered out.
 def prepare_all_annotate_cands():
     components = [json.loads(l) for l in open(os.path.join(output_path, 'components.jsonl')).read().splitlines()]
     docs = [json.loads(l) for l in open(os.path.join(output_path, 'docs.jsonl')).read().splitlines()]
@@ -1399,16 +1434,20 @@ if __name__ == '__main__':
     print("Rebuild texts...")
     rebuild_texts()
     print("ATOMIC cleaned")
+    input("Part 1 finished")
 
     # # Part 2: identification and concept linking
     collect_components()
     stat_components()
     align_concepts()
     build_glossbert_inputs() # Saved to parse/glossbert.csv
+    input("Part 2 finished, please prepare the GlossBERT results according to README.md, "
+          "and press Enter to continue...")
 
     # # After that, run GlossBERT
     # # Part 3:
     sort_by_glossbert_results()
     inject_idioms()
     prepare_all_annotate_cands()
-    pass
+
+    print("Done. Check outputs at %s." % output_path)

@@ -37,17 +37,6 @@ def wn_query_hypernym(x, noun_only=True):
     wn_hypernym_cache[x] = hn_texts
     return hn_texts
 
-pb_cache = {}
-pb_cache_dict = {}
-
-def pb_abstract(pb, x, return_dict=False):
-    if x not in pb_cache:
-        pb_cache[x] = pb.entity_abstract(x, score_method='likelihood')
-        pb_cache_dict[x] = dict(pb_cache[x])
-    if return_dict:
-        return pb_cache_dict[x]
-    return pb_cache[x]
-
 def pb_query_abstract_prim(pb, instance):
     self = pb
     pb = pb._probase

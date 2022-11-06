@@ -15,6 +15,8 @@ except:
     traceback.print_exc()
 import tqdm
 
+# Collect all linked/aligned concepts of all candidate constituents,
+# based on those collected in the last step in atomic_parse.py.
 def export_cand_heads():
     cands = json.load(open(os.path.join(datasource.output_path, 'all_valid_cands.json')))
     annotated_cands = set([t['sent'] for t in stage2_data])
@@ -27,12 +29,11 @@ def export_cand_heads():
         for v_i in range(len(concepts)):
             aligns = source.get_pb_alignments(d_i, c_i, v_i, False)
             all_aligns.append(aligns)
-        if d_i == 236 and c_i == 1:
-            print(all_aligns)
         results.append({"sent": text, "d_i": d_i, "c_i": c_i, "aligns": all_aligns, "in_anno": is_annotated})
     print("Total %d heads annotated, %d unannotated" % (len(annotated_cands), len(results)))
     json.dump(results, open(os.path.join('data', 'extend_cand_head.json'), 'w'), indent=1)
 
+# Prepare input data for concept generator
 def prepare_head_gen():
     heads = json.load(open(os.path.join('data', 'extend_cand_head.json')))
     results = []
@@ -47,11 +48,12 @@ def prepare_head_gen():
 
     json.dump(results, open(os.path.join('data', 'exp', 'extend_cand_head.json'), 'w'), indent=1)
 
+# Get conceptualizations for all linked concepts using PB
 def prepare_extend_concepts(extend_num=10):
     heads = json.load(open(os.path.join('data', 'exp', 'extend_cand_head.json')))
     extensions = []
     for h in tqdm.tqdm(heads):
-        concepts = {'sub': [], 'parent': [], 'sibling': []}
+        concepts = {'sub': [], 'parent': [], 'sibling': []} # Siblings are currently not used
         for v_i, v_aligns in enumerate(h['info']['aligns']):
             for align in v_aligns:
                 concepts['sub'].append({'concept': align, 'var_i': v_i})
@@ -62,6 +64,7 @@ def prepare_extend_concepts(extend_num=10):
 
     json.dump(extensions, open(os.path.join('data', 'concept_extensions.json'), 'w'), indent=1)
 
+# Building event conceptualizations for conceptualization verifier from rule-based conceptualizations collected above
 def prepare_extended_head_abs():
     heads = json.load(open(os.path.join('data', 'exp', 'extend_cand_head.json')))
     extensions = json.load(open(os.path.join('data', 'concept_extensions.json')))
@@ -86,6 +89,7 @@ def prepare_extended_head_abs():
 
     json.dump(results, open(os.path.join('data', 'exp', 'extended_heads.json'), 'w'), indent=1)
 
+# Building event conceptualizations for conceptualization verifier from neural concept generator
 def prepare_extended_head_from_gen(base_path, source_path, target_path):
     os.makedirs(target_path, exist_ok=True)
     all_gens = {}
@@ -132,6 +136,7 @@ def prepare_extended_head_from_gen(base_path, source_path, target_path):
                 triple['sent_b'] = t
                 fw.write(json.dumps(triple) + '\n')
 
+# Pick valid (score>thres) heads/event conceptualizations from the output of conceptualization verifier
 def summarize_valid_head(base_paths, data_paths, out_path, ex_out_path=None, thres=0.8, filter_target=True):
     os.makedirs(out_path, exist_ok=True)
     if ex_out_path:
@@ -195,7 +200,7 @@ def summarize_valid_head(base_paths, data_paths, out_path, ex_out_path=None, thr
             for (head, tail), s in scores:
                 fw.write(json.dumps({"sent_a": head, "sent_b": tail, "info": {"score": s}}) + '\n')
 
-
+# Create abstract events from event conceptualizations for abstract triple generation; not used
 def prepare_triple_gen(base_path, out_path):
     os.makedirs(out_path, exist_ok=True)
     for split in ['dev', 'tst', 'trn']:
@@ -215,6 +220,7 @@ def prepare_triple_gen(base_path, out_path):
             v = convert_item(v)
             fw.write(json.dumps(v) + '\n')
 
+# Create abstract events and triples from event conceptualizations for inference verifier
 def prepare_triple_scoring(atomic_path, base_path, out_path):
     os.makedirs(out_path, exist_ok=True)
     base_data = json.load(open(atomic_path))
@@ -251,6 +257,7 @@ def prepare_triple_scoring(atomic_path, base_path, out_path):
             fw.write(json.dumps(v) + '\n')
         print("Avg %.3f sources, %d multi among %d" % (n_source / len(results), n_multi, len(results)))
 
+# Collect valid (score>thres) abstract triples from inference verifier outputs
 def summarize_valid_triples(base_path, data_path, out_path, thres=0.5):
     os.makedirs(out_path, exist_ok=True)
     for split in ['dev', 'tst', 'trn']:
@@ -302,6 +309,8 @@ if __name__ == '__main__':
     prepare_extend_concepts()
     prepare_extended_head_abs()
 
+    input("Part 1 finished. Carry out the step 2&3 in README.md, and press Enter to continue...")
+
     # Now the extended heads (ready for scoring and generation) are saved to data/exp
     # Run data conversion for concept generation, see README
 
@@ -309,6 +318,8 @@ if __name__ == '__main__':
     prepare_extended_head_from_gen(r"../generator/population/extend_cand_head.nl",
                                    r"../discriminator/split_atomic/extend_cand_head",
                                    r"../discriminator/split_atomic/generated_heads")
+
+    input("Part 2 finished. Carry out the step 5 in README.md, and press Enter to continue...")
 
 
     # Part 3: Collect results from conceptualization verification, and prepare for inference verification.
@@ -323,8 +334,12 @@ if __name__ == '__main__':
                            r"../discriminator/population/selected_heads",
                            r"../discriminator/split_atomic/extended_triples")
 
+    input("Part 3 finished. Carry out the step 7 in README.md, and press Enter to continue...")
+
     # Part 4: Collect results from inference verification
 
     summarize_valid_triples(r"../discriminator/population/triple",
                             r"../discriminator/split_atomic/extended_triples",
                             r"../discriminator/population/selected_triples_90", thres=0.9)
+
+    print("Done. Check outputs in ../discriminator/population/")

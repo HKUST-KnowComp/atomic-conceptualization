@@ -1,3 +1,6 @@
+# To be run in the background to reduce the time for running data preprocessing each time
+# (since loading Probase takes a long time)
+
 from multiprocessing.connection import Listener
 import json
 from conceptualize_proposer import Proposer
