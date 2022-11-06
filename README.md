@@ -52,7 +52,10 @@ produced. After that, copy the `results.txt` to `parse`, rename it to`glossbert_
 
 As a result, following files are produced as outputs:
 <ul>
-<li>heads.5.txt: Head events after preprocessing. Empty lines are for the excluded ATOMIC events.</li>
+<li>heads.5.txt: Head events after preprocessing. Empty lines are for the excluded ATOMIC events.
+It should be noted that after the preprocessing of texts there can be duplicate head events (though with different 
+tails), and we keep all of them to keep track of the process and maintain the consistency with the original ATOMIC data.
+</li>
 <li>docs.jsonl: Parsed head events. Each line is a json string, a list of dicts. Each dict correspond to a token.
 Properties are derived from the spacy parsing results, plus markers of `predicate` (whether it is a predicative
 candidate), `nominal` (whether it is a nominal candidate), `prep` (whether it is prepositional), `modifier` (whether
@@ -140,10 +143,18 @@ Below we introduce the Abstract ATOMIC we built, based on the heuristic and neur
 shared on OneDrive above.
 
 As for event conceptualizations, the file (like `selected_heads\trn.json`) contains a single dict. The key is the 
-original event with a concept identified. Each value is a dict as well, with its keys the conceptualizations verified
-by the models,
-and each value is a list of all sources of this conceptualization, taken in the form of List[[Doc_i, Constituent_i]]. 
-Doc_i is the ATOMIC index, and Constituent_i is the index of candidate constituent in `components.jsonl`.
+original event with a conceptualization candidate identified. 
+Each value is a dict as well, with its keys the abstract concept verified
+by the models, and each value is a list of all sources of this event conceptualization, taken in the form 
+of List[[Doc_i, Constituent_i]], since there are duplicate head events with different tails.
+Doc_i is the ATOMIC index, and Constituent_i is the index of candidate constituent as in `components.jsonl`.
+For example, an item in the dev split can be:
+`
+"[PersonX accepts PersonY's apology]": {"acceptance": [[17, 2]], "action": [[17, 2]], "conciliatory gesture": [[17, 2]], ...}
+`
+The key is an event, in which “PersonX accepts PersonY's apology” can be conceptualized to “acceptance”, 
+“action”, etc., and it is originally from Event #17 and Constituent #2.
+
 While for abstract triples the files (like `selected_triples_90`) are more self-explanatory. Additional information
 is given in the `info` property, with `all_info` a similar list of List[[Doc_i, Constituent_i]], and `d_i`/`c_i` one
 of the sources.
