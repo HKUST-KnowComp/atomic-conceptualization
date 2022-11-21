@@ -44,6 +44,9 @@ First download the [Probase](http://concept.research.microsoft.com/Home/Download
 `~/data/probase/data-concept-instance-relations.txt`, and run `probase_server.py`
 in the backend. Other data are included in this repository, including ATOMIC, processed NOMBANK, etc.
 
+We also provide a copy of Probase [download](https://www.dropbox.com/s/brzaeeaptiyls7e/data-concept-instance-relations.txt?dl=0) 
+from MSRA's official website. All licenses are subject to MSRA's original release.
+
 Then run the `conceptualizer/atomic_parse.py` following the instructions inside at the end of the file.
 Particularly, after running Part 1 and Part 2, 
 `glossbert.csv` is built. Use it as the input to the [GlossBERT model](https://github.com/HSLCY/GlossBERT) following
