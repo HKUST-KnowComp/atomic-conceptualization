@@ -44,7 +44,7 @@ First download the [Probase](http://concept.research.microsoft.com/Home/Download
 `~/data/probase/data-concept-instance-relations.txt`, and run `probase_server.py`
 in the backend. Other data are included in this repository, including ATOMIC, processed NOMBANK, etc.
 
-We also provide a copy of Probase [download](https://www.dropbox.com/s/brzaeeaptiyls7e/data-concept-instance-relations.txt?dl=0) 
+We also provide a copy of Probase [download](https://hkustconnect-my.sharepoint.com/:f:/g/personal/zwanggy_connect_ust_hk/Eq5-W3acwqpIrP2xX60C3cgBRxq8dZsgzEcuKl_60ZPaMw?e=DSs7Jb) 
 from MSRA's official website. All licenses are subject to MSRA's original release.
 
 Then run the `conceptualizer/atomic_parse.py` following the instructions inside at the end of the file.
